@@ -1,0 +1,58 @@
+\documentclass[twoside,12pt]{report}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{
+    {\large Bachelor's Thesis}\\
+    {Geolocation and routing in complex multi-floor environments: efficient path mapping and safety cultivation}\\
+    {\large UC Odisee}\\
+    {\large Department Engineering Technology - Electronics and Information Technology, Specialisation Information Technology}\\
+}
+\author{Joachim Cardoen}
+\date{2018}
+\graphicspath{ {figures/} }
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[RO,LE]{Geolocation and routing in complex multi-floor environments}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{Chapter \thechapter}
+\fancyfoot[CO,RE]{Joachim Cardoen}
+
+\begin{document}
+\maketitle
+
+\pagestyle{empty}
+
+
+\chapter*{Abstract}
+Abstract goes here
+
+\chapter*{Dedication}
+To mum and dad
+
+\chapter*{Declaration}
+I declare that..
+
+\chapter*{Acknowledgements}
+I want to thank...
+
+\tableofcontents
+
+\chapter{Introduction}
+\input{chapters/introduction}
+
+\chapter{Conclusion}
+\input{chapters/conclusion}
+
+\appendix
+\chapter{Appendix Title}
+\input{chapters/appendix}
+
+\end{document}
