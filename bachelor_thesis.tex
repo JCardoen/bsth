@@ -1,4 +1,8 @@
 \documentclass[twoside,12pt]{report}
+\usepackage{comment}
+\begin{comment}
+    PACKAGES
+\end{comment}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
@@ -11,11 +15,11 @@
     {\large Bachelor's Thesis}\\
     {Geolocation and routing in complex multi-floor environments: efficient path mapping and safety cultivation}\\
     {\large UC Odisee}\\
-    {\large Department Engineering Technology - Electronics and Information Technology, Specialisation Information Technology}\\
+    {\large Department of Engineering Technology - Electronics and Information Technology, Specialisation Information Technology}
 }
 \author{Joachim Cardoen}
 \date{2018}
-\graphicspath{ {figures/} }
+\graphicspath{{figures/}}
 
 \pagestyle{fancy}
 \fancyhead{}
@@ -27,9 +31,6 @@
 
 \begin{document}
 \maketitle
-
-\pagestyle{empty}
-
 
 \chapter*{Abstract}
 Abstract goes here
@@ -52,7 +53,7 @@ I want to thank...
 \input{chapters/conclusion}
 
 \appendix
-\chapter{Appendix Title}
+\chapter{}
 \input{chapters/appendix}
 
 \end{document}

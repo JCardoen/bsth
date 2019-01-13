@@ -10,6 +10,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/comment/comment.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
