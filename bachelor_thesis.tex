@@ -8,12 +8,15 @@
 \usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
+\usepackage{csquotes}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{references.bib}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
 
 \title{
     {\large Bachelor's Thesis}\\
-    {Geolocation and routing in complex multi-floor environments: efficient path mapping and safety cultivation}\\
+    {Geo-localization and routing in complex multi-floor environments: efficient path mapping and safety cultivation}\\
     {\large UC Odisee}\\
     {\large Department of Engineering Technology - Electronics and Information Technology, Specialisation Information Technology}
 }
@@ -33,16 +36,7 @@
 \maketitle
 
 \chapter*{Abstract}
-Abstract goes here
-
-\chapter*{Dedication}
-To mum and dad
-
-\chapter*{Declaration}
-I declare that..
-
-\chapter*{Acknowledgements}
-I want to thank...
+\input{chapters/abstract}
 
 \tableofcontents
 
@@ -55,5 +49,8 @@ I want to thank...
 \appendix
 \chapter{}
 \input{chapters/appendix}
+
+\newpage
+\printbibliography{references}
 
 \end{document}
