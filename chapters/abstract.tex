@@ -1,7 +1,9 @@
-Hospitals use different applications for maintaining patients' information as well as scheduling appointments.
-This is a rigid system that mostly generates long waiting queues which can be easily avoided using current technology.
-Ever so often a patient has no idea where to go and simply follows the provided directions to the specific department
-and spends more time finding the right doctor's room than in the actual appointment.
-The main focus of this thesis is to implement an application that will enable the patient to skip the registration
-process and limit time spent at the hospital by providing the user with an interactive map that will be a guide to
-the place of appointment.
+The aim of this project is to realize a mobile application for patients of the hospital CHC Saint-Jean in Liege that will enable them to register,
+view appointments and find their way in the hospital.
+First the existing application for consulting scheduled appointments and registration is reworked to a native iOS mobile application (mobile app in short).
+This feature is extended with the option to view the information of the hospital and set reminders for any appointment in the near future.
+Second an indoor location framework is added to the reworked mobile app that shows the route to the place of appointment.
+After implementing the geolocation and routing, an optimization method is implemented: the ant colony optimization algorithm.
+The ant colony algorithm determines the shortest path to the place of appointment based on some factors such are: amount of visitors in some corridors and hallways and
+the amount of stairs a patient has to climb (a patient's mobility). Using the mobile app the hospital can improve their safety procedures by notifying users of the
+application of any problems in the hospital, these problems can be but are not limited to: fire, malfunctioning of the elevator and electrical outage.
