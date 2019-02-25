@@ -1,19 +1,21 @@
-\documentclass[twoside,12pt]{report}
-\usepackage{comment}
-\begin{comment}
-    PACKAGES
-\end{comment}
+\documentclass[12pt, twoside]{report}
 \usepackage[english]{babel}
+\usepackage{biblatex}
+\addbibresource{references.bib}
 \usepackage[utf8]{inputenc}
 \usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage{csquotes}
-\usepackage[backend=biber]{biblatex}
-\addbibresource{references.bib}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
-
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[RO,LE]{Geolocation and routing in complex multi-floor environments}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{Chapter \thechapter}
+\fancyfoot[CO,RE]{Joachim Cardoen}
 \title{
     {\large Bachelor's Thesis}\\
     {Geo-localization and routing in complex multi-floor environments}\\
@@ -24,15 +26,6 @@
 \author{Joachim Cardoen}
 \date{2018}
 \graphicspath{{figures/}}
-
-\pagestyle{fancy}
-\fancyhead{}
-\fancyhead[RO,LE]{Geolocation and routing in complex multi-floor environments}
-\fancyfoot{}
-\fancyfoot[LE,RO]{\thepage}
-\fancyfoot[LO,CE]{Chapter \thechapter}
-\fancyfoot[CO,RE]{Joachim Cardoen}
-
 \begin{document}
 \maketitle
 
@@ -44,6 +37,9 @@
 \chapter{Introduction}
 \input{chapters/introduction}
 
+\chapter{MapWize}
+\input{chapters/mapwize}
+
 \chapter{Conclusion}
 \input{chapters/conclusion}
 
@@ -52,6 +48,6 @@
 \input{chapters/appendix}
 
 \newpage
-\printbibliography{references}
+\printbibliography
 
 \end{document}
