@@ -1,8 +1,0 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {english}{}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{4}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Conclusion}{5}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}}{6}
