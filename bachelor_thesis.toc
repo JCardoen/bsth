@@ -5,13 +5,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}MapWize}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}MapWize}{5}% 
+\contentsline {section}{\numberline {2.1}The role of MapWize in the application}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}MapWize SDK}{5}% 
+\contentsline {section}{\numberline {2.2}MapWize SDK}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Cisco Connectected Mobile Experiences integration}{5}% 
+\contentsline {section}{\numberline {2.3}Cisco Connectected Mobile Experiences integration}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Function of Cisco CMX}{5}% 
+\contentsline {subsection}{\numberline {2.3.1}Function of Cisco CMX}{5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Conclusion}{6}% 
 \defcounter {refsection}{0}\relax 
