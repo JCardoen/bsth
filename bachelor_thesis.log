@@ -1,12 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.2.24)  25 FEB 2019 21:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.16)  9 MAR 2019 11:56
 entering extended mode
-**c:/Users/cardo/bachelor_thesis/bachelor_thesis.tex
-(c:/Users/cardo/bachelor_thesis/bachelor_thesis.tex
-LaTeX2e <2018-12-01>
-("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
-Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
-File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**bachelor_thesis.tex
+(./bachelor_thesis.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -20,93 +23,154 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2018/11/13 3.27 The Babel package
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def"
-File: switch.def 2018/11/13 3.27 Babel switching mechanism
 )
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\english.ldf"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2018/11/13 3.27 Babel common definitions
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@dirlevel=\count90
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-)) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.sty"
-Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
-Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count91
-) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-))) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count92
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def"
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count93
-\c@listtotal=\count94
-\c@listcount=\count95
-\c@liststart=\count96
-\c@liststop=\count97
-\c@citecount=\count98
-\c@citetotal=\count99
-\c@multicitecount=\count100
-\c@multicitetotal=\count101
-\c@instcount=\count102
-\c@maxnames=\count103
-\c@minnames=\count104
-\c@maxitems=\count105
-\c@minitems=\count106
-\c@citecounter=\count107
-\c@maxcitecounter=\count108
-\c@savedcitecounter=\count109
-\c@uniquelist=\count110
-\c@uniquename=\count111
-\c@refsection=\count112
-\c@refsegment=\count113
-\c@maxextratitle=\count114
-\c@maxextratitleyear=\count115
-\c@maxextraname=\count116
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write3
+\integerpart=\count93
+\decimalpart=\count94
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count95
+\c@listtotal=\count96
+\c@listcount=\count97
+\c@liststart=\count98
+\c@liststop=\count99
+\c@citecount=\count100
+\c@citetotal=\count101
+\c@multicitecount=\count102
+\c@multicitetotal=\count103
+\c@instcount=\count104
+\c@maxnames=\count105
+\c@minnames=\count106
+\c@maxitems=\count107
+\c@minitems=\count108
+\c@citecounter=\count109
+\c@savedcitecounter=\count110
+\c@uniquelist=\count111
+\c@uniquename=\count112
+\c@refsection=\count113
+\c@refsegment=\count114
+\c@maxextratitle=\count115
+\c@maxextratitleyear=\count116
 \c@maxextradate=\count117
 \c@maxextraalpha=\count118
 \c@abbrvpenalty=\count119
@@ -123,7 +187,6 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@parenlevel@text=\count130
 \blx@parenlevel@foot=\count131
 \blx@sectionciteorder@0=\count132
-\blx@entrysetcounter=\count133
 \labelnumberwidth=\skip43
 \labelalphawidth=\skip44
 \biblabelsep=\skip45
@@ -133,85 +196,86 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibparsep=\skip49
 \bibhang=\skip50
 \blx@bcfin=\read1
-\blx@bcfout=\write3
-\c@mincomprange=\count134
-\c@maxcomprange=\count135
-\c@mincompwidth=\count136
+\blx@bcfout=\write4
+\c@mincomprange=\count133
+\c@maxcomprange=\count134
+\c@mincompwidth=\count135
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-dm.def"
-File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2018/03/04 v3.11 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count137
-\c@savedafterword=\count138
-\c@annotator=\count139
-\c@savedannotator=\count140
-\c@author=\count141
-\c@savedauthor=\count142
-\c@bookauthor=\count143
-\c@savedbookauthor=\count144
-\c@commentator=\count145
-\c@savedcommentator=\count146
-\c@editor=\count147
-\c@savededitor=\count148
-\c@editora=\count149
-\c@savededitora=\count150
-\c@editorb=\count151
-\c@savededitorb=\count152
-\c@editorc=\count153
-\c@savededitorc=\count154
-\c@foreword=\count155
-\c@savedforeword=\count156
-\c@holder=\count157
-\c@savedholder=\count158
-\c@introduction=\count159
-\c@savedintroduction=\count160
-\c@namea=\count161
-\c@savednamea=\count162
-\c@nameb=\count163
-\c@savednameb=\count164
-\c@namec=\count165
-\c@savednamec=\count166
-\c@translator=\count167
-\c@savedtranslator=\count168
-\c@shortauthor=\count169
-\c@savedshortauthor=\count170
-\c@shorteditor=\count171
-\c@savedshorteditor=\count172
-\c@labelname=\count173
-\c@savedlabelname=\count174
-\c@institution=\count175
-\c@savedinstitution=\count176
-\c@lista=\count177
-\c@savedlista=\count178
-\c@listb=\count179
-\c@savedlistb=\count180
-\c@listc=\count181
-\c@savedlistc=\count182
-\c@listd=\count183
-\c@savedlistd=\count184
-\c@liste=\count185
-\c@savedliste=\count186
-\c@listf=\count187
-\c@savedlistf=\count188
-\c@location=\count189
-\c@savedlocation=\count190
-\c@organization=\count191
-\c@savedorganization=\count192
-\c@origlocation=\count193
-\c@savedoriglocation=\count194
-\c@origpublisher=\count195
-\c@savedorigpublisher=\count196
-\c@publisher=\count197
-\c@savedpublisher=\count198
-\c@language=\count199
-\c@savedlanguage=\count266
-\c@origlanguage=\count267
-\c@savedoriglanguage=\count268
-\c@pageref=\count269
-\c@savedpageref=\count270
+\c@afterword=\count136
+\c@savedafterword=\count137
+\c@annotator=\count138
+\c@savedannotator=\count139
+\c@author=\count140
+\c@savedauthor=\count141
+\c@bookauthor=\count142
+\c@savedbookauthor=\count143
+\c@commentator=\count144
+\c@savedcommentator=\count145
+\c@editor=\count146
+\c@savededitor=\count147
+\c@editora=\count148
+\c@savededitora=\count149
+\c@editorb=\count150
+\c@savededitorb=\count151
+\c@editorc=\count152
+\c@savededitorc=\count153
+\c@foreword=\count154
+\c@savedforeword=\count155
+\c@holder=\count156
+\c@savedholder=\count157
+\c@introduction=\count158
+\c@savedintroduction=\count159
+\c@namea=\count160
+\c@savednamea=\count161
+\c@nameb=\count162
+\c@savednameb=\count163
+\c@namec=\count164
+\c@savednamec=\count165
+\c@translator=\count166
+\c@savedtranslator=\count167
+\c@shortauthor=\count168
+\c@savedshortauthor=\count169
+\c@shorteditor=\count170
+\c@savedshorteditor=\count171
+\c@labelname=\count172
+\c@savedlabelname=\count173
+\c@institution=\count174
+\c@savedinstitution=\count175
+\c@lista=\count176
+\c@savedlista=\count177
+\c@listb=\count178
+\c@savedlistb=\count179
+\c@listc=\count180
+\c@savedlistc=\count181
+\c@listd=\count182
+\c@savedlistd=\count183
+\c@liste=\count184
+\c@savedliste=\count185
+\c@listf=\count186
+\c@savedlistf=\count187
+\c@location=\count188
+\c@savedlocation=\count189
+\c@organization=\count190
+\c@savedorganization=\count191
+\c@origlocation=\count192
+\c@savedoriglocation=\count193
+\c@origpublisher=\count194
+\c@savedorigpublisher=\count195
+\c@publisher=\count196
+\c@savedpublisher=\count197
+\c@language=\count198
+\c@savedlanguage=\count199
+\c@origlanguage=\count266
+\c@savedoriglanguage=\count267
+\c@pageref=\count268
+\c@savedpageref=\count269
 \shorthandwidth=\skip51
 \shortjournalwidth=\skip52
 \shortserieswidth=\skip53
@@ -228,36 +292,41 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip64
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-compat.def"
-File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.def"
-File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count271
-\c@textcitetotal=\count272
-\c@textcitemaxnames=\count273
-\c@biburlnumpenalty=\count274
-\c@biburlucpenalty=\count275
-\c@biburllcpenalty=\count276
-\c@smartand=\count277
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+\c@textcitecount=\count270
+\c@textcitetotal=\count271
+\c@textcitemaxnames=\count272
+\c@biburlnumpenalty=\count273
+\c@biburlucpenalty=\count274
+\c@biburllcpenalty=\count275
+\c@smartand=\count276
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\numeric.bbx"
-File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\standard.bbx"
-File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count278
-\c@bbx:relatedtotal=\count279
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count277
+\c@bbx:relatedtotal=\count278
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\numeric.cbx"
-File: numeric.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -272,38 +341,48 @@ Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.cfg"
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
-)) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
-Package: inputenc 2018/08/11 v1.3c Input encoding file
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
-) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
-) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
-Package: geometry 2018/04/16 v5.8 Page Geometry
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.sty"
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count280
-\Gm@cntv=\count281
-\c@Gm@tempcnt=\count282
+\Gm@cnth=\count279
+\Gm@cntv=\count280
+\c@Gm@tempcnt=\count281
 \Gm@bindingoffset=\dimen106
 \Gm@wd@mp=\dimen107
 \Gm@odd@mp=\dimen108
@@ -313,8 +392,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen112
 \Gm@layoutvoffset=\dimen113
 \Gm@dimlist=\toks17
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.cfg")) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
 \f@nch@headwidth=\skip65
 \f@nch@O@elh=\skip66
 \f@nch@O@erh=\skip67
@@ -324,82 +405,111 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@O@erf=\skip71
 \f@nch@O@olf=\skip72
 \f@nch@O@orf=\skip73
-) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.sty"
-Package: csquotes 2018/04/13 v5.2d context-sensitive quotations (JAW)
-\csq@reset=\count283
-\csq@gtype=\count284
-\csq@glevel=\count285
-\csq@qlevel=\count286
-\csq@maxlvl=\count287
-\csq@tshold=\count288
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2018/02/11 v5.2c context-sensitive quotations (JAW)
+\csq@reset=\count282
+\csq@gtype=\count283
+\csq@glevel=\count284
+\csq@qlevel=\count285
+\csq@maxlvl=\count286
+\csq@tshold=\count287
 \csq@ltx@everypar=\toks18
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.def"
-File: csquotes.def 2018/04/13 v5.2d csquotes generic definitions (JAW)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2018/02/11 v5.2c csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.cfg"
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count288
+\float@exts=\toks19
+\float@box=\box26
+\@float@everytoks=\toks20
+\@floatcapt=\box27
+)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\english.lbx"
-File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (c:/Users\cardo\bachelor_thesis\bachelor_thesis.aux)
+
+(./bachelor_thesis.aux)
 \openout1 = `bachelor_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 33.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+\big@size=\dimen114
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `bachelor_thesis.bcf'.
+\openout4 = `bachelor_thesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bachelor_thesis.bbl' found.
- (c:/Users\cardo\bachelor_thesis\bachelor_thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 31.
-Package biblatex Info: Reference segment=0 on input line 31.
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/context/base\supp-pdf.mkii"
+
+(./bachelor_thesis.bbl)
+Package biblatex Info: Reference section=0 on input line 33.
+Package biblatex Info: Reference segment=0 on input line 33.
+
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count289
-\scratchdimen=\dimen114
-\scratchbox=\box27
+\scratchdimen=\dimen115
+\scratchbox=\box28
 \nofMPsegments=\count290
 \nofMParguments=\count291
-\everyMPshowfont=\toks19
+\everyMPshowfont=\toks21
 \MPscratchCnt=\count292
-\MPscratchDim=\dimen115
+\MPscratchDim=\dimen116
 \MPnumerator=\count293
 \makeMPintoPDFobject=\count294
-\everyMPtoPDFconversion=\toks20
-) ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+\everyMPtoPDFconversion=\toks22
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
- ("C:\Users\cardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -407,25 +517,24 @@ Package grfext Info: Graphics extension search list:
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* bindingoffset: 17.07164pt
 * modes: twoside 
-* h-part:(L,W,R)=(61.45795pt, 426.79134pt, 92.18695pt)
-* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* h-part:(L,W,R)=(93.89409pt, 446.70828pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=426.79134pt
-* \textheight=702.78308pt
-* \oddsidemargin=6.2596pt
-* \evensidemargin=19.91696pt
-* \topmargin=-38.1381pt
-* \headheight=12.0pt
+* \textwidth=446.70828pt
+* \textheight=731.23584pt
+* \oddsidemargin=21.6241pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=15.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=95.0pt
+* \marginparwidth=113.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -435,62 +544,170 @@ Package grfext Info: Graphics extension search list:
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 32.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 32.
-[1
-
-{C:/Users/cardo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (c:/Users\cardo\bachelor_thesis\chapters/abstract.tex) [2
-
-] (c:/Users\cardo\bachelor_thesis\bachelor_thesis.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 8.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 35
+.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-\tf@toc=\write4
-\openout4 = `bachelor_thesis.toc'.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 35
+.
 
- [3
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 35
+.
 
-]
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 35
+.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+ [1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+
+(./chapters/abstract.tex) [3
+
+] (./bachelor_thesis.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
+ [4
+
+])
+\tf@toc=\write5
+\openout5 = `bachelor_thesis.toc'.
+
+ [5]
 Chapter 1.
-(c:/Users\cardo\bachelor_thesis\chapters/introduction.tex) [4
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+(./chapters/introduction.tex) [6
 
 ]
 Chapter 2.
-(c:/Users\cardo\bachelor_thesis\chapters/mapwize.tex) [5
+(./chapters/project_specification.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+) [7
 
 ]
 Chapter 3.
-(c:/Users\cardo\bachelor_thesis\chapters/conclusion.tex) [6
+(./chapters/proof_of_concept.tex
+<figures/appointments_screen_ios.png, id=27, 735.74875pt x 616.3025pt>
+File: figures/appointments_screen_ios.png Graphic file (type png)
+<use figures/appointments_screen_ios.png>
+Package pdftex.def Info: figures/appointments_screen_ios.png  used on input lin
+e 5.
+(pdftex.def)             Requested size: 367.87347pt x 308.1505pt.
+<figures/appointments_screen_android.png, id=29, 706.64pt x 626.34pt>
+File: figures/appointments_screen_android.png Graphic file (type png)
+<use figures/appointments_screen_android.png>
+Package pdftex.def Info: figures/appointments_screen_android.png  used on input
+ line 10.
+(pdftex.def)             Requested size: 353.31914pt x 313.16922pt.
+<figures/clinics_screen_ios.png, id=30, 633.36626pt x 553.06625pt>
+File: figures/clinics_screen_ios.png Graphic file (type png)
+<use figures/clinics_screen_ios.png>
+Package pdftex.def Info: figures/clinics_screen_ios.png  used on input line 15.
+
+(pdftex.def)             Requested size: 316.68236pt x 276.53244pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8
+
+ <./figures/appointments_screen_ios.png>]
+<figures/clinics_screen_android.png, id=35, 630.355pt x 605.26125pt>
+File: figures/clinics_screen_android.png Graphic file (type png)
+<use figures/clinics_screen_android.png>
+Package pdftex.def Info: figures/clinics_screen_android.png  used on input line
+ 20.
+(pdftex.def)             Requested size: 315.17673pt x 302.62987pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./figures/appointments_screen_android.png> <./figures/clinics_screen_ios.p
+ng>]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 29.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+ [10 <./figures/clinics_screen_android.png>] [11]
+<figures/activity_lifecycle.png, id=49, 514.92375pt x 665.48625pt>
+File: figures/activity_lifecycle.png Graphic file (type png)
+<use figures/activity_lifecycle.png>
+Package pdftex.def Info: figures/activity_lifecycle.png  used on input line 68.
+
+(pdftex.def)             Requested size: 257.46124pt x 332.74231pt.
+ [12 <./figures/activity_lifecycle.png>])
+[13]
+Chapter 4.
+(./chapters/conclusion.tex) [14
 
 ]
 Appendix A.
-(c:/Users\cardo\bachelor_thesis\chapters/appendix.tex) [7
+(./chapters/appendix.tex) [15
 
-] [8
+]
+Appendix B.
+(./chapters/appendix.tex) [16
 
-] (c:/Users\cardo\bachelor_thesis\bachelor_thesis.aux)
+]
+Appendix C.
+(./chapters/appendix.tex) [17
+
+]
+Overfull \hbox (1.63962pt too wide) in paragraph at lines 67--67
+[]\OT1/ptm/m/n/10.95 Android De-vel-oper. \OT1/ptm/m/it/10.95 Trans-for-ma-tion
+s  |  An-droid De-vel-op-ers\OT1/ptm/m/n/10.95 . 2019. \OT1/ptm/m/sc/10.95 url\
+OT1/ptm/m/n/10.95 : $\OT1/cmtt/m/n/10.95 https : / / developer .
+ []
+
+[18
+
+] (./bachelor_thesis.aux)
 Package logreq Info: Writing requests to 'bachelor_thesis.run.xml'.
 \openout1 = `bachelor_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 9795 strings out of 492946
- 173485 string characters out of 3126266
- 605879 words of memory out of 3000000
- 13580 multiletter control sequences out of 15000+200000
- 10231 words of font info for 36 fonts, out of 3000000 for 9000
+ 10068 strings out of 492649
+ 174458 string characters out of 6129621
+ 604969 words of memory out of 5000000
+ 13793 multiletter control sequences out of 15000+600000
+ 36853 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,6n,45p,866b,1664s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/cardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/cardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/cardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/cardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/cardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/cardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on c:/Users\cardo\bachelor_thesis\bachelor_thesis.pdf (8 pages, 80683 bytes).
+ 41i,10n,45p,842b,1715s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/
+texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bachelor_thesis.pdf (18 pages, 858639 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,16 +1,18 @@
-\documentclass[12pt, twoside]{report}
+\documentclass[11pt,twoside]{report}
+\usepackage{mathptmx}
+\renewcommand{\baselinestretch}{1.2}
 \usepackage[english]{babel}
 \usepackage{biblatex}
-\addbibresource{references.bib}
+\addbibresource{Bachelor's Thesis.bib}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
+\usepackage[a4paper,top=20mm,bottom=20mm,right=20mm,left=33mm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{csquotes}
-
+\usepackage{float}
 \pagestyle{fancy}
 \fancyhead{}
-\fancyhead[RO,LE]{Geolocation and routing in complex multi-floor environments}
+\fancyhead[RO,LE]{Geolocalization and routing in complex multi-floor environments}
 \fancyfoot{}
 \fancyfoot[LE,RO]{\thepage}
 \fancyfoot[LO,CE]{Chapter \thechapter}
@@ -19,34 +21,45 @@
 \renewcommand{\footrulewidth}{0.4pt}
 \title{
     {\large Bachelor's Thesis}\\
-    {Geo-localization and routing in complex multi-floor environments}\\
-    {Efficient path mapping and safety cultivation}\\
+    {Geolocalization and routing in complex multi-floor environments}\\
     {\large UC Odisee}\\
     {\large Department of Engineering Technology - Electronics and Information Technology, Specialisation Information Technology}
 }
 \author{Joachim Cardoen}
 \date{2018}
 \graphicspath{{figures/}}
+\setlength\headheight{15pt}
 
 \begin{document}
+\begin{titlepage}
 \maketitle
-
+\end{titlepage}
+\begin{center}
+I want to thank my foster mother, Miek Roels for her devotion to guide me through the process of writing this thesis. I want to thank her and both Nathan Verhoeven, one of my closest friends, as well as Cedric De Roover (Senior Consultant Manager at IBM) to correct my thesis where necessary. I also want to thank my mentor Sven Sanders for answering my e-mails day and night whenever I had got stuck.
+\end{center}
 \chapter*{Abstract}
 \input{chapters/abstract}
 
 \tableofcontents
 
-\chapter{Introduction}
+\chapter{Summary}
 \input{chapters/introduction}
 
-\chapter{MapWize}
-\input{chapters/mapwize}
+\chapter{Project Specification}
+\input{chapters/project_specification}
+
+\chapter{Proof of Concept}
+\input{chapters/proof_of_concept}
 
 \chapter{Conclusion}
 \input{chapters/conclusion}
 
 \appendix
-\chapter{}
+\chapter{Development Guidelines}
+\input{chapters/appendix}
+\chapter{Development Guidelines}
+\input{chapters/appendix}
+\chapter{Development Guidelines}
 \input{chapters/appendix}
 
 \newpage

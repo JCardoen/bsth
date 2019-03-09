@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.0 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -19,32 +19,172 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{cscmu}{online}{}
+    \entry{AndroidDeveloper2019}{misc}{}
       \name{author}{1}{}{%
-        {{hash=0b3b624311b47f374b8e290ef8c75dc1}{%
-           family={M.\bibnamedelimi Wing},
-           familyi={M\bibinitperiod\bibinitdelim W\bibinitperiod},
-           given={Jeannette},
-           giveni={J\bibinitperiod}}}%
+        {{hash=5c47f56ea59d01899cb1697479c9aaf3}{%
+           family={{Android Developer}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{0b3b624311b47f374b8e290ef8c75dc1}
-      \strng{fullhash}{0b3b624311b47f374b8e290ef8c75dc1}
-      \strng{bibnamehash}{0b3b624311b47f374b8e290ef8c75dc1}
-      \strng{authorbibnamehash}{0b3b624311b47f374b8e290ef8c75dc1}
-      \strng{authornamehash}{0b3b624311b47f374b8e290ef8c75dc1}
-      \strng{authorfullhash}{0b3b624311b47f374b8e290ef8c75dc1}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \strng{namehash}{5c47f56ea59d01899cb1697479c9aaf3}
+      \strng{fullhash}{5c47f56ea59d01899cb1697479c9aaf3}
+      \strng{bibnamehash}{5c47f56ea59d01899cb1697479c9aaf3}
+      \strng{authorbibnamehash}{5c47f56ea59d01899cb1697479c9aaf3}
+      \strng{authornamehash}{5c47f56ea59d01899cb1697479c9aaf3}
+      \strng{authorfullhash}{5c47f56ea59d01899cb1697479c9aaf3}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Computational Thinking}
-      \field{year}{2007}
-      \field{dateera}{ce}
+      \field{title}{{Transformations  |  Android Developers}}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.cs.cmu.edu/afs/cs/usr/wing/www/Computational_Thinking.pdf
+      \verb https://developer.android.com/reference/android/arch/lifecycle/Transformations
       \endverb
       \verb{url}
-      \verb https://www.cs.cmu.edu/afs/cs/usr/wing/www/Computational_Thinking.pdf
+      \verb https://developer.android.com/reference/android/arch/lifecycle/Transformations
+      \endverb
+      \keyw{android}
+    \endentry
+    \entry{DanieleFaraglia2014}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a66f86ce647c9d47b368112ea87a30ae}{%
+           family={{Daniele Faraglia}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{a66f86ce647c9d47b368112ea87a30ae}
+      \strng{fullhash}{a66f86ce647c9d47b368112ea87a30ae}
+      \strng{bibnamehash}{a66f86ce647c9d47b368112ea87a30ae}
+      \strng{authorbibnamehash}{a66f86ce647c9d47b368112ea87a30ae}
+      \strng{authornamehash}{a66f86ce647c9d47b368112ea87a30ae}
+      \strng{authorfullhash}{a66f86ce647c9d47b368112ea87a30ae}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Welcome to Faker's documentation! — Faker 1.0.2 documentation}}
+      \field{urlday}{8}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://faker.readthedocs.io/en/master/
+      \endverb
+      \verb{url}
+      \verb https://faker.readthedocs.io/en/master/
+      \endverb
+    \endentry
+    \entry{Express2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b144fa061545497bebee8c414efc99a9}{%
+           family={Express},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b144fa061545497bebee8c414efc99a9}
+      \strng{fullhash}{b144fa061545497bebee8c414efc99a9}
+      \strng{bibnamehash}{b144fa061545497bebee8c414efc99a9}
+      \strng{authorbibnamehash}{b144fa061545497bebee8c414efc99a9}
+      \strng{authornamehash}{b144fa061545497bebee8c414efc99a9}
+      \strng{authorfullhash}{b144fa061545497bebee8c414efc99a9}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Express - Node.js web application framework}}
+      \field{urlday}{8}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://expressjs.com/
+      \endverb
+      \verb{url}
+      \verb https://expressjs.com/
+      \endverb
+    \endentry
+    \entry{medappspec}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={IBM},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Med App Project Specification}}
+      \field{year}{2018}
+      \field{pages}{12}
+      \range{pages}{1}
+    \endentry
+    \entry{JamesHalpern2012}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c6e51b1cd2b377ef49aef3c9d9c2a98d}{%
+           family={{James Halpern}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6e51b1cd2b377ef49aef3c9d9c2a98d}
+      \strng{fullhash}{c6e51b1cd2b377ef49aef3c9d9c2a98d}
+      \strng{bibnamehash}{c6e51b1cd2b377ef49aef3c9d9c2a98d}
+      \strng{authorbibnamehash}{c6e51b1cd2b377ef49aef3c9d9c2a98d}
+      \strng{authornamehash}{c6e51b1cd2b377ef49aef3c9d9c2a98d}
+      \strng{authorfullhash}{c6e51b1cd2b377ef49aef3c9d9c2a98d}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Pivotal}
+      \field{title}{{Android – SavedInstanceState Bundle FAQ}}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://content.pivotal.io/blog/android-savedinstancestate-bundle-faq
+      \endverb
+      \verb{url}
+      \verb https://content.pivotal.io/blog/android-savedinstancestate-bundle-faq
+      \endverb
+    \endentry
+    \entry{TutorialsPoint2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=02bb701746a2e79501c61d749787e4a0}{%
+           family={TutorialsPoint},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{02bb701746a2e79501c61d749787e4a0}
+      \strng{fullhash}{02bb701746a2e79501c61d749787e4a0}
+      \strng{bibnamehash}{02bb701746a2e79501c61d749787e4a0}
+      \strng{authorbibnamehash}{02bb701746a2e79501c61d749787e4a0}
+      \strng{authornamehash}{02bb701746a2e79501c61d749787e4a0}
+      \strng{authorfullhash}{02bb701746a2e79501c61d749787e4a0}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{SQLite Tutorial}}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.tutorialspoint.com/sqlite/
+      \endverb
+      \verb{url}
+      \verb https://www.tutorialspoint.com/sqlite/
       \endverb
     \endentry
   \enddatalist

@@ -1,18 +1,74 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{4}% 
+\contentsline {chapter}{\numberline {1}Summary}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}MapWize}{5}% 
+\contentsline {chapter}{\numberline {2}Project Specification}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}The role of MapWize in the application}{5}% 
+\contentsline {section}{\numberline {2.1}Project Description}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}MapWize SDK}{5}% 
+\contentsline {subsection}{\numberline {2.1.1}Technical Design Specs}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Cisco Connectected Mobile Experiences integration}{5}% 
+\contentsline {subsection}{\numberline {2.1.2}Features}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Function of Cisco CMX}{5}% 
+\contentsline {section}{\numberline {2.2}Development Guidelines}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Conclusion}{6}% 
+\contentsline {chapter}{\numberline {3}Proof of Concept}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}}{7}% 
+\contentsline {section}{\numberline {3.1}User Interface}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Architecture}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}General Architecture}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Entities}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{UML Diagram}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Database Communication}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Testing API}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Faker}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Android Architecture}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Separation of concern: Dependency Injection}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.2}Dependency Injection: Restaurant Analogy}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.3}Types of Dependency Injection}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.4}Type used in the mobile application}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.5}Dagger2 - Dependency Injection Library}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.6}Kotlin Language}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.7}Lifecycle Events}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Bundles \& Saved State}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.8}SQLite}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Testing Application Programming Interface}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Tools and frameworks used}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}MapWize}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.1}MapWize SDK}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.8}Cisco Connectected Mobile Experiences integration}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.8.1}Function of Cisco CMX}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.9}IndoorLocation Framework}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclusion}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Development Guidelines}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Development Guidelines}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Development Guidelines}{17}

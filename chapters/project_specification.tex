@@ -1,0 +1,18 @@
+\section{Project Description}
+\subsection{Technical Design Specs}
+The communication with the hospital happens with a server provided by IBM and the hospital's API. This means that the mobile device interacts with a intermediary server from IBM which in its turn communicates with the API of the hospital. This model is an example of a highly reusable architecture. If another hospital needs to be attached to the IBM server, only a small 'translator' for the endpoints of the additional hospital's API needs to be created whilst the structure of the IBM server remains the same.
+\subsection{Features}
+The main features of the project are specified below \cite{medappspec}:
+\begin{enumerate}
+\item Login with hospital provided credentials;
+\item Synchronization of appointments with the hospital;
+\item Ability to set reminders for an appointment;
+\item See the hospital's location (and venues) as well as contact details;
+\item Allow geolocalization inside the hospital;
+\item Provide feedback after an appointment;
+\item Localization in French, English and Dutch;
+\item Available on both iOS and Android
+\item Distributed in the Apple Store and Google Play Store;
+\end{enumerate}
+\section{Development Guidelines}
+To attain uniformity in the codebase of iOS and Android a 'Development Guidelines' document is written, this document can be found as an appendix.
