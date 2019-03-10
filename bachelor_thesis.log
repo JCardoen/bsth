@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.16)  9 MAR 2019 11:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.16)  9 MAR 2019 20:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -345,13 +345,8 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/04/06 v1.3b Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
@@ -366,7 +361,14 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
@@ -447,19 +449,19 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 (./bachelor_thesis.aux)
 \openout1 = `bachelor_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 34.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -474,8 +476,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bachelor_thesis.bbl' found.
 
 (./bachelor_thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 33.
-Package biblatex Info: Reference segment=0 on input line 33.
+Package biblatex Info: Reference section=0 on input line 34.
+Package biblatex Info: Reference segment=0 on input line 34.
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -544,40 +546,40 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 35
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 36
 .
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 35
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 36
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 35
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 36
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 35
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 36
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
  [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
 
 (./chapters/abstract.tex) [3
 
@@ -588,26 +590,26 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
- [4
-
-])
+)
 \tf@toc=\write5
 \openout5 = `bachelor_thesis.toc'.
 
- [5]
+ [4
+
+]
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-(./chapters/introduction.tex) [6
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+(./chapters/introduction.tex) [5
 
 ]
 Chapter 2.
 (./chapters/project_specification.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-) [7
+ [6
 
-]
+]) [7]
 Chapter 3.
 (./chapters/proof_of_concept.tex
 <figures/appointments_screen_ios.png, id=27, 735.74875pt x 616.3025pt>
@@ -652,38 +654,54 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
- [10 <./figures/clinics_screen_android.png>] [11]
-<figures/activity_lifecycle.png, id=49, 514.92375pt x 665.48625pt>
+ [10 <./figures/clinics_screen_android.png>]
+<figures/UML_geolocalization.png, id=46, 693.59799pt x 377.35611pt>
+File: figures/UML_geolocalization.png Graphic file (type png)
+<use figures/UML_geolocalization.png>
+Package pdftex.def Info: figures/UML_geolocalization.png  used on input line 40
+.
+(pdftex.def)             Requested size: 693.5963pt x 377.35518pt.
+ [11
+
+ <./figures/UML_geolocalization.png (PNG copy)>] [12
+
+]
+<figures/activity_lifecycle.png, id=53, 514.92375pt x 665.48625pt>
 File: figures/activity_lifecycle.png Graphic file (type png)
 <use figures/activity_lifecycle.png>
-Package pdftex.def Info: figures/activity_lifecycle.png  used on input line 68.
+Package pdftex.def Info: figures/activity_lifecycle.png  used on input line 86.
 
 (pdftex.def)             Requested size: 257.46124pt x 332.74231pt.
- [12 <./figures/activity_lifecycle.png>])
-[13]
+
+Underfull \vbox (badness 7925) has occurred while \output is active []
+
+ [13]
+Underfull \vbox (badness 1803) has occurred while \output is active []
+
+ [14 <./figures/activity_lifecycle.png>] [15]) [16]
 Chapter 4.
-(./chapters/conclusion.tex) [14
+(./chapters/conclusion.tex) [17
 
 ]
 Appendix A.
-(./chapters/appendix.tex) [15
+(./chapters/appendix.tex) [18
 
 ]
 Appendix B.
-(./chapters/appendix.tex) [16
+(./chapters/appendix.tex) [19
 
 ]
 Appendix C.
-(./chapters/appendix.tex) [17
+(./chapters/appendix.tex) [20
 
 ]
-Overfull \hbox (1.63962pt too wide) in paragraph at lines 67--67
+Overfull \hbox (7.11461pt too wide) in paragraph at lines 68--68
 []\OT1/ptm/m/n/10.95 Android De-vel-oper. \OT1/ptm/m/it/10.95 Trans-for-ma-tion
 s  |  An-droid De-vel-op-ers\OT1/ptm/m/n/10.95 . 2019. \OT1/ptm/m/sc/10.95 url\
 OT1/ptm/m/n/10.95 : $\OT1/cmtt/m/n/10.95 https : / / developer .
  []
 
-[18
+[21
 
 ] (./bachelor_thesis.aux)
 Package logreq Info: Writing requests to 'bachelor_thesis.run.xml'.
@@ -691,23 +709,23 @@ Package logreq Info: Writing requests to 'bachelor_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10068 strings out of 492649
- 174458 string characters out of 6129621
- 604969 words of memory out of 5000000
- 13793 multiletter control sequences out of 15000+600000
+ 10096 strings out of 492649
+ 175290 string characters out of 6129621
+ 605386 words of memory out of 5000000
+ 13817 multiletter control sequences out of 15000+600000
  36853 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,45p,842b,1715s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,11n,45p,823b,1669s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
 live/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on bachelor_thesis.pdf (18 pages, 858639 bytes).
+Output written on bachelor_thesis.pdf (21 pages, 956760 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

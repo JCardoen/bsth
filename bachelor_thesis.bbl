@@ -49,6 +49,36 @@
       \endverb
       \keyw{android}
     \endentry
+    \entry{BhavyaKaria2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a32d68bd84eba08327ec037afbf95d85}{%
+           family={{Bhavya Karia}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{a32d68bd84eba08327ec037afbf95d85}
+      \strng{fullhash}{a32d68bd84eba08327ec037afbf95d85}
+      \strng{bibnamehash}{a32d68bd84eba08327ec037afbf95d85}
+      \strng{authorbibnamehash}{a32d68bd84eba08327ec037afbf95d85}
+      \strng{authornamehash}{a32d68bd84eba08327ec037afbf95d85}
+      \strng{authorfullhash}{a32d68bd84eba08327ec037afbf95d85}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Medium}
+      \field{title}{{A quick intro to Dependency Injection: what it is, and when to use it}}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.freecodecamp.org/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f
+      \endverb
+      \verb{url}
+      \verb https://medium.freecodecamp.org/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f
+      \endverb
+    \endentry
     \entry{DanieleFaraglia2014}{misc}{}
       \name{author}{1}{}{%
         {{hash=a66f86ce647c9d47b368112ea87a30ae}{%
@@ -128,6 +158,35 @@
       \field{pages}{12}
       \range{pages}{1}
     \endentry
+    \entry{IndoorLocation.io2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=efac8979329add1a6fe64a8e5b671297}{%
+           family={IndoorLocation.io},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{efac8979329add1a6fe64a8e5b671297}
+      \strng{fullhash}{efac8979329add1a6fe64a8e5b671297}
+      \strng{bibnamehash}{efac8979329add1a6fe64a8e5b671297}
+      \strng{authorbibnamehash}{efac8979329add1a6fe64a8e5b671297}
+      \strng{authornamehash}{efac8979329add1a6fe64a8e5b671297}
+      \strng{authorfullhash}{efac8979329add1a6fe64a8e5b671297}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Indoor Location - The open-source framework for indoor mapping.}}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.indoorlocation.io/
+      \endverb
+      \verb{url}
+      \verb https://www.indoorlocation.io/
+      \endverb
+    \endentry
     \entry{JamesHalpern2012}{misc}{}
       \name{author}{1}{}{%
         {{hash=c6e51b1cd2b377ef49aef3c9d9c2a98d}{%
@@ -157,6 +216,58 @@
       \verb{url}
       \verb https://content.pivotal.io/blog/android-savedinstancestate-bundle-faq
       \endverb
+    \endentry
+    \entry{MapWize.io2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=37b3cec05f38964b605a0db49e16caee}{%
+           family={MapWize.io},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{37b3cec05f38964b605a0db49e16caee}
+      \strng{fullhash}{37b3cec05f38964b605a0db49e16caee}
+      \strng{bibnamehash}{37b3cec05f38964b605a0db49e16caee}
+      \strng{authorbibnamehash}{37b3cec05f38964b605a0db49e16caee}
+      \strng{authornamehash}{37b3cec05f38964b605a0db49e16caee}
+      \strng{authorfullhash}{37b3cec05f38964b605a0db49e16caee}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Indoor mapping {\&} Wayfinding for Smart Buildings}}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mapwize.io/
+      \endverb
+      \verb{url}
+      \verb https://www.mapwize.io/
+      \endverb
+    \endentry
+    \entry{Seemann2011}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4f08d24826cb0bb50101e66d040b84a7}{%
+           family={Seemann},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f08d24826cb0bb50101e66d040b84a7}
+      \strng{fullhash}{4f08d24826cb0bb50101e66d040b84a7}
+      \strng{bibnamehash}{4f08d24826cb0bb50101e66d040b84a7}
+      \strng{authorbibnamehash}{4f08d24826cb0bb50101e66d040b84a7}
+      \strng{authornamehash}{4f08d24826cb0bb50101e66d040b84a7}
+      \strng{authorfullhash}{4f08d24826cb0bb50101e66d040b84a7}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Dependency Injection in .NET}}
+      \field{year}{2011}
+      \field{pages}{16}
+      \range{pages}{1}
     \endentry
     \entry{TutorialsPoint2019}{misc}{}
       \name{author}{1}{}{%

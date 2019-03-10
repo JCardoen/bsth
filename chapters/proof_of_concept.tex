@@ -34,6 +34,13 @@ The specific entities used throughout this application are:
 \item department;
 \end{itemize}
 \subsubsection{UML Diagram}
+\begin{landscape}
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=1]{UML_geolocalization}
+\caption{Unified Modelling Language diagram}
+\end{figure}
+\end{landscape}
 \section{Database Communication}
 \subsection{Testing API}
 To aid in testing the database a test API is programmed using a Node.js framework: Express. it is a very simple tool to create web APIs ready for consumption \cite{Express2019}. The testing API is structured according to the entities specified in the UML diagram with the corresponding relations. For this specific application there a couple of endpoints exposed for requests:
@@ -47,10 +54,21 @@ To aid in testing the database a test API is programmed using a Node.js framewor
 Instead of using ad random numerical combinations or lorem ipsum texts, a library called Faker is used to generate different random values such are names, addresses, e-mail addresses and phone numbers. Faker is available for almost every general purpose language and is easy to use. It is always easier to work with representative data than it is to work with 'lorem ipsum' or '123456789' \cite{DanieleFaraglia2014}.
 \section{Android Architecture}
 \subsection{Separation of concern: Dependency Injection}
-\subsection{Dependency Injection: Restaurant Analogy}
-\subsection{Types of Dependency Injection}
-\subsection{Type used in the mobile application}
-\subsection{Dagger2 - Dependency Injection Library}
+Separation of concern is a general convention amongst software developers. In practice it is harder to implement than it first seems. One of the core components of this pattern are dependencies: one class depends on the structure of another class. The dependency pattern enables developers to focus on their code without having to worry about the dependency. For a class it is enough to know how a dependency is structure, there is no need for the class to know how it is implemented. This is also the last of the SOLID principles, the principle of dependency on abstraction instead of concrete implementation \cite{BhavyaKaria2018}.
+\subsubsection{Dependency Injection: Restaurant Analogy}
+To comprehend the concept of dependency injection let's have a look at a fairly common analogy". A man comes into a restaurant and takes a look at the menu. After having taken a close look, the man decides to order fish and chips. The waiter notifies the kitchen and tells the head chef that a customer ordered the fish and chips. Upon finishing the plating, the waiter brings the wonderful plate of fish and chips to the customer (the man). The man obtained what he wanted without knowing how his dish was prepared, the head chef knew what the customer needed and provided the meal.
+\subsubsection{Benefits of using Dependency Injection}
+Using dependency injection might seem somewhat bloated in practice, but there are some enormous benefits upon applying this pattern on an application. Some of these benefits are listed below \cite{Seemann2011}:
+\begin{itemize}
+\item Late binding: interchangeable services;
+\item Extensibility: reusable code;
+\item Maintainability: classes with a well-defined responsibility become easier to maintain;
+\item Testability: classes having a dependency can be tested separately - as a single unit; 
+\item Enforces usage of loose coupling;
+\end{itemize}
+\subsubsection{Types of Dependency Injection}
+\subsubsection{Type used in the mobile application}
+\subsubsection{Dagger2 - Dependency Injection Library}
 \subsection{Kotlin Language}
 \subsection{Lifecycle Events}
 For the duration of the runtime of the mobile application (from the moment the app is opened until it is closed) some events occur that are typical for an Android mobile application. A brief summary of these events is listed below (in chronological order) \cite{AndroidDeveloper2019}:
@@ -63,7 +81,7 @@ For the duration of the runtime of the mobile application (from the moment the a
 \item onRestart() - When the activity is restarted after a stoppage;
 \item onDestroy() - When the activity is shut down;
 \end{itemize}
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{activity_lifecycle}
 \caption{Android Activity Lifecycle Schematic~\cite{AndroidDeveloper2019}}
@@ -71,19 +89,34 @@ For the duration of the runtime of the mobile application (from the moment the a
 The lifecycle of an activity is an important factor to take into account whilst the application is being developed. This means a certain level of persistency is required for an optimal user experience.
 \subsubsection{Bundles \& Saved State}
 The way in which the onCreate() method is implemented allows a developer to declare a Bundle, which is an object that contains key-value pairs, that is used to restore an activity's previous state. If no such state exists then the Bundle will be equal to null. The Bundle object that is passed to an activity in the onCreate() method should only contain specific information such as user interactions: form fields, position on the screen and sometimes navigational properties. The main usage for this technology is when an activity gets paused or stopped, this means the OS (operating system) can freely destroy any activities \cite{JamesHalpern2012}.
-\subsection{SQLite}
-Another way to persist data throughout the lifecycle of an application is to use the (smart)phone's local storage. Each application can create a new local, file-based database using SQLite. SQLite is a transactional and serverless db (database), which means it is optimal for storing user-specific data. The fact that it is indeed a transactional db means that upon failing to save data it will rollback the entire operation \cite{TutorialsPoint2019}.
+\subsection{Offline storage and persisting data}
+Another way to persist data throughout the lifecycle of an application is to use the (smart)phone's local storage. Each application can create a new local database using SQLite. SQLite is a transactional and file-based database (db), which means it is optimal for storing user-specific data. The fact that it is indeed a transactional db means that upon failure of an operation it will roll-back to the previous state and revert all existing, pending changes \cite{TutorialsPoint2019}.
+\subsubsection{RoomDB}
+\subsubsection{Application Cache}
+\subsubsection{Strategy and abstractions}
+\subsection{Model - View - Presenter Architecture}
+\subsubsection{Model}
+\subsubsection{View}
+\subsubsection{Presenter}
+\subsection{Model - View - ViewModel Architecture}
+\subsubsection{ViewModel}
+\subsubsection{Asynchronous Data}
+\subsubsection{HTTP(S) Requests}
+\subsubsection{Retrofit}
+\subsubsection{LiveData Datatype}
+\subsubsection{Observables}
 \section{Testing Application Programming Interface}
 \section{Tools and frameworks used}
 \section{MapWize}
-MapWize is a service that digitalizes architectural plans and makes them interactive. The generated map from MapWize is the one used throughout the development of the application
-for hospital CHC Saint-Jean in Liege. The main reason for using this service is to take care of the digital mapping of the hospital itself, which is not a task that should be completed by developers. The digital map will be used to show the routes from point A to point B, applied to this case: from the hospital's registration office to the place of appointment.
+MapWize is a service that digitalizes architectural plans and makes them interactive. MapWize offers an online environment in which you can easily create floor plans that can be used by the SDK. In the online editor you can declare specific points of interest (PoIs) and routes from and to points. The creation of a digital map for testing purposes is out of scope for this thesis. 
+
 \subsection{MapWize SDK}
 MapWize provides developers with a ready-made SDK for both iOS and Android. This SDK covers all important methods to 
 \section{Cisco Connectected Mobile Experiences integration}
 The manner in which the position of a patient is retrieved is based on the nearest WiFi router of Cisco.
 \subsection{Function of Cisco CMX}
 \section{IndoorLocation Framework}
+The IndoorLocation framework is one heavily used in conjunction with MapWize, it is a framework that allows developer to use geolocalization based on numerous indoor positioning technologies (IPS) such are: GPS, beacons, Wi-Fi, Li-Fi, Ultrasounds etc \cite{IndoorLocation.io2019}.
 
 
 

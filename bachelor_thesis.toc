@@ -1,15 +1,15 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Summary}{6}
+\contentsline {chapter}{\numberline {1}Summary}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Project Specification}{7}
+\contentsline {chapter}{\numberline {2}Project Specification}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Project Description}{7}
+\contentsline {section}{\numberline {2.1}Project Description}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Technical Design Specs}{7}
+\contentsline {subsection}{\numberline {2.1.1}Technical Design Specs}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Features}{7}
+\contentsline {subsection}{\numberline {2.1.2}Features}{6}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Development Guidelines}{7}
 \defcounter {refsection}{0}\relax 
@@ -23,52 +23,82 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Entities}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{UML Diagram}{11}
+\contentsline {subsubsection}{UML Diagram}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Database Communication}{11}
+\contentsline {section}{\numberline {3.3}Database Communication}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Testing API}{11}
+\contentsline {subsection}{\numberline {3.3.1}Testing API}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Faker}{11}
+\contentsline {subsubsection}{Faker}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Android Architecture}{11}
+\contentsline {section}{\numberline {3.4}Android Architecture}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Separation of concern: Dependency Injection}{11}
+\contentsline {subsection}{\numberline {3.4.1}Separation of concern: Dependency Injection}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Dependency Injection: Restaurant Analogy}{11}
+\contentsline {subsubsection}{Dependency Injection: Restaurant Analogy}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Types of Dependency Injection}{11}
+\contentsline {subsubsection}{Benefits of using Dependency Injection}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.4}Type used in the mobile application}{11}
+\contentsline {subsubsection}{Types of Dependency Injection}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.5}Dagger2 - Dependency Injection Library}{11}
+\contentsline {subsubsection}{Type used in the mobile application}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.6}Kotlin Language}{11}
+\contentsline {subsubsection}{Dagger2 - Dependency Injection Library}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.7}Lifecycle Events}{11}
+\contentsline {subsection}{\numberline {3.4.2}Kotlin Language}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Bundles \& Saved State}{12}
+\contentsline {subsection}{\numberline {3.4.3}Lifecycle Events}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.8}SQLite}{12}
+\contentsline {subsubsection}{Bundles \& Saved State}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Testing Application Programming Interface}{13}
+\contentsline {subsection}{\numberline {3.4.4}Offline storage and persisting data}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Tools and frameworks used}{13}
+\contentsline {subsubsection}{RoomDB}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}MapWize}{13}
+\contentsline {subsubsection}{Application Cache}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.1}MapWize SDK}{13}
+\contentsline {subsubsection}{Strategy and abstractions}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}Cisco Connectected Mobile Experiences integration}{13}
+\contentsline {subsection}{\numberline {3.4.5}Model - View - Presenter Architecture}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.8.1}Function of Cisco CMX}{13}
+\contentsline {subsubsection}{Model}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.9}IndoorLocation Framework}{13}
+\contentsline {subsubsection}{View}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusion}{14}
+\contentsline {subsubsection}{Presenter}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Development Guidelines}{15}
+\contentsline {subsection}{\numberline {3.4.6}Model - View - ViewModel Architecture}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Development Guidelines}{16}
+\contentsline {subsubsection}{ViewModel}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Development Guidelines}{17}
+\contentsline {subsubsection}{Asynchronous Data}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{HTTP(S) Requests}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Retrofit}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{LiveData Datatype}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Observables}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Testing Application Programming Interface}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Tools and frameworks used}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}MapWize}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.1}MapWize SDK}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.8}Cisco Connectected Mobile Experiences integration}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.8.1}Function of Cisco CMX}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.9}IndoorLocation Framework}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclusion}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Development Guidelines}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Development Guidelines}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Development Guidelines}{20}

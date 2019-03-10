@@ -1974,13 +1974,18 @@
     <bcf:datasource type="file" datatype="bibtex">Bachelor&apos;s Thesis.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">medappspec</bcf:citekey>
-    <bcf:citekey order="2">Express2019</bcf:citekey>
-    <bcf:citekey order="3">DanieleFaraglia2014</bcf:citekey>
-    <bcf:citekey order="4">AndroidDeveloper2019</bcf:citekey>
-    <bcf:citekey order="5">AndroidDeveloper2019</bcf:citekey>
-    <bcf:citekey order="6">JamesHalpern2012</bcf:citekey>
-    <bcf:citekey order="7">TutorialsPoint2019</bcf:citekey>
+    <bcf:citekey order="1">MapWize.io2019</bcf:citekey>
+    <bcf:citekey order="2">IndoorLocation.io2019</bcf:citekey>
+    <bcf:citekey order="3">medappspec</bcf:citekey>
+    <bcf:citekey order="4">Express2019</bcf:citekey>
+    <bcf:citekey order="5">DanieleFaraglia2014</bcf:citekey>
+    <bcf:citekey order="6">BhavyaKaria2018</bcf:citekey>
+    <bcf:citekey order="7">Seemann2011</bcf:citekey>
+    <bcf:citekey order="8">AndroidDeveloper2019</bcf:citekey>
+    <bcf:citekey order="9">AndroidDeveloper2019</bcf:citekey>
+    <bcf:citekey order="10">JamesHalpern2012</bcf:citekey>
+    <bcf:citekey order="11">TutorialsPoint2019</bcf:citekey>
+    <bcf:citekey order="12">IndoorLocation.io2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
