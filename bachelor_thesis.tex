@@ -20,6 +20,27 @@
 \fancyfoot[CO,RE]{Joachim Cardoen}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
+\usepackage[acronym]{glossaries}
+\makeglossaries
+\newglossaryentry{latex}
+{
+    name=latex,
+    description={Is a mark up language specially suited 
+    for scientific documents}
+}
+ 
+\newglossaryentry{maths}
+{
+    name=mathematics,
+    description={Mathematics is what mathematicians do}
+}
+\newacronym{poc}{PoC}{proof of concept}
+\newacronym{ux}{UX}{user experience}
+\newacronym{api}{API}{application programming interface}
+\newacronym{sdk}{SDK}{software development kit}
+\newacronym{uml}{UML}{unified modelling language}
+\newacronym{eu}{EU}{European Union}
+\newacronym{ui}{UI}{user interface}
 \title{
     {\large Bachelor's Thesis}\\
     {Geolocalization and routing in complex multi-floor hospital environments}\\
@@ -40,15 +61,15 @@ I want to thank my foster mother, Miek Roels for her devotion to guide me throug
 \end{center}
 \chapter*{Abstract}
 \input{chapters/abstract}
-
 \tableofcontents
-
+\clearpage
+\printglossary[type=\acronymtype]
+\printglossary
 \chapter{Summary}
-\input{chapters/introduction}
-
 \chapter{Project Specification}
 \input{chapters/project_specification}
-
+\chapter{Technical Study}
+\input{chapters/technical_study}
 \chapter{Proof of Concept}
 \input{chapters/proof_of_concept}
 

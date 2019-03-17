@@ -1,7 +1,7 @@
 \section{Project Description}
-The goal is to develop a proof of concept (PoC) in both iOS and Android for a hospital. Firstly the existing application is reworked from using the Ionic framework to a native mobile application (Swift for iOS and Kotlin for Android). In addition to this part, geolocalization is implemented in the native mobile app using the MapWize service \cite{MapWize.io2019} and the IndoorLocation framework \cite{IndoorLocation.io2019}, both service provide working SDKs (Software Development Kit) for iOS and Android. Finally the application is revised by the team of interns and the developers at IBM and uploaded onto the Apple Store and the Google Play Store.
+The goal is to develop a \acrfull{poc} in both iOS and Android for a hospital. Firstly the existing application is reworked from using the Ionic framework to a native mobile application (Swift for iOS and Kotlin for Android). In addition to this part, geolocalization is implemented in the native mobile app using the MapWize service \cite{MapWize.io2019} and the IndoorLocation framework \cite{IndoorLocation.io2019}, both service provide working \acrfull{sdk} for iOS and Android. Finally the application is revised by the team of interns and the developers at IBM and uploaded onto the Apple Store and the Google Play Store.
 \subsection{Technical Design Specs}
-The communication with the hospital happens with a server provided by IBM and the hospital's API. This means that the mobile device interacts with a intermediary server from IBM which in its turn communicates with the API of the hospital. This model is an example of a highly reusable architecture. If another hospital needs to be attached to the IBM server, only a small 'translator' for the endpoints of the additional hospital's API needs to be created whilst the structure of the IBM server remains the same.
+The communication with the hospital happens with a server provided by IBM and the hospital's \acrfull{api}. This means that the mobile device interacts with a intermediary server from IBM which in its turn communicates with the \acrshort{api} of the hospital. This model is an example of a highly reusable architecture. If another hospital needs to be attached to the IBM server, only a small 'translator' for the endpoints of the additional hospital's \acrshort{api} needs to be created whilst the structure of the IBM server remains the same.
 \subsection{Features}
 The main features of the project are specified below \cite{medappspec}:
 \begin{enumerate}
@@ -15,5 +15,7 @@ The main features of the project are specified below \cite{medappspec}:
 \item Available on both iOS and Android
 \item Distributed in the Apple Store and Google Play Store;
 \end{enumerate}
+\subsection{Technologies to research}
+Throughout the development of the PoC, several technologies are used, such are: Android \acrshort{sdk}, authentication, RoomDB for offline storage, IBM BlueMix \acrshort{api}, \acrfull{uml}, dependency injection, MapWize, IndoorLocation and Cisco CMX.
 \section{Development Guidelines}
 To attain uniformity in the codebase of iOS and Android a 'Development Guidelines' document is written, this document can be found as an appendix.
