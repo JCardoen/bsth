@@ -1979,13 +1979,21 @@
     <bcf:citekey order="3">medappspec</bcf:citekey>
     <bcf:citekey order="4">Express2019</bcf:citekey>
     <bcf:citekey order="5">DanieleFaraglia2014</bcf:citekey>
-    <bcf:citekey order="6">BhavyaKaria2018</bcf:citekey>
-    <bcf:citekey order="7">Seemann2011</bcf:citekey>
-    <bcf:citekey order="8">AndroidDeveloper2019</bcf:citekey>
-    <bcf:citekey order="9">AndroidDeveloper2019</bcf:citekey>
-    <bcf:citekey order="10">JamesHalpern2012</bcf:citekey>
-    <bcf:citekey order="11">TutorialsPoint2019</bcf:citekey>
-    <bcf:citekey order="12">IndoorLocation.io2019</bcf:citekey>
+    <bcf:citekey order="6">Google_testing2017</bcf:citekey>
+    <bcf:citekey order="7">FernandoSproviero2018</bcf:citekey>
+    <bcf:citekey order="8">FernandoSproviero2018</bcf:citekey>
+    <bcf:citekey order="9">Google_testing2017</bcf:citekey>
+    <bcf:citekey order="10">Roboelec2019</bcf:citekey>
+    <bcf:citekey order="11">BhavyaKaria2018</bcf:citekey>
+    <bcf:citekey order="12">Seemann2011</bcf:citekey>
+    <bcf:citekey order="13">TheoJungeblut2015</bcf:citekey>
+    <bcf:citekey order="14">AndroidDeveloper2019</bcf:citekey>
+    <bcf:citekey order="15">AndroidDeveloper2019</bcf:citekey>
+    <bcf:citekey order="16">JamesHalpern2012</bcf:citekey>
+    <bcf:citekey order="17">TutorialsPoint2019</bcf:citekey>
+    <bcf:citekey order="18">EslamHussein2018</bcf:citekey>
+    <bcf:citekey order="19">Unknown2018</bcf:citekey>
+    <bcf:citekey order="20">IndoorLocation.io2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

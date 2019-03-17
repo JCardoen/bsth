@@ -108,6 +108,36 @@
       \verb https://faker.readthedocs.io/en/master/
       \endverb
     \endentry
+    \entry{EslamHussein2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1b9c8fadeb81bcbff7d8a99e5d51aa38}{%
+           family={{Eslam Hussein}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b9c8fadeb81bcbff7d8a99e5d51aa38}
+      \strng{fullhash}{1b9c8fadeb81bcbff7d8a99e5d51aa38}
+      \strng{bibnamehash}{1b9c8fadeb81bcbff7d8a99e5d51aa38}
+      \strng{authorbibnamehash}{1b9c8fadeb81bcbff7d8a99e5d51aa38}
+      \strng{authornamehash}{1b9c8fadeb81bcbff7d8a99e5d51aa38}
+      \strng{authorfullhash}{1b9c8fadeb81bcbff7d8a99e5d51aa38}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Medium}
+      \field{title}{{Dominate Remote/local data with (RX+Retrofit+ROOM+MVP)}}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/@eslam.hussein/dominate-remote-local-data-with-rx-retrofit-room-mvp-f2b13a0ac27b
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@eslam.hussein/dominate-remote-local-data-with-rx-retrofit-room-mvp-f2b13a0ac27b
+      \endverb
+    \endentry
     \entry{Express2019}{misc}{}
       \name{author}{1}{}{%
         {{hash=b144fa061545497bebee8c414efc99a9}{%
@@ -135,6 +165,61 @@
       \endverb
       \verb{url}
       \verb https://expressjs.com/
+      \endverb
+    \endentry
+    \entry{FernandoSproviero2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d4d269dd4d76530cf42f9afef0c44987}{%
+           family={{Fernando Sproviero}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4d269dd4d76530cf42f9afef0c44987}
+      \strng{fullhash}{d4d269dd4d76530cf42f9afef0c44987}
+      \strng{bibnamehash}{d4d269dd4d76530cf42f9afef0c44987}
+      \strng{authorbibnamehash}{d4d269dd4d76530cf42f9afef0c44987}
+      \strng{authornamehash}{d4d269dd4d76530cf42f9afef0c44987}
+      \strng{authorfullhash}{d4d269dd4d76530cf42f9afef0c44987}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{RayWenderlich}
+      \field{title}{{Android Unit Testing with Mockito | raywenderlich.com}}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.raywenderlich.com/195-android-unit-testing-with-mockito
+      \endverb
+      \verb{url}
+      \verb https://www.raywenderlich.com/195-android-unit-testing-with-mockito
+      \endverb
+    \endentry
+    \entry{Google_testing2017}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{(3) Test-Driven Development on Android with the Android Testing Support Library (Google I/O '17) - YouTube}}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=pK7W5npkhho{\&}start=111
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=pK7W5npkhho%7B%5C&%7Dstart=111
       \endverb
     \endentry
     \entry{medappspec}{misc}{}
@@ -246,6 +331,35 @@
       \verb https://www.mapwize.io/
       \endverb
     \endentry
+    \entry{Roboelec2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=935640258bccae1bedbd63f355b2aefc}{%
+           family={Roboelectric},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{935640258bccae1bedbd63f355b2aefc}
+      \strng{fullhash}{935640258bccae1bedbd63f355b2aefc}
+      \strng{bibnamehash}{935640258bccae1bedbd63f355b2aefc}
+      \strng{authorbibnamehash}{935640258bccae1bedbd63f355b2aefc}
+      \strng{authornamehash}{935640258bccae1bedbd63f355b2aefc}
+      \strng{authorfullhash}{935640258bccae1bedbd63f355b2aefc}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Robolectric}}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://robolectric.org/
+      \endverb
+      \verb{url}
+      \verb http://robolectric.org/
+      \endverb
+    \endentry
     \entry{Seemann2011}{book}{}
       \name{author}{1}{}{%
         {{hash=4f08d24826cb0bb50101e66d040b84a7}{%
@@ -268,6 +382,36 @@
       \field{year}{2011}
       \field{pages}{16}
       \range{pages}{1}
+    \endentry
+    \entry{TheoJungeblut2015}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=30d5079e8519b6b44bad857d67b29483}{%
+           family={{Theo Jungeblut}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{30d5079e8519b6b44bad857d67b29483}
+      \strng{fullhash}{30d5079e8519b6b44bad857d67b29483}
+      \strng{bibnamehash}{30d5079e8519b6b44bad857d67b29483}
+      \strng{authorbibnamehash}{30d5079e8519b6b44bad857d67b29483}
+      \strng{authornamehash}{30d5079e8519b6b44bad857d67b29483}
+      \strng{authorfullhash}{30d5079e8519b6b44bad857d67b29483}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Slideshare.net}
+      \field{title}{{Clean Code II - Dependency Injection}}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.slideshare.net/theojungeblut/clean-code-part-ii-dependency-injection
+      \endverb
+      \verb{url}
+      \verb https://www.slideshare.net/theojungeblut/clean-code-part-ii-dependency-injection
+      \endverb
     \endentry
     \entry{TutorialsPoint2019}{misc}{}
       \name{author}{1}{}{%
@@ -296,6 +440,35 @@
       \endverb
       \verb{url}
       \verb https://www.tutorialspoint.com/sqlite/
+      \endverb
+    \endentry
+    \entry{Unknown2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=88183b946cc5f0e8c96b2e66e1c74a7e}{%
+           family={Unknown},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{fullhash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{bibnamehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{authorbibnamehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{authornamehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{authorfullhash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{14.1A: Room, LiveData, ViewModel {·} Advanced Android Development Course- Practicals}}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://google-developer-training.gitbooks.io/android-developer-advanced-course-practicals/content/unit-6-working-with-architecture-components/lesson-14-room,-livedata,-viewmodel/14-1-a-room-livedata-viewmodel/14-1-a-room-livedata-viewmodel.html
+      \endverb
+      \verb{url}
+      \verb https://google-developer-training.gitbooks.io/android-developer-advanced-course-practicals/content/unit-6-working-with-architecture-components/lesson-14-room,-livedata,-viewmodel/14-1-a-room-livedata-viewmodel/14-1-a-room-livedata-viewmodel.html
       \endverb
     \endentry
   \enddatalist

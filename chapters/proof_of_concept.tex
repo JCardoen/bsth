@@ -20,9 +20,12 @@ Considering the application is only a proof of concept (PoC) there is almost no 
 \includegraphics[scale=0.5]{clinics_screen_android}
 \caption{User interface of the hospital venues and detailed view for Android}
 \end{figure}
+\section{General Data Protection Regulation}
+\subsubsection{General Guidelines provided by the EU}
 \section{Architecture}
 The emphasis of the PoC is on developing it in such a way that it should be easy to re-implement the application elsewhere. The PoC is developed in the two current formats for mobile development: iOS and Android. This bachelor's thesis will cover the implementation of the Android architecture.
-\subsection{General Architecture}
+\subsection{Existing API}
+The existing API developed by IBM provides the application with a list of appointments (testing mode). An example of the JSON output can be found below.
 \subsubsection{Entities}
 The specific entities used throughout this application are:
 \begin{itemize}
@@ -53,6 +56,26 @@ To aid in testing the database a test API is programmed using a Node.js framewor
 \subsubsection{Faker}
 Instead of using ad random numerical combinations or lorem ipsum texts, a library called Faker is used to generate different random values such are names, addresses, e-mail addresses and phone numbers. Faker is available for almost every general purpose language and is easy to use. It is always easier to work with representative data than it is to work with 'lorem ipsum' or '123456789' \cite{DanieleFaraglia2014}.
 \section{Android Architecture}
+\subsection{Testing}
+\cite{Google_testing2017}
+\begin{figure}[h!]
+\includegraphics[scale=0.5]{testing_android}
+\centering
+\caption{Testing pyramid~\cite{FernandoSproviero2018}}
+\end{figure}
+\subsubsection{Unit Testing}
+These tests are responsible for the smaller parts of the application (units) and use mocked or stubbed properties. This means that the properties and methods do not interfere with code written inside the main application. These tests are the fastest in runtime (compared to the integration and UI testing) because they do not need a running device or emulator, which means they are the least expensive to execute. Some testing frameworks from Android are: JUnit4 and Mockito (Mockito is used to create mock instances of dependencies, classes, properties and methods) \cite{FernandoSproviero2018}. The characteristics of a good unit test \cite{Google_testing2017}:
+\begin{enumerate}
+\item Thorough;
+\item Focused;
+\item Repeatable;
+\item Fast;
+\item Verifies behaviour;
+\item Concise;
+\end{enumerate}
+\subsubsection{Integration Testing}
+These tests test the interaction between different units of the application. The tests do not cover any updates on the UI thread and test the units independently from the UI. A common framework used to write integration tests is Roboelectric \cite{Roboelec2019}. When an application is in development the integration tests will check the behaviour of the different interacting units when the new feature is implemented. This way, the development team can roll-out features without breaking the current application.
+\subsubsection{User Interface Testing}
 \subsection{Separation of concern: Dependency Injection}
 Separation of concern is a general convention amongst software developers. In practice it is harder to implement than it first seems. One of the core components of this pattern are dependencies: one class depends on the structure of another class. The dependency pattern enables developers to focus on their code without having to worry about the dependency. For a class it is enough to know how a dependency is structure, there is no need for the class to know how it is implemented. This is also the last of the SOLID principles, the principle of dependency on abstraction instead of concrete implementation \cite{BhavyaKaria2018}.
 \subsubsection{Dependency Injection: Restaurant Analogy}
@@ -67,8 +90,9 @@ Using dependency injection might seem somewhat bloated in practice, but there ar
 \item Enforces usage of loose coupling;
 \end{itemize}
 \subsubsection{Types of Dependency Injection}
-\subsubsection{Type used in the mobile application}
+Constructor injection is the type of DI (dependency injection) that uses a private field for the dependency and sets this field using a parameter inside of the constructor. Setter (property) injection uses a property of the class that requires the dependency and works via getter and setter methods. The dependency is individually set instead of passed as a parameter in the constructor. This is quite easy to understand but hard to implement in a robust way, this only works if the value passed in the setter is a good value. When dependencies are only used in specific methods, it might be easier to just pass them as parameters to that method, this is called method injection. This way of implementing DI is also simple and straightforward \cite{TheoJungeblut2015}.
 \subsubsection{Dagger2 - Dependency Injection Library}
+To remove the abstraction of the different methods of dependency injection, the library Dagger2 (supported by Google) is used. This library sets up the required dependencies throughout the application and registers them accordingly. Upon launching a class that requires a dependency, the Dagger2 instance will load them as specified in the AppModule.
 \subsection{Kotlin Language}
 \subsection{Lifecycle Events}
 For the duration of the runtime of the mobile application (from the moment the app is opened until it is closed) some events occur that are typical for an Android mobile application. A brief summary of these events is listed below (in chronological order) \cite{AndroidDeveloper2019}:
@@ -92,6 +116,19 @@ The way in which the onCreate() method is implemented allows a developer to decl
 \subsection{Offline storage and persisting data}
 Another way to persist data throughout the lifecycle of an application is to use the (smart)phone's local storage. Each application can create a new local database using SQLite. SQLite is a transactional and file-based database (db), which means it is optimal for storing user-specific data. The fact that it is indeed a transactional db means that upon failure of an operation it will roll-back to the previous state and revert all existing, pending changes \cite{TutorialsPoint2019}.
 \subsubsection{RoomDB}
+A nice feature from the Android SDK is a wrapper for SQLite inside the app: RoomDB. RoomDB is a feature set for SQLite statement and works using the repository pattern. The interaction between the application (view layer) and data layer happens using a repository which can be implemented locally (offline storage using the RoomDB wrapper) as well as remotely (remote API calls). The structure of the application is as follows:
+\begin{figure}[h!]
+\includegraphics[scale=0.25]{repository_pattern_android}
+\centering
+\caption{Repository Pattern inside an android application~\cite{EslamHussein2018}}
+\end{figure}
+The local repository interacts with the local repository using a database access object, which specifies the different possible statements that can be executed on the database (CRUD operations: create, read, update and delete) and maps them to functions.
+\begin{figure}[h!]
+\includegraphics[scale=0.5]{local_repo_android}
+\centering
+\caption{Local repository usage inside the applocal~\cite{Unknown2018}}
+\end{figure}
+
 \subsubsection{Application Cache}
 \subsubsection{Strategy and abstractions}
 \subsection{Model - View - Presenter Architecture}
