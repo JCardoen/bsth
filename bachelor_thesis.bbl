@@ -138,6 +138,35 @@
       \verb https://medium.com/@eslam.hussein/dominate-remote-local-data-with-rx-retrofit-room-mvp-f2b13a0ac27b
       \endverb
     \endentry
+    \entry{EUGDPRPortal:byTrunomi2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9cf867ed1e26e7b5834814bc8e019bb9}{%
+           family={{EU GDPR Portal: by Trunomi}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{9cf867ed1e26e7b5834814bc8e019bb9}
+      \strng{fullhash}{9cf867ed1e26e7b5834814bc8e019bb9}
+      \strng{bibnamehash}{9cf867ed1e26e7b5834814bc8e019bb9}
+      \strng{authorbibnamehash}{9cf867ed1e26e7b5834814bc8e019bb9}
+      \strng{authornamehash}{9cf867ed1e26e7b5834814bc8e019bb9}
+      \strng{authorfullhash}{9cf867ed1e26e7b5834814bc8e019bb9}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Key Changes with the General Data Protection Regulation – EUGDPR}}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://eugdpr.org/the-regulation/
+      \endverb
+      \verb{url}
+      \verb https://eugdpr.org/the-regulation/
+      \endverb
+    \endentry
     \entry{Express2019}{misc}{}
       \name{author}{1}{}{%
         {{hash=b144fa061545497bebee8c414efc99a9}{%
@@ -222,6 +251,35 @@
       \verb https://www.youtube.com/watch?v=pK7W5npkhho%7B%5C&%7Dstart=111
       \endverb
     \endentry
+    \entry{Unknown2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3bc52a4e0eb6757b295ea2dfc51a527e}{%
+           family={GoogleDeveloperTraining},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{3bc52a4e0eb6757b295ea2dfc51a527e}
+      \strng{fullhash}{3bc52a4e0eb6757b295ea2dfc51a527e}
+      \strng{bibnamehash}{3bc52a4e0eb6757b295ea2dfc51a527e}
+      \strng{authorbibnamehash}{3bc52a4e0eb6757b295ea2dfc51a527e}
+      \strng{authornamehash}{3bc52a4e0eb6757b295ea2dfc51a527e}
+      \strng{authorfullhash}{3bc52a4e0eb6757b295ea2dfc51a527e}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{14.1A: Room, LiveData, ViewModel {·} Advanced Android Development Course- Practicals}}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://google-developer-training.gitbooks.io/android-developer-advanced-course-practicals/content/unit-6-working-with-architecture-components/lesson-14-room,-livedata,-viewmodel/14-1-a-room-livedata-viewmodel/14-1-a-room-livedata-viewmodel.html
+      \endverb
+      \verb{url}
+      \verb https://google-developer-training.gitbooks.io/android-developer-advanced-course-practicals/content/unit-6-working-with-architecture-components/lesson-14-room,-livedata,-viewmodel/14-1-a-room-livedata-viewmodel/14-1-a-room-livedata-viewmodel.html
+      \endverb
+    \endentry
     \entry{medappspec}{misc}{}
       \name{author}{1}{}{%
         {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
@@ -302,6 +360,35 @@
       \verb https://content.pivotal.io/blog/android-savedinstancestate-bundle-faq
       \endverb
     \endentry
+    \entry{Mabox2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b9581d3afd386e452bb6ea357a6a4a34}{%
+           family={MapBox},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b9581d3afd386e452bb6ea357a6a4a34}
+      \strng{fullhash}{b9581d3afd386e452bb6ea357a6a4a34}
+      \strng{bibnamehash}{b9581d3afd386e452bb6ea357a6a4a34}
+      \strng{authorbibnamehash}{b9581d3afd386e452bb6ea357a6a4a34}
+      \strng{authornamehash}{b9581d3afd386e452bb6ea357a6a4a34}
+      \strng{authorfullhash}{b9581d3afd386e452bb6ea357a6a4a34}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Mobile | Mapbox}}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mapbox.com/mobile/
+      \endverb
+      \verb{url}
+      \verb https://www.mapbox.com/mobile/
+      \endverb
+    \endentry
     \entry{MapWize.io2019}{misc}{}
       \name{author}{1}{}{%
         {{hash=37b3cec05f38964b605a0db49e16caee}{%
@@ -329,6 +416,95 @@
       \endverb
       \verb{url}
       \verb https://www.mapwize.io/
+      \endverb
+    \endentry
+    \entry{MapWize.io2019a}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=37b3cec05f38964b605a0db49e16caee}{%
+           family={MapWize.io},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{37b3cec05f38964b605a0db49e16caee}
+      \strng{fullhash}{37b3cec05f38964b605a0db49e16caee}
+      \strng{bibnamehash}{37b3cec05f38964b605a0db49e16caee}
+      \strng{authorbibnamehash}{37b3cec05f38964b605a0db49e16caee}
+      \strng{authornamehash}{37b3cec05f38964b605a0db49e16caee}
+      \strng{authorfullhash}{37b3cec05f38964b605a0db49e16caee}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Indoor mapping for developers}}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mapwize.io/developers
+      \endverb
+      \verb{url}
+      \verb https://www.mapwize.io/developers
+      \endverb
+    \endentry
+    \entry{NahidulHasan2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d2ff4a7d4027ef541f519d18437acc43}{%
+           family={{Nahidul Hasan}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d2ff4a7d4027ef541f519d18437acc43}
+      \strng{fullhash}{d2ff4a7d4027ef541f519d18437acc43}
+      \strng{bibnamehash}{d2ff4a7d4027ef541f519d18437acc43}
+      \strng{authorbibnamehash}{d2ff4a7d4027ef541f519d18437acc43}
+      \strng{authornamehash}{d2ff4a7d4027ef541f519d18437acc43}
+      \strng{authorfullhash}{d2ff4a7d4027ef541f519d18437acc43}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Medium}
+      \field{title}{{SOLID Principles-simple and easy explanation – Hacker Noon}}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://hackernoon.com/solid-principles-simple-and-easy-explanation-f57d86c47a7f
+      \endverb
+      \verb{url}
+      \verb https://hackernoon.com/solid-principles-simple-and-easy-explanation-f57d86c47a7f
+      \endverb
+    \endentry
+    \entry{Per-ErikBergman2017}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a5b2b8583cc3035334dfa2b4135df13b}{%
+           family={{Per-Erik Bergman}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a5b2b8583cc3035334dfa2b4135df13b}
+      \strng{fullhash}{a5b2b8583cc3035334dfa2b4135df13b}
+      \strng{bibnamehash}{a5b2b8583cc3035334dfa2b4135df13b}
+      \strng{authorbibnamehash}{a5b2b8583cc3035334dfa2b4135df13b}
+      \strng{authornamehash}{a5b2b8583cc3035334dfa2b4135df13b}
+      \strng{authorfullhash}{a5b2b8583cc3035334dfa2b4135df13b}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Medium}
+      \field{title}{{Repository Design Pattern – Per-Erik Bergman – Medium}}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30
       \endverb
     \endentry
     \entry{Roboelec2019}{misc}{}
@@ -382,6 +558,42 @@
       \field{year}{2011}
       \field{pages}{16}
       \range{pages}{1}
+    \endentry
+    \entry{THEEUROPEANPARLIAMENTANDTHECOUNCILOF1995}{report}{}
+      \name{author}{2}{}{%
+        {{hash=ca9190861d7a9a3083e3d759592c956b}{%
+           family={{THE EUROPEAN PARLIAMENT AND THE COUNCIL OF}},
+           familyi={T\bibinitperiod}}}%
+        {{hash=e2eeabdec62519f262534f7976f66810}{%
+           family={{THE EUROPEAN UNION}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {European Parliament}%
+        {of the Council}%
+      }
+      \strng{namehash}{8c41c24f340c6c0e4839bf61b0b9c5ac}
+      \strng{fullhash}{8c41c24f340c6c0e4839bf61b0b9c5ac}
+      \strng{bibnamehash}{8c41c24f340c6c0e4839bf61b0b9c5ac}
+      \strng{authorbibnamehash}{8c41c24f340c6c0e4839bf61b0b9c5ac}
+      \strng{authornamehash}{8c41c24f340c6c0e4839bf61b0b9c5ac}
+      \strng{authorfullhash}{8c41c24f340c6c0e4839bf61b0b9c5ac}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{DIRECTIVE 95/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL}}
+      \field{type}{techreport}
+      \field{year}{1995}
+      \verb{file}
+      \verb ::
+      \endverb
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:31995L0046{\&}from=en
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:31995L0046%7B%5C&%7Dfrom=en
+      \endverb
     \endentry
     \entry{TheoJungeblut2015}{misc}{}
       \name{author}{1}{}{%
@@ -440,35 +652,6 @@
       \endverb
       \verb{url}
       \verb https://www.tutorialspoint.com/sqlite/
-      \endverb
-    \endentry
-    \entry{Unknown2018}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=88183b946cc5f0e8c96b2e66e1c74a7e}{%
-           family={Unknown},
-           familyi={U\bibinitperiod}}}%
-      }
-      \strng{namehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
-      \strng{fullhash}{88183b946cc5f0e8c96b2e66e1c74a7e}
-      \strng{bibnamehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
-      \strng{authorbibnamehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
-      \strng{authornamehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
-      \strng{authorfullhash}{88183b946cc5f0e8c96b2e66e1c74a7e}
-      \field{sortinit}{U}
-      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{14.1A: Room, LiveData, ViewModel {·} Advanced Android Development Course- Practicals}}
-      \field{urlday}{17}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://google-developer-training.gitbooks.io/android-developer-advanced-course-practicals/content/unit-6-working-with-architecture-components/lesson-14-room,-livedata,-viewmodel/14-1-a-room-livedata-viewmodel/14-1-a-room-livedata-viewmodel.html
-      \endverb
-      \verb{url}
-      \verb https://google-developer-training.gitbooks.io/android-developer-advanced-course-practicals/content/unit-6-working-with-architecture-components/lesson-14-room,-livedata,-viewmodel/14-1-a-room-livedata-viewmodel/14-1-a-room-livedata-viewmodel.html
       \endverb
     \endentry
   \enddatalist

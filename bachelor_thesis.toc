@@ -19,91 +19,81 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Integrated Development Environment}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Architecture}{10}
+\contentsline {section}{\numberline {3.2}General Data Protection Regulation}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Existing ~\acrshort {api}}{10}
+\contentsline {section}{\numberline {3.3}Android Architecture}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Entities}{11}
+\contentsline {subsection}{\numberline {3.3.1}Testing}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{UML Diagram}{11}
+\contentsline {subsubsection}{Testing Workflow}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Android Architecture}{13}
+\contentsline {subsubsection}{Unit Testing}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Testing}{13}
+\contentsline {subsubsection}{Integration Testing}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Unit Testing}{13}
+\contentsline {subsubsection}{User Interface Testing}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Integration Testing}{13}
+\contentsline {subsection}{\numberline {3.3.2}Separation of concern: Dependency Injection}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{User Interface Testing}{14}
+\contentsline {subsubsection}{Dependency Injection: Restaurant Analogy}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Separation of concern: Dependency Injection}{14}
+\contentsline {subsubsection}{Benefits of using Dependency Injection}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Dependency Injection: Restaurant Analogy}{14}
+\contentsline {subsubsection}{Types of Dependency Injection}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Benefits of using Dependency Injection}{14}
+\contentsline {subsection}{\numberline {3.3.3}Kotlin Language}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Types of Dependency Injection}{14}
+\contentsline {subsection}{\numberline {3.3.4}Lifecycle Events}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Dagger2 - Dependency Injection Library}{14}
+\contentsline {subsubsection}{Bundles \& Saved State}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Kotlin Language}{18}
+\contentsline {subsection}{\numberline {3.3.5}Offline storage and persisting data}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.4}Lifecycle Events}{18}
+\contentsline {subsection}{\numberline {3.3.6}Repository Design Pattern}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Bundles \& Saved State}{19}
+\contentsline {subsubsection}{RoomDB}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.5}Offline storage and persisting data}{19}
+\contentsline {subsubsection}{Application Cache}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{RoomDB}{19}
+\contentsline {subsubsection}{Strategy and abstractions}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Application Cache}{20}
+\contentsline {subsection}{\numberline {3.3.7}Model - View - ViewModel Architecture}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Strategy and abstractions}{20}
+\contentsline {subsubsection}{ViewModel}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.6}Model - View - Presenter Architecture}{20}
+\contentsline {subsubsection}{Asynchronous Data}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Model}{20}
+\contentsline {subsubsection}{HTTP(S) Requests}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{View}{20}
+\contentsline {subsubsection}{Retrofit}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Presenter}{20}
+\contentsline {subsubsection}{LiveData Datatype}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.7}Model - View - ViewModel Architecture}{20}
+\contentsline {subsubsection}{Observables}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{ViewModel}{20}
+\contentsline {chapter}{\numberline {4}Proof of Concept}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Asynchronous Data}{20}
+\contentsline {section}{\numberline {4.1}User Interface}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{HTTP(S) Requests}{20}
+\contentsline {section}{\numberline {4.2}Database Communication}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Retrofit}{20}
+\contentsline {subsection}{\numberline {4.2.1}Implementing Repository Pattern}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{LiveData Datatype}{20}
+\contentsline {section}{\numberline {4.3}Dependency Injection using Dagger2}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Observables}{20}
+\contentsline {subsection}{\numberline {4.3.1}Testing API}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Proof of Concept}{21}
+\contentsline {subsubsection}{Faker}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}User Interface}{21}
+\contentsline {subsection}{\numberline {4.3.2}IBM BlueMix API}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}General Data Protection Regulation}{23}
+\contentsline {subsubsection}{Entities}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{General Guidelines provided by the \acrfull {eu}}{23}
+\contentsline {section}{\numberline {4.4}Testing Application Programming Interface}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Database Communication}{23}
+\contentsline {section}{\numberline {4.5}Tools and frameworks used}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Testing API}{23}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Faker}{23}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}IBM BlueMix API}{24}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Testing Application Programming Interface}{24}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Tools and frameworks used}{24}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}MapWize}{24}
+\contentsline {section}{\numberline {4.6}MapWize}{23}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.6.1}MapWize SDK}{24}
 \defcounter {refsection}{0}\relax 
@@ -115,10 +105,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.8}IndoorLocation Framework}{24}
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.9}Theoretical Features}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.9.1}Mobility Indicator}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.9.2}Safety Cultivation}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.9.3}Efficient Path Mapping}{24}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Conclusion}{25}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Development Guidelines}{26}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Development Guidelines}{27}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Development Guidelines}{28}
