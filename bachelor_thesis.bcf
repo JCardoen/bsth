@@ -1993,7 +1993,9 @@
     <bcf:citekey order="17">Unknown2018</bcf:citekey>
     <bcf:citekey order="18">Express2019</bcf:citekey>
     <bcf:citekey order="19">DanieleFaraglia2014</bcf:citekey>
-    <bcf:citekey order="20">IndoorLocation.io2019</bcf:citekey>
+    <bcf:citekey order="20">MapWize.io2019a</bcf:citekey>
+    <bcf:citekey order="21">Mabox2019</bcf:citekey>
+    <bcf:citekey order="22">IndoorLocation.io2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

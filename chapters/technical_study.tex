@@ -1,7 +1,30 @@
+\section{Integrated Development Environment}
+The application is written using Android Studio. Android Studio is an \acrshort{ide} supported by Google and based on the IntelliJ \acrshort{ide} of JetBrains, a company that develops an \acrshort{ide} for the most popular general purpose programming languages.
 \section{Architecture}
 The emphasis of the \acrshort{poc} is on developing it in such a way that it should be easy to re-implement the application elsewhere. The PoC is developed in the two current formats for mobile development: iOS and Android. This bachelor's thesis will cover the implementation of the Android architecture.
 \subsection{Existing ~\acrshort{api}}
-The existing \acrshort{api} developed by IBM provides the application with a list of appointments (testing mode). An example of the JSON output can be found below.						
+The existing \acrshort{api} developed by IBM provides the application with a list of appointments (testing mode). An example of the JSON output can be found below:
+
+\begin{verbatim}
+[
+    {
+        "appointmentId": "000010130000001",
+        "appointmentTime": "2017-10-16T14:14:00+02:00",
+        "patientNr": 2000000420,
+        "patientName": "SMITH, JULIE",
+        "doctorNr": 123456,
+        "doctorName": "FELDUNS, JEAN",
+        "departmentId": "I",
+        "departmentName": "USI",
+        "siteId": "BO",
+        "siteName": "Botanique",
+        "appointmentReason": "Consultation Orthopédique",
+        "appointmentInstruction": "La pendule fait",
+        "appointmentStatus": "E",
+        "appointmentStatusDescription": "Evaluated"
+    }
+]
+\end{verbatim}			
 \subsubsection{Entities}
 The specific entities used throughout this application are:
 \begin{itemize}
@@ -57,7 +80,136 @@ Using dependency injection might seem somewhat bloated in practice, but there ar
 \subsubsection{Types of Dependency Injection}
 Constructor injection is the type of DI (dependency injection) that uses a private field for the dependency and sets this field using a parameter inside of the constructor. Setter (property) injection uses a property of the class that requires the dependency and works via getter and setter methods. The dependency is individually set instead of passed as a parameter in the constructor. This is quite easy to understand but hard to implement in a robust way, this only works if the value passed in the setter is a good value. When dependencies are only used in specific methods, it might be easier to just pass them as parameters to that method, this is called method injection. This way of implementing DI is also simple and straightforward \cite{TheoJungeblut2015}.
 \subsubsection{Dagger2 - Dependency Injection Library}
-To remove the abstraction of the different methods of dependency injection, the library Dagger2 (supported by Google) is used. This library sets up the required dependencies throughout the application and registers them accordingly. Upon launching a class that requires a dependency, the Dagger2 instance will load them as specified in the AppModule.
+To remove the abstraction of the different methods of dependency injection, the library Dagger2 (supported by Google) is used. This library sets up the required dependencies throughout the application and registers them accordingly. Upon launching a class that requires a dependency, the Dagger2 instance will load them as specified in the AppModule. Since the architecture used in the application is \acrshort{mvvm}, the ViewModel is injected into an activity. The following code contains an AppModule, AppComponent, ViewModelFactoryModule and a subclass of the Application class, used for casting an activity:
+
+\begin{verbatim}
+/**
+ * Component to be used to handle dependency injection
+ */
+@Singleton
+@Component(modules = [AppModule::class, ViewModelModule::class])
+interface AppComponent {
+    fun inject(target: AppointmentList)
+}
+
+/**
+ * Module that can be used to declare dependencies
+ */
+@Module
+class AppModule @Inject constructor(private val app: Application) {
+    @Provides
+    @Singleton
+    fun providesApplication(): Application {
+        return app
+    }
+
+    @Provides
+    @Singleton
+    fun providesAppointmentViewModel(app: Application):
+    AppointmentViewModel {
+        return AppointmentViewModel(app, providesWebService())
+    }
+
+    @Singleton
+    @Provides
+    fun providesWebService(): WebService {
+        return Retrofit.Builder()
+            .baseUrl(Constants.BASE_URL)
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+            .create(WebService::class.java)
+    }
+
+    @Provides
+    @Singleton
+    fun providesAppointmentDao(db: AppDataBase): AppointmentDao {
+        return db.appointmentDao()
+    }
+
+    @Provides
+    @Singleton
+    fun providesAppDatabase(app: Application): AppDataBase {
+        return Room.databaseBuilder(
+            app,
+            AppDataBase::class.java, "app_database"
+        ).fallbackToDestructiveMigration().allowMainThreadQueries().build()
+    }
+}
+
+
+/**
+ * Child Application Class to use for casting inside an activity
+ * Create the AppComponent reference and uses this 
+ * for injecting inside an Activity
+ */
+class DependencyApplication : Application() {
+    lateinit var appComponent: AppComponent
+
+    override fun onCreate() {
+        super.onCreate()
+        appComponent = initDagger(this)
+    }
+
+    private fun initDagger(app: DependencyApplication): AppComponent = 
+    DaggerAppComponent.builder().appModule(AppModule(app)).build()
+
+}
+
+**
+ * Factory to get the ViewModel by class for DI
+ */
+@Singleton
+class DaggerViewModelFactory @Inject constructor(
+    private val creators: Map<Class<out ViewModel>,
+    @JvmSuppressWildcards Provider<ViewModel>>
+) : ViewModelProvider.Factory {
+
+    @Suppress("UNCHECKED_CAST")
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
+        var creator: Provider<out ViewModel>? = creators[modelClass]
+        if (creator == null) {
+            for ((key, value) in creators) {
+                if (modelClass.isAssignableFrom(key)) {
+                    creator = value
+                    break
+                }
+            }
+        }
+        if (creator == null) {
+            throw IllegalArgumentException("unknown model class $modelClass")
+        }
+        try {
+            return creator.get() as T
+        } catch (e: Exception) {
+            throw RuntimeException(e)
+        }
+    }
+}
+
+@MustBeDocumented
+@Target(AnnotationTarget.FUNCTION)
+@Retention(AnnotationRetention.RUNTIME)
+@MapKey
+annotation class ViewModelKey(val value: KClass<out ViewModel>)
+
+/**
+ * Module to inject ViewModel instances
+ */
+@Module
+abstract class ViewModelModule {
+
+    @Binds
+    abstract fun bindViewModelFactory(factory: DaggerViewModelFactory): 
+    ViewModelProvider.Factory
+
+    @Binds
+    @IntoMap
+    @ViewModelKey(AppointmentViewModel::class)
+    abstract fun bindAppointmentsListActivity(vm: AppointmentViewModel): 
+    ViewModel
+}
+\end{verbatim}
+
 \subsection{Kotlin Language}
 \subsection{Lifecycle Events}
 For the duration of the runtime of the mobile application (from the moment the app is opened until it is closed) some events occur that are typical for an Android mobile application. A brief summary of these events is listed below (in chronological order) \cite{AndroidDeveloper2019}:
