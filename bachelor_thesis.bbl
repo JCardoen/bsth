@@ -49,6 +49,64 @@
       \endverb
       \keyw{android}
     \endentry
+    \entry{AndroidDevelopers2019c}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=af05011ef932571b63118654e584db53}{%
+           family={{Android Developers}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{af05011ef932571b63118654e584db53}
+      \strng{fullhash}{af05011ef932571b63118654e584db53}
+      \strng{bibnamehash}{af05011ef932571b63118654e584db53}
+      \strng{authorbibnamehash}{af05011ef932571b63118654e584db53}
+      \strng{authornamehash}{af05011ef932571b63118654e584db53}
+      \strng{authorfullhash}{af05011ef932571b63118654e584db53}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Download Android Studio and SDK tools}}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.android.com/studio
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/studio
+      \endverb
+    \endentry
+    \entry{AndroidDevelopers2019b}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=af05011ef932571b63118654e584db53}{%
+           family={{Android Developers}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{af05011ef932571b63118654e584db53}
+      \strng{fullhash}{af05011ef932571b63118654e584db53}
+      \strng{bibnamehash}{af05011ef932571b63118654e584db53}
+      \strng{authorbibnamehash}{af05011ef932571b63118654e584db53}
+      \strng{authornamehash}{af05011ef932571b63118654e584db53}
+      \strng{authorfullhash}{af05011ef932571b63118654e584db53}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Guide to app architecture  |  Android Developers}}
+      \field{urlday}{8}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.android.com/jetpack/docs/guide
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/jetpack/docs/guide
+      \endverb
+    \endentry
     \entry{BhavyaKaria2018}{misc}{}
       \name{author}{1}{}{%
         {{hash=a32d68bd84eba08327ec037afbf95d85}{%
@@ -330,6 +388,36 @@
       \verb https://www.indoorlocation.io/
       \endverb
     \endentry
+    \entry{JaewoongEum2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1e33a87abadc72129a8146caecb87664}{%
+           family={{Jaewoong Eum}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e33a87abadc72129a8146caecb87664}
+      \strng{fullhash}{1e33a87abadc72129a8146caecb87664}
+      \strng{bibnamehash}{1e33a87abadc72129a8146caecb87664}
+      \strng{authorbibnamehash}{1e33a87abadc72129a8146caecb87664}
+      \strng{authornamehash}{1e33a87abadc72129a8146caecb87664}
+      \strng{authorfullhash}{1e33a87abadc72129a8146caecb87664}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Medium}
+      \field{title}{{Android MVVM Architecture Components using The Movie Database API.}}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/@skydoves/android-mvvm-architecture-components-using-the-movie-database-api-8fbab128d7
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@skydoves/android-mvvm-architecture-components-using-the-movie-database-api-8fbab128d7
+      \endverb
+    \endentry
     \entry{JamesHalpern2012}{misc}{}
       \name{author}{1}{}{%
         {{hash=c6e51b1cd2b377ef49aef3c9d9c2a98d}{%
@@ -507,6 +595,35 @@
       \verb https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30
       \endverb
     \endentry
+    \entry{Retrofit}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b9794896d699a78542122d376a03c005}{%
+           family={Retrofit},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b9794896d699a78542122d376a03c005}
+      \strng{fullhash}{b9794896d699a78542122d376a03c005}
+      \strng{bibnamehash}{b9794896d699a78542122d376a03c005}
+      \strng{authorbibnamehash}{b9794896d699a78542122d376a03c005}
+      \strng{authornamehash}{b9794896d699a78542122d376a03c005}
+      \strng{authorfullhash}{b9794896d699a78542122d376a03c005}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019}
+      \field{title}{{Retrofit}}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://square.github.io/retrofit/
+      \endverb
+      \verb{url}
+      \verb https://square.github.io/retrofit/
+      \endverb
+    \endentry
     \entry{Roboelec2019}{misc}{}
       \name{author}{1}{}{%
         {{hash=935640258bccae1bedbd63f355b2aefc}{%
@@ -655,6 +772,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{https://developer.android.com/guide/topics/ui/layout/recyclerview}
 \endrefsection
 \endinput
 

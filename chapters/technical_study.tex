@@ -1,6 +1,5 @@
 \section{Integrated Development Environment}
-The application is written using Android Studio. Android Studio is an \acrshort{ide} supported by Google and based on the IntelliJ \acrshort{ide} of JetBrains, a company that develops an \acrshort{ide} for the most popular general purpose programming languages.
-\section{Ray Wenderlich Introductory Courses}
+The application is written using Android Studio. Android Studio is an \acrshort{ide} supported by Google and based on the IntelliJ \acrshort{ide} of JetBrains, a company that develops an \acrshort{ide} for the most popular general purpose programming languages \cite{AndroidDevelopers2019c}.
 \section{General Data Protection Regulation}
 The General Data Protection Regulation of the \acrfull{eu} is a measure against possible theft of personal data and the protection of privacy, incorporated by the \acrshort{eu} and its member states in 2016. The general changes regarding the privacy directive of the \acrshort{eu} - firstly declared in 1995 - are as follows \cite{THEEUROPEANPARLIAMENTANDTHECOUNCILOF1995} \cite{EUGDPRPortal:byTrunomi2019}:
 \begin{itemize}
@@ -86,12 +85,16 @@ A nice feature from the Android SDK is a wrapper for SQLite inside the app: Room
 \centering
 \caption{Local repository usage inside the app~\cite{Unknown2018}}
 \end{figure}
-\subsubsection{Application Cache}
-\subsubsection{Strategy and abstractions}
 \subsection{Model - View - ViewModel Architecture}
-\subsubsection{ViewModel}
-\subsubsection{Asynchronous Data}
-\subsubsection{HTTP(S) Requests}
-\subsubsection{Retrofit}
-\subsubsection{LiveData Datatype}
-\subsubsection{Observables}
+One of the downsides of the default architecture of an Android application is the interaction between a view, model and layout files. Normally an activity is created with corresponding models which data needs to be presented in the view. This results in , possibly, a very large activity or fragment class. A good practice is to implement a Model-View-ViewModel architecture, which focuses on separating the different components required to generate a view, thus following the separation of concern principle. This principle is one that every developer should take into account, because it is the most important one. The prime advantage of using this principle is that is easier to maintain and opts for more testable components of your application \cite{AndroidDevelopers2019b}.
+\subsubsection{UI Driven}
+The optimal way of building an application is making the \acrshort{ui} dependent of a model, a class holding the data for a corresponding entity, preferably persistent. A model acts independently of an activity's or fragment's lifecycle and consequently independently of the concerns regarding handling lifecycles.
+\subsubsection{Interaction between ViewModel - View}
+An easy way of incorporating the viewmodel is via the ViewModelProvider class, which returns a reference to the ViewModel class specified. This viewmodel contains data that will drive the \acrshort{ui} and methods that will handle business logic. Typically the ViewModel has a LiveData list of the type of model that needs to be used and some references to a local and remote repository to fetch the data in an asynchronous fashion. The difficulty is to create a reactive \acrshort{ui}, that handles any changes to the data in the ViewModel object \cite{JaewoongEum2018}.
+\subsubsection{LiveData and observables}
+LiveData is a datatype that is lifecycle aware, meaning it will can monitor changes and notifies the \acrshort{ui} when that happens. The benefit of this datatype is the absence of any additional and rigid logic to handle the data binding. Methods returning LiveData can be observed using the observable pattern, the method is called from the ViewModel object and observed for changes in the LiveData that is returned by the method. This enables data-binding by only applying minor changes to the code inside the ViewModel and View \cite{AndroidDevelopers2019b}.
+\begin{figure}[h!]
+\includegraphics[scale=0.4]{app_architecture}
+\centering
+\caption{Complete architecture of application using ~\acrshort{mvvm}~\cite{AndroidDevelopers2019b}}
+\end{figure}

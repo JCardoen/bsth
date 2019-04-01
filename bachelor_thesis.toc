@@ -19,21 +19,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Integrated Development Environment}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}General Data Protection Regulation}{10}
+\contentsline {section}{\numberline {3.2}Ray Wenderlich Introductory Courses}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Android Architecture}{10}
+\contentsline {section}{\numberline {3.3}General Data Protection Regulation}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Testing}{10}
+\contentsline {section}{\numberline {3.4}Android Architecture}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Testing}{10}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Testing Workflow}{10}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Unit Testing}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Integration Testing}{11}
+\contentsline {subsubsection}{Integration Testing}{12}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{User Interface Testing}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Separation of concern: Dependency Injection}{12}
+\contentsline {subsection}{\numberline {3.4.2}Separation of concern: Dependency Injection}{12}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Dependency Injection: Restaurant Analogy}{12}
 \defcounter {refsection}{0}\relax 
@@ -41,78 +43,70 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Types of Dependency Injection}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Kotlin Language}{13}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.4}Lifecycle Events}{13}
+\contentsline {subsection}{\numberline {3.4.3}Lifecycle Events}{13}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Bundles \& Saved State}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.5}Offline storage and persisting data}{14}
+\contentsline {subsection}{\numberline {3.4.4}Offline storage and persisting data}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.6}Repository Design Pattern}{14}
+\contentsline {subsection}{\numberline {3.4.5}Repository Design Pattern}{14}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{RoomDB}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Application Cache}{15}
+\contentsline {subsection}{\numberline {3.4.6}Model - View - ViewModel Architecture}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Strategy and abstractions}{15}
+\contentsline {subsubsection}{UI Driven}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.7}Model - View - ViewModel Architecture}{15}
+\contentsline {subsubsection}{Interaction between ViewModel - View}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{ViewModel}{15}
+\contentsline {subsubsection}{LiveData and observables}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Asynchronous Data}{15}
+\contentsline {chapter}{\numberline {4}Proof of Concept}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{HTTP(S) Requests}{15}
+\contentsline {section}{\numberline {4.1}User Interface}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Retrofit}{15}
+\contentsline {section}{\numberline {4.2}UI Patterns}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{LiveData Datatype}{15}
+\contentsline {subsection}{\numberline {4.2.1}Displaying Lists: RecyclerView}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Observables}{15}
+\contentsline {section}{\numberline {4.3}Dependency Injection using Dagger2}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Proof of Concept}{16}
+\contentsline {section}{\numberline {4.4}Database Communication}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}User Interface}{16}
+\contentsline {subsection}{\numberline {4.4.1}Implementing Repository Pattern}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Database Communication}{18}
+\contentsline {subsubsection}{Local Repository}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Implementing Repository Pattern}{18}
+\contentsline {subsubsection}{Remote Repository}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Dependency Injection using Dagger2}{18}
+\contentsline {section}{\numberline {4.5}Testing Application Programming Interface}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Testing API}{22}
+\contentsline {subsubsection}{Entities}{21}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Faker}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}IBM BlueMix API}{22}
+\contentsline {subsection}{\numberline {4.5.1}IBM BlueMix API}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Entities}{23}
+\contentsline {section}{\numberline {4.6}MapWize}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Testing Application Programming Interface}{23}
+\contentsline {subsection}{\numberline {4.6.1}MapWize SDK}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Tools and frameworks used}{23}
+\contentsline {subsubsection}{MapWize Barebone versus MapWize UI}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}MapWize}{23}
+\contentsline {section}{\numberline {4.7}Cisco Connectected Mobile Experiences integration}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.1}MapWize SDK}{24}
+\contentsline {subsection}{\numberline {4.7.1}Function of Cisco CMX}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{MapWize Barebone versus MapWize UI}{24}
+\contentsline {section}{\numberline {4.8}IndoorLocation Framework}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Cisco Connectected Mobile Experiences integration}{24}
+\contentsline {section}{\numberline {4.9}Theoretical Features}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.1}Function of Cisco CMX}{24}
+\contentsline {subsection}{\numberline {4.9.1}Mobility Indicator}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.8}IndoorLocation Framework}{24}
+\contentsline {subsection}{\numberline {4.9.2}Safety Cultivation}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.9}Theoretical Features}{24}
+\contentsline {subsection}{\numberline {4.9.3}Efficient Path Mapping}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.9.1}Mobility Indicator}{24}
+\contentsline {chapter}{\numberline {5}Conclusion}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.9.2}Safety Cultivation}{24}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.9.3}Efficient Path Mapping}{24}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusion}{25}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Development Guidelines}{26}
+\contentsline {chapter}{\numberline {A}Development Guidelines}{25}
