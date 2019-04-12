@@ -254,61 +254,6 @@
       \verb https://expressjs.com/
       \endverb
     \endentry
-    \entry{FernandoSproviero2018}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=d4d269dd4d76530cf42f9afef0c44987}{%
-           family={{Fernando Sproviero}},
-           familyi={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{d4d269dd4d76530cf42f9afef0c44987}
-      \strng{fullhash}{d4d269dd4d76530cf42f9afef0c44987}
-      \strng{bibnamehash}{d4d269dd4d76530cf42f9afef0c44987}
-      \strng{authorbibnamehash}{d4d269dd4d76530cf42f9afef0c44987}
-      \strng{authornamehash}{d4d269dd4d76530cf42f9afef0c44987}
-      \strng{authorfullhash}{d4d269dd4d76530cf42f9afef0c44987}
-      \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{RayWenderlich}
-      \field{title}{{Android Unit Testing with Mockito | raywenderlich.com}}
-      \field{urlday}{17}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.raywenderlich.com/195-android-unit-testing-with-mockito
-      \endverb
-      \verb{url}
-      \verb https://www.raywenderlich.com/195-android-unit-testing-with-mockito
-      \endverb
-    \endentry
-    \entry{Google_testing2017}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=8b36e9207c24c76e6719268e49201d94}{%
-           family={Google},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{(3) Test-Driven Development on Android with the Android Testing Support Library (Google I/O '17) - YouTube}}
-      \field{year}{2017}
-      \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=pK7W5npkhho{\&}start=111
-      \endverb
-      \verb{url}
-      \verb https://www.youtube.com/watch?v=pK7W5npkhho%7B%5C&%7Dstart=111
-      \endverb
-    \endentry
     \entry{Unknown2018}{misc}{}
       \name{author}{1}{}{%
         {{hash=3bc52a4e0eb6757b295ea2dfc51a527e}{%
@@ -624,35 +569,6 @@
       \verb https://square.github.io/retrofit/
       \endverb
     \endentry
-    \entry{Roboelec2019}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=935640258bccae1bedbd63f355b2aefc}{%
-           family={Roboelectric},
-           familyi={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{935640258bccae1bedbd63f355b2aefc}
-      \strng{fullhash}{935640258bccae1bedbd63f355b2aefc}
-      \strng{bibnamehash}{935640258bccae1bedbd63f355b2aefc}
-      \strng{authorbibnamehash}{935640258bccae1bedbd63f355b2aefc}
-      \strng{authornamehash}{935640258bccae1bedbd63f355b2aefc}
-      \strng{authorfullhash}{935640258bccae1bedbd63f355b2aefc}
-      \field{sortinit}{R}
-      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Robolectric}}
-      \field{urlday}{17}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb http://robolectric.org/
-      \endverb
-      \verb{url}
-      \verb http://robolectric.org/
-      \endverb
-    \endentry
     \entry{Seemann2011}{book}{}
       \name{author}{1}{}{%
         {{hash=4f08d24826cb0bb50101e66d040b84a7}{%
@@ -675,6 +591,35 @@
       \field{year}{2011}
       \field{pages}{16}
       \range{pages}{1}
+    \endentry
+    \entry{SwaggerHub2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c41b85bdf069f70440f0cf61e6a1eee5}{%
+           family={SwaggerHub},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c41b85bdf069f70440f0cf61e6a1eee5}
+      \strng{fullhash}{c41b85bdf069f70440f0cf61e6a1eee5}
+      \strng{bibnamehash}{c41b85bdf069f70440f0cf61e6a1eee5}
+      \strng{authorbibnamehash}{c41b85bdf069f70440f0cf61e6a1eee5}
+      \strng{authornamehash}{c41b85bdf069f70440f0cf61e6a1eee5}
+      \strng{authorfullhash}{c41b85bdf069f70440f0cf61e6a1eee5}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Basic Authentication | Swagger}}
+      \field{urlday}{7}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://swagger.io/docs/specification/authentication/basic-authentication/
+      \endverb
+      \verb{url}
+      \verb https://swagger.io/docs/specification/authentication/basic-authentication/
+      \endverb
     \endentry
     \entry{THEEUROPEANPARLIAMENTANDTHECOUNCILOF1995}{report}{}
       \name{author}{2}{}{%

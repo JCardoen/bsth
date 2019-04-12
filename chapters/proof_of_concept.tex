@@ -1,3 +1,4 @@
+\section{Similar Applications}
 \section{User Interface}
 Considering the application is only a \acrshort{poc} there is almost no focus on the \acrlong{poc} nor on the \acrfull{ux}. To at least give a slight indication of what information needs to be displayed where, a \acrshort{ui} mock-up is created in Adobe Xd, Adobe Xd is a lightweight, rudimentary visual editor that enables designers to quickly develop and share interactive prototypes. A few example screens of the \acrshort{ui} prototype can be found below.
 \begin{figure}[H]
@@ -127,6 +128,8 @@ The existing \acrshort{api} developed by IBM provides the application with a lis
 ]
 \end{verbatim}
 Notice that the \acrshort{api} response is not yet normalized as it is in the testing \acrshort{api} in Express. The testing \acrshort{api} is only used in the first steps of the application, afterwards the data from the BlueMix server is used.
+\subsubsection{Authentication with the IBM BlueMix API}
+To access the data of an individual user (patient in this case), the user is authenticated by setting a Basic Authentication Header for each request, a combination of userid and a password. The Authorization header of \acrfull{http} is set, including the keyword 'Basic' following a base64 string containing the username and password in the following format: username:password. If the credentials are incorrect the response will be a 401 error (Unauthorized) \cite{SwaggerHub2019}.
 \section{MapWize}
 MapWize is a service that digitalizes architectural plans and makes them interactive. MapWize offers an online environment in which you can easily create floor plans that can be used by the \acrshort{sdk}. In the online editor you can declare specific points of interest (PoIs) and routes from and to points. The creation of a digital map for testing purposes is out of scope for this thesis.
 \subsection{MapWize SDK}

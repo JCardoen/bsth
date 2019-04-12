@@ -8,33 +8,6 @@ The General Data Protection Regulation of the \acrfull{eu} is a measure against 
 
 The application that is developed needs to take this specific regulation into account when it handles the personal data of a patient and the employees of the hospital. 
 \section{Android Architecture}
-\subsection{Testing}
-\subsubsection{Testing Workflow}
-70-20-10 rule
-Red-green bar mantra is used by Google as the main testing workflow. First a failing test is written, then the code to pass the test is developed. After this process needed refactors are applied to the codebase.
-\begin{figure}
-\includegraphics[scale=0.5]{testing-workflow}
-\centering
-\caption{Testing workflow~\cite{Google_testing2017}}
-\end{figure}
-\begin{figure}[h!]
-\includegraphics[scale=0.25]{testing_android}
-\centering
-\caption{Testing pyramid~\cite{FernandoSproviero2018}}
-\end{figure}
-\subsubsection{Unit Testing}
-These tests are responsible for the smaller parts of the application (units) and use mocked or stubbed properties. This means that the properties and methods do not interfere with code written inside the main application. These tests are the fastest in runtime (compared to the integration and UI testing) because they do not need a running device or emulator, which means they are the least expensive to execute. Some testing frameworks from Android are: JUnit4 and Mockito (Mockito is used to create mock instances of dependencies, classes, properties and methods) \cite{FernandoSproviero2018}. The characteristics of a good unit test are \cite{Google_testing2017}:
-\begin{enumerate}
-\item Thorough;
-\item Focused;
-\item Repeatable;
-\item Fast;
-\item Verifies behaviour;
-\item Concise;
-\end{enumerate}
-\subsubsection{Integration Testing}
-These tests test the interaction between different units of the application. The tests do not cover any updates on the UI thread and test the units independently from the UI. A common framework used to write integration tests is Roboelectric \cite{Roboelec2019}. When an application is in development the integration tests will check the behaviour of the different interacting units when the new feature is implemented. This way, the development team can roll-out features without breaking the current application.
-\subsubsection{User Interface Testing}
 \subsection{Separation of concern: Dependency Injection}
 Separation of concern is a general convention amongst software developers. In practice it is harder to implement than it first seems. One of the core components of this pattern are dependencies: one class depends on the structure of another class. The dependency pattern enables developers to focus on their code without having to worry about the dependency. For a class it is enough to know how a dependency is structure, there is no need for the class to know how it is implemented. This is also the last of the SOLID principles, the principle of dependency on abstraction instead of concrete implementation \cite{BhavyaKaria2018}.
 \subsubsection{Dependency Injection: Restaurant Analogy}
