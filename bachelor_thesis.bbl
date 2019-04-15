@@ -132,6 +132,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Recently, indoor positioning systems (IPSs) have been designed to provide location information of persons and devices. The position information enables location-based protocols for user applications. Personal networks (PNs) are designed to meet the users' needs and interconnect users' devices equipped with different communications technologies in various places to form one network. Location-aware services need to be developed in PNs to offer flexible and adaptive personal services and improve the quality of lives. This paper gives a comprehensive survey of numerous IPSs, which include both commercial products and research-oriented solutions. Evaluation criteria are proposed for assessing these systems, namely security and privacy, cost, performance, robustness, complexity, user preferences , commercial availability, and limitations. We compare the existing IPSs and outline the trade-offs among these systems from the viewpoint of a user in a PN.}
+      \field{annotation}{- Good summary of WLAN technology and examples of the metrics - Cite the table provided of the metrics of the WLAN technology - Use sources 57-61 for WLAN limitations}
       \field{journaltitle}{IEEE COMMUNICATIONS SURVEYS {\&} TUTORIALS}
       \field{number}{1}
       \field{title}{{A Survey of Indoor Positioning Systems for Wireless Personal Networks}}
@@ -141,7 +142,7 @@
       \verb 10.1109/SURV.2009.090103
       \endverb
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Gu, Lo, Niemegeers - 2009 - A Survey of Indoor Positioning Systems for Wireless Personal Networks.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://www.csd.uoc.gr/{~}hy439/papers/gu2009pdf.pdf
@@ -170,11 +171,12 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{WiFi positioning plays an increasingly important role in improving performance because good positioning can improve performance in indoor environments without additional devices. It will make use of existing WiFi infrastructure, although this was never designed to do so. Methods that were used for other positioning technologies can be adopted for WiFi. Whether or not these other methods work with WiFi will be explained and examined. This paper also discusses the accuracy of the methods and the optimal area of application.}
+      \field{annotation}{Provides a swift overview of the different methods of WLAN}
       \field{title}{{Current approches of Wifi Positioning}}
       \field{type}{techreport}
       \field{year}{2012}
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Henniges - 2012 - Current approches of Wifi Positioning.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb http://www.gpsworld.com/wireless/indoor-positioning/
@@ -273,6 +275,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Wireless indoor positioning systems have become very popular in recent years. These systems have been successfully used in many applications such as asset tracking and inventory management. This paper provides an overview of the existing wireless indoor positioning solutions and attempts to classify different techniques and systems. Three typical location estimation schemes of triangulation, scene analysis, and proximity are analyzed. We also discuss location fingerprinting in detail since it is used in most current system or solutions. We then examine a set of properties by which location systems are evaluated, and apply this evaluation method to survey a number of existing systems. Comprehensive performance comparisons including accuracy, precision, complexity , scalability, robustness, and cost are presented.}
+      \field{annotation}{- Mathematical approach to positioning techniques, use for the background - Drop the mathematical approach - use this for elaborating on the different techniques - Good table}
       \field{journaltitle}{APPLICATIONS AND REVIEWS}
       \field{number}{6}
       \field{title}{{Survey of Wireless Indoor Positioning Techniques and Systems}}
@@ -282,7 +285,7 @@
       \verb 10.1109/TSMCC.2007.905750
       \endverb
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Liu et al. - 2007 - Survey of Wireless Indoor Positioning Techniques and Systems.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://s3.amazonaws.com/academia.edu.documents/31555342/Survey{\_}of{\_}Wireless{\_}Indoor{\_}Positioning1.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A{\&}Expires=1555165014{\&}Signature=x9AxxWgLevqXwZMBax2u4jkuXVo{\%}3D{\&}response-content-disposition=inline{\%}3B filename{\%}3DSurvey{\_}of
@@ -383,7 +386,7 @@
       \verb 10.18489/sacj.v29i3.452
       \endverb
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Sakpere, Adeyeye Oshin, Mlitwa - 2017 - A State-of-the-Art Survey of Indoor Positioning and Navigation Systems and Technologies.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb http://sacj.cs.uct.ac.za/index.php/sacj/article/view/452
@@ -421,10 +424,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper describes a Wi-Fi trilateration method for indoor localization using Android-based mobile device. Approaches based on signal propagation model and received signal strength measurement collection are considered. The indoor signal propagation problem is resolved by received signal strength measurement collection that improves localization accuracy. Indoor positioning technique opens possibilities for development various intelligent systems that provide the user location-based information inside buildings. These systems include positioning functionality based on such technologies as Wi-Fi, Bluetooth, and GSM.}
+      \field{annotation}{Good experiment-based research}
       \field{title}{{Indoor Localization Method Based on Wi-Fi Trilateration Technique}}
       \field{type}{techreport}
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Shchekotov, Spiiras, Petersburg - Unknown - Indoor Localization Method Based on Wi-Fi Trilateration Technique.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://pdfs.semanticscholar.org/e796/6215ebe9df591c43794dcff5024a088cb80d.pdf

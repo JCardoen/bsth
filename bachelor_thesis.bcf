@@ -2002,16 +2002,22 @@
     <bcf:citekey order="5">Indoors2019</bcf:citekey>
     <bcf:citekey order="6">Gu2009</bcf:citekey>
     <bcf:citekey order="7">ComparativeSurvey</bcf:citekey>
-    <bcf:citekey order="8">Liu2007</bcf:citekey>
-    <bcf:citekey order="9">Techopedia</bcf:citekey>
-    <bcf:citekey order="10">ElectronicsNotes</bcf:citekey>
-    <bcf:citekey order="11">Cisco</bcf:citekey>
-    <bcf:citekey order="12">Henniges2012</bcf:citekey>
+    <bcf:citekey order="8">Sakpere2017</bcf:citekey>
+    <bcf:citekey order="9">Liu2007</bcf:citekey>
+    <bcf:citekey order="10">Techopedia</bcf:citekey>
+    <bcf:citekey order="11">ElectronicsNotes</bcf:citekey>
+    <bcf:citekey order="12">Cisco</bcf:citekey>
     <bcf:citekey order="13">Henniges2012</bcf:citekey>
-    <bcf:citekey order="14">Retscher</bcf:citekey>
-    <bcf:citekey order="15">Shchekotov</bcf:citekey>
-    <bcf:citekey order="16">CutTheKnot</bcf:citekey>
-    <bcf:citekey order="17">Retscher</bcf:citekey>
+    <bcf:citekey order="14">Henniges2012</bcf:citekey>
+    <bcf:citekey order="15">Retscher</bcf:citekey>
+    <bcf:citekey order="16">Shchekotov</bcf:citekey>
+    <bcf:citekey order="17">CutTheKnot</bcf:citekey>
+    <bcf:citekey order="18">Shchekotov</bcf:citekey>
+    <bcf:citekey order="19">Shchekotov</bcf:citekey>
+    <bcf:citekey order="20">Shchekotov</bcf:citekey>
+    <bcf:citekey order="21">Shchekotov</bcf:citekey>
+    <bcf:citekey order="22">Shchekotov</bcf:citekey>
+    <bcf:citekey order="23">Retscher</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

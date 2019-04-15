@@ -11,32 +11,29 @@ The field of indoor location has seen an increase of different types of technolo
 \label{fig:ips_topologies}
 \end{figure}
 \section{Indoor Positioning Techniques}
-\subsection{Triangulation}
-\subsection{Fingerprinting}
-\subsection{Proximity}
-\subsection{Vision Analysis}
-\section{Indoor Positioning Algorithms}
-\subsection{Time of Arrival}
-\subsection{Time Difference of Arrival}
-\subsection{Angle of Arrival}
-\subsection{Received Signal Strength}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.75]{classification_indoor_positioning_techniques}
+\caption{Classfication of indoor positioning techniques~\cite{Sakpere2017}}
+\label{fig:ips_techniques}
+\end{figure}
+\subsection{Indoor Positioning Algorithms}
+\subsubsection{Triangulation}
+\subsubsection{Trilateration}
+\subsubsection{Fingerprinting}
+\subsubsection{Proximity}
+\subsubsection{Vision Analysis}
+\subsection{Signal Properties}
+\subsubsection{Time of Arrival}
+\subsubsection{Time Difference of Arrival}
+\subsubsection{Angle of Arrival}
+\subsubsection{Received Signal Strength Indication}
 \section{Performance Metrics}
 \subsection{Accuracy ~\& Precision}
 \subsection{Coverage Area}
 \subsection{Scalability}
 \subsection{Cost}
 \subsection{Privacy}
-\section{Feasibility Study}
-\subsection{RFID}
-\subsection{UWB}
-\subsection{Infrared}
-\subsection{Ultrasonic}
-\subsection{Zigbee}
-\subsection{WLAN}
-\subsection{Cellular Based}
-\subsection{Bluetooth}
-\subsection{Vision Analysys}
-\subsection{Dead reckoning}
 \subsection{Conclusion}
 This thesis will cover the WLAN IPS technology and its implementation in a mobile application based on the provided project requirements.
 \section{IPS for Personal Networks}
@@ -51,47 +48,3 @@ There are four commonly used types of information for \acrshort{ips}\cite{Liu200
 \item Symbolic location: translates a physical location into a more human centred location name, e.g. office 213 on the 1st floor.
 \item Relative location: location is based on the relative distance or proximity to a beacon or base point, e.g. rescue helicopter flying over sea trying to locate any survivors.
 \end{enumerate}
-\section{WLAN Indoor Positioning Technology}
-One of the easiest IPS to implement is WLAN IPS. The adaptation of such a system comes without extra cost as most of the hardware is already prevalent in large, indoor environments. 
-WLAN is specified by IEEE in their 802.11 specification, determining the WLAN protocols and most widespread operating bandwidth of about 2.4GHz and 5.8GHz \cite{Techopedia} \cite{ElectronicsNotes}\cite{Cisco}. 
-\subsection{Indoor Positioning Topology}
-Three topologies exists that can be used for gathering information about the position, as listed below \cite{Henniges2012}:
-\begin{enumerate}
-\item Network-based topology: position is determined by a central server and different \acrshort{ap}s;
-\item Terminal-based: the position is identified by the mobile device;
-\item Terminal-assisted: hybrid version of 1. and 2., where 
-\end{enumerate}
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.75]{ips_topologies}
-\caption{IPS Topologies ~\cite{Henniges2012}}
-\label{fig:ips_topologies}
-\end{figure}
-\subsubsection{Network-based}
-This method only functions when the \acrshort{ap}s are adapted to not only receive network data but also signal data and redirect this to a central server that can handle and compute the data. This requires a change in the software of each \acrlong{ap}.
-\subsubsection{Terminal-Based}
-In this specific topology, the device driver of the \acrshort{ap} or terminal broadcasts beacons in its signalling range so a client can determine the best connectivity to a certain \acrshort{ap} and determine which \acrshort{ap} will be used. There are two ways of obtaining this information: active probing and \acrshort{rf} monitoring. The RF monitoring is a form of passive scanning that listens to the periodic broadcasting by the \acrlong{ap}s, this is important to identify a connection in decline (due to significant noise on the signal, also known as \acrfull{snr}) . When using active probing, the driver sends request frames to each known channel to detect any active WLAN connections. Each \acrshort{ap} receiving a request frame will in its turn respond with a response frame. These packets contain the \acrshort{mac} addresses of available devices. Based on this list of available devices and the corresponding signal strength (obtained from services that provide the information via the \acrshort{mac}-layer) an optimal \acrshort{ap} is selected\cite[p.~8]{Retscher}.
-\subsection{Indoor Positioning Techniques}
-The main difficulty in using this technique is determining the position of a device, relative to a Wi-Fi \acrfull{ap}. There are two mainly used technologies to determine the location of a \acrfull{mu}, being: multi- or trilateration and fingerprinting.
-\subsection{Trilateration Technique}
-Trilateration, or multilateration, is based on geometric models that require three base points to calculate and determine a point in range of these three base points. Applying this approach to the current case in which the available base points are the \acrshort{ap}s and the \acrshort{mu}, one has to calculate the distance of the \acrlong{mu} to each of the three \acrshort{ap}s in the vicinity. The main difficulty using this method is the estimation of the distances between both the \acrshort{ap}s and the device. Trilateration uses parameters available, such are: characteristics of the radio signal (wavelength, frequency, noise etc.), \acrfull{mac} address of the \acrlong{ap} and the position of WLAN \acrshort{ap}s. Commonly used methods to determine the distance between both the AP as well as the mobile user include: received signal strength, \acrfull{toa} from transmitters or \acrfull{tdoa} \cite[p.~1]{Shchekotov}.
-\subsubsection{Distance Technique}
-The signal propagation model proposed in the previous paragraph indicates the need of an equation system containing three measurements of distance between \acrshort{ap} and \acrlong{mu}. Using the euclidean distance between two points, this results in the following system or model \cite{CutTheKnot}:
-\[ \sqrt{(x-x_1)^2 - (y-y_1)^2} = d_1 \]
-\[ \sqrt{(x-x_1)^2 - (y-y_1)^2} = d_2 \]
-\[ \sqrt{(x-x_1)^2 - (y-y_1)^2} = d_3 \]
-By solving this system of equation, each distance is considered to be the radius of a circle, starting at the \acrshort{ap}. The three circles created by according radius contain an intersection point, the specific location of the user, as visualized in figure 4.1.
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.75]{euclidean_distance}
-\caption{Euclidean distance resulting in geometric intersection of three circles, determining the position of a point in between these three points.}
-\label{fig:euclidean}
-\end{figure}
-The difficulty of using a trilateration mathematical technique lies within the estimation of the distance from the \acrshort{ap} to the \acrshort{mu}. Some methods to determine a model with a satisfactory accuracy and precision already exist, mostly relying on empirical (observational) data rather than pure mathematics.
-\subsubsection{Signal Propagation for distance estimation}
-\subsection{Fingerprinting Technique}
-A computationally effective method of determining a user's location is the fingerprinting technique. This technique consists of two phases: offline acquisition of \acrshort{rssi} values at particular locations and an online phase with the actual implementation of periodically sent signals from a \acrshort{mu} \cite[p.~9]{Retscher}.
-\subsubsection{Offline Acquisition}
-\subsubsection{Online Phase}
-\subsubsection{Implications using fingerprinting}
-\subsection{Conclusion}

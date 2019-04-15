@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.3)  15 APR 2019 00:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.3)  15 APR 2019 13:49
 entering extended mode
 **./bachelor_thesis.tex
 (bachelor_thesis.tex
@@ -742,6 +742,9 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 
 LaTeX Warning: Label `fig:ips_topologies' multiply defined.
 
+
+LaTeX Warning: Label `fig:euclidean' multiply defined.
+
 )
 \openout1 = `bachelor_thesis.aux'.
 
@@ -960,66 +963,89 @@ LaTeX Warning: Citation 'ComparativeSurvey' on page 13 undefined on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<figures/classification_indoor_positioning_techniques.png, id=44, 345.54094pt x
+ 427.5975pt>
+File: figures/classification_indoor_positioning_techniques.png Graphic file (ty
+pe png)
+<use figures/classification_indoor_positioning_techniques.png>
+Package pdftex.def Info: figures/classification_indoor_positioning_techniques.p
+ng  used on input line 16.
+(pdftex.def)             Requested size: 259.15506pt x 320.69733pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Underfull \vbox (badness 6691) has occurred while \output is active []
 
  [13
 
 ]
-Overfull \vbox (268.01312pt too high) has occurred while \output is active []
+Overfull \vbox (387.87631pt too high) has occurred while \output is active []
 
 
-[14 <./figures/classification_ips.png>] [15]
-<figures/ips_topologies.png, id=55, 500.62032pt x 311.66437pt>
+[14 <./figures/classification_ips.png> <./figures/classification_indoor_positio
+ning_techniques.png>]) [15]
+Chapter 5.
+(chapters/wlan_positioning.tex
+<figures/ips_topologies.png, id=57, 500.62032pt x 311.66437pt>
 File: figures/ips_topologies.png Graphic file (type png)
 <use figures/ips_topologies.png>
-Package pdftex.def Info: figures/ips_topologies.png  used on input line 66.
+Package pdftex.def Info: figures/ips_topologies.png  used on input line 13.
 (pdftex.def)             Requested size: 375.46431pt x 233.7477pt.
- [16 <./figures/ips_topologies.png>]
-<figures/euclidean_distance.png, id=60, 483.30562pt x 387.69844pt>
+ [16
+
+ <./figures/ips_topologies.png>] [17]
+<figures/euclidean_distance.png, id=68, 483.30562pt x 387.69844pt>
 File: figures/euclidean_distance.png Graphic file (type png)
 <use figures/euclidean_distance.png>
-Package pdftex.def Info: figures/euclidean_distance.png  used on input line 86.
+Package pdftex.def Info: figures/euclidean_distance.png  used on input line 34.
 
 (pdftex.def)             Requested size: 362.47833pt x 290.7731pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Command \textendash invalid in math mode on input line 41.
 
-) [17] [18 <./figures/euclidean_distance.png>]
-Chapter 5.
-(chapters/cisco_cmx.tex) [19
-
-]
+[18 <./figures/euclidean_distance.png>]
+<figures/estimated_distance_segments.png, id=74, 654.94687pt x 494.59781pt>
+File: figures/estimated_distance_segments.png Graphic file (type png)
+<use figures/estimated_distance_segments.png>
+Package pdftex.def Info: figures/estimated_distance_segments.png  used on input
+ line 54.
+(pdftex.def)             Requested size: 327.47264pt x 247.2983pt.
+) [19 <./figures/estimated_distance_segments.png>] [20]
 Chapter 6.
-(chapters/implementation.tex) [20
+(chapters/cisco_cmx.tex) [21
 
 ]
 Chapter 7.
-(chapters/conclusion.tex) [21
+(chapters/implementation.tex) [22
 
 ]
-Overfull \hbox (31.88196pt too wide) in paragraph at lines 91--91
+Chapter 8.
+(chapters/conclusion.tex) [23
+
+]
+Overfull \hbox (31.88196pt too wide) in paragraph at lines 93--93
 \OT1/cmtt/m/n/10.95 x9AxxWgLevqXwZMBax2u4jkuXVo % 7B % 5C % %7D3D % 7B % 5C & %
 7Dresponse -[] content -[] disposition =
  []
 
 
-Overfull \hbox (3.01494pt too wide) in paragraph at lines 91--91
+Overfull \hbox (3.01494pt too wide) in paragraph at lines 93--93
 \OT1/ptm/m/it/10.95 View project Per-for-mance and Ac-cu-racy Test of the WLAN 
 In-door Po-si-tion-ing Sys-tem "ipos&quo\OT1/ptm/m/n/10.95 .
  []
 
-[22
+[24
 
 ]
-Overfull \hbox (20.7815pt too wide) in paragraph at lines 91--91
+Overfull \hbox (20.7815pt too wide) in paragraph at lines 93--93
 []\OT1/ptm/m/n/10.95 Techopedia. \OT1/ptm/m/it/10.95 What is IEEE 802.11? - Def
 -i-ni-tion from Techo-pe-dia\OT1/ptm/m/n/10.95 . \OT1/ptm/m/sc/10.95 url\OT1/pt
 m/m/n/10.95 : $\OT1/cmtt/m/n/10.95 https : / / www . techopedia .
  []
 
-[23] (bachelor_thesis.aux)
+[25] (bachelor_thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1036,26 +1062,28 @@ Package logreq Info: Writing requests to 'bachelor_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17192 strings out of 492946
- 307896 string characters out of 3125379
+ 17206 strings out of 492946
+ 308520 string characters out of 3125379
  788936 words of memory out of 3000000
- 20780 multiletter control sequences out of 15000+200000
+ 20789 multiletter control sequences out of 15000+200000
  40562 words of font info for 83 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,10n,46p,1998b,1749s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,11n,46p,1998b,1749s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.e
 nc}<C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmex10.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joachim/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Joachim
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/J
-oachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/U
-sers/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pf
-b>
-Output written on bachelor_thesis.pdf (23 pages, 248101 bytes).
+e1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Joachim/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joachim
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C
+:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.p
+fb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/ut
+mb8a.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmr8a.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+urw/times/utmri8a.pfb>
+Output written on bachelor_thesis.pdf (25 pages, 419382 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 131 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,10 +1,11 @@
 \section{Cisco CMX as IPS}
-\section{Cisco CMX Specifications}
-\subsection{Precision}
-\subsection{Complexity}
-\subsection{Robustness}
+\section{Performance Metrics}
+\subsection{Accuracy ~\& Precision}
+\subsection{Coverage Area}
 \subsection{Scalability}
-\subsection{Operating Costs}
+\subsection{Cost}
+\subsection{Privacy}
+\subsection{Conclusion}
 \section{Cisco CMX Configuration}
 \subsection{Case Study}
 \subsection{Configuration Metric}
