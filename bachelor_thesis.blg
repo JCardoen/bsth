@@ -1,18 +1,21 @@
-[0] Config.pm:302> INFO - This is Biber 2.9
-[1] Config.pm:305> INFO - Logfile is 'bachelor_thesis.blg'
-[36] biber:313> INFO - === So Apr  7, 2019, 14:19:59
-[64] Biber.pm:371> INFO - Reading 'bachelor_thesis.bcf'
-[152] Biber.pm:857> INFO - Found 25 citekeys in bib section 0
-[172] Biber.pm:3981> INFO - Processing section 0
-[185] Biber.pm:4154> INFO - Looking for bibtex format file 'Bachelor's Thesis.bib' for section 0
-[187] bibtex.pm:1468> INFO - LaTeX decoding ...
-[230] bibtex.pm:1294> INFO - Found BibTeX data source 'Bachelor's Thesis.bib'
-[346] Utils.pm:169> WARN - BibTeX subsystem: /tmp/vyEFxdY_GJ/Bachelor's Thesis.bib_5223.utf8, line 6, warning: 172 characters of junk seen at toplevel
-[347] Utils.pm:169> WARN - I didn't find a database entry for 'https://developer.android.com/guide/topics/ui/layout/recyclerview' (section 0)
-[386] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[386] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[386] Biber.pm:3809> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[386] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
-[424] bbl.pm:617> INFO - Writing 'bachelor_thesis.bbl' with encoding 'UTF-8'
-[434] bbl.pm:720> INFO - Output to bachelor_thesis.bbl
-[434] Biber.pm:110> INFO - WARNINGS: 2
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'bachelor_thesis.blg'
+[44] biber-MSWIN64:315> INFO - === 
+[73] Biber.pm:371> INFO - Reading 'bachelor_thesis.bcf'
+[152] Biber.pm:889> INFO - Found 15 citekeys in bib section 0
+[164] Biber.pm:4093> INFO - Processing section 0
+[179] Biber.pm:4254> INFO - Looking for bibtex format file 'Bachelor's Thesis.bib' for section 0
+[186] bibtex.pm:1523> INFO - LaTeX decoding ...
+[210] bibtex.pm:1340> INFO - Found BibTeX data source 'Bachelor's Thesis.bib'
+[220] Utils.pm:193> WARN - month field 'dec' in entry 'Sakpere2017' is not an integer - this will probably not sort properly.
+[229] Utils.pm:193> WARN - Name "{A. Al-Ammar, Mai and Alhadhrami, Suheer and Al-Salman, Abdulmalik and Alarifi, Abdulrahman and Al-Khalifa, Hend and Alnafessah, Ahmad and Alsaleh}, Mansour" has too many commas: skipping name
+[263] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Joachim\AppData\Local\Temp\IlkJKKmT7Q\Bachelor's Thesis.bib_1660.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[264] Utils.pm:193> WARN - I didn't find a database entry for 'MapWize.io2019' (section 0)
+[264] Utils.pm:193> WARN - I didn't find a database entry for 'IndoorLocation.io2019' (section 0)
+[281] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[282] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[282] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[282] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[301] bbl.pm:636> INFO - Writing 'bachelor_thesis.bbl' with encoding 'UTF-8'
+[306] bbl.pm:739> INFO - Output to bachelor_thesis.bbl
+[310] Biber.pm:110> INFO - WARNINGS: 5

@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 3.0 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -19,269 +19,170 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{AndroidDeveloper2019}{misc}{}
+    \entry{Cisco}{misc}{}
       \name{author}{1}{}{%
-        {{hash=5c47f56ea59d01899cb1697479c9aaf3}{%
-           family={{Android Developer}},
-           familyi={A\bibinitperiod}}}%
+        {{hash=7b1d1185b835814de783483f686e9825}{%
+           family={Cisco},
+           familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{5c47f56ea59d01899cb1697479c9aaf3}
-      \strng{fullhash}{5c47f56ea59d01899cb1697479c9aaf3}
-      \strng{bibnamehash}{5c47f56ea59d01899cb1697479c9aaf3}
-      \strng{authorbibnamehash}{5c47f56ea59d01899cb1697479c9aaf3}
-      \strng{authornamehash}{5c47f56ea59d01899cb1697479c9aaf3}
-      \strng{authorfullhash}{5c47f56ea59d01899cb1697479c9aaf3}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \strng{namehash}{7b1d1185b835814de783483f686e9825}
+      \strng{fullhash}{7b1d1185b835814de783483f686e9825}
+      \strng{bibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Transformations  |  Android Developers}}
-      \field{urlday}{6}
-      \field{urlmonth}{3}
+      \field{title}{{Indoor Mesh Deployment Guide - Cisco}}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
       \field{urlyear}{2019}
-      \field{year}{2019}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://developer.android.com/reference/android/arch/lifecycle/Transformations
+      \verb https://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-mesh/111451-indoor-mesh-deploy-guide-00.html{\#}intro
       \endverb
       \verb{url}
-      \verb https://developer.android.com/reference/android/arch/lifecycle/Transformations
+      \verb https://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-mesh/111451-indoor-mesh-deploy-guide-00.html%7B%5C#%7Dintro
       \endverb
-      \keyw{android}
     \endentry
-    \entry{AndroidDevelopers2019c}{misc}{}
+    \entry{CutTheKnot}{misc}{}
       \name{author}{1}{}{%
-        {{hash=af05011ef932571b63118654e584db53}{%
-           family={{Android Developers}},
-           familyi={A\bibinitperiod}}}%
+        {{hash=534554cfb6a98e4a0df9590d4b4b5934}{%
+           family={CutTheKnot},
+           familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{af05011ef932571b63118654e584db53}
-      \strng{fullhash}{af05011ef932571b63118654e584db53}
-      \strng{bibnamehash}{af05011ef932571b63118654e584db53}
-      \strng{authorbibnamehash}{af05011ef932571b63118654e584db53}
-      \strng{authornamehash}{af05011ef932571b63118654e584db53}
-      \strng{authorfullhash}{af05011ef932571b63118654e584db53}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \strng{namehash}{534554cfb6a98e4a0df9590d4b4b5934}
+      \strng{fullhash}{534554cfb6a98e4a0df9590d4b4b5934}
+      \strng{bibnamehash}{534554cfb6a98e4a0df9590d4b4b5934}
+      \strng{authorbibnamehash}{534554cfb6a98e4a0df9590d4b4b5934}
+      \strng{authornamehash}{534554cfb6a98e4a0df9590d4b4b5934}
+      \strng{authorfullhash}{534554cfb6a98e4a0df9590d4b4b5934}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Download Android Studio and SDK tools}}
-      \field{urlday}{23}
-      \field{urlmonth}{3}
+      \field{title}{{The Distance Formula}}
+      \field{urlday}{14}
+      \field{urlmonth}{4}
       \field{urlyear}{2019}
-      \field{year}{2019}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://developer.android.com/studio
+      \verb https://www.cut-the-knot.org/pythagoras/DistanceFormula.shtml
       \endverb
       \verb{url}
-      \verb https://developer.android.com/studio
+      \verb https://www.cut-the-knot.org/pythagoras/DistanceFormula.shtml
       \endverb
     \endentry
-    \entry{AndroidDevelopers2019b}{misc}{}
+    \entry{ElectronicsNotes}{misc}{}
       \name{author}{1}{}{%
-        {{hash=af05011ef932571b63118654e584db53}{%
-           family={{Android Developers}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{af05011ef932571b63118654e584db53}
-      \strng{fullhash}{af05011ef932571b63118654e584db53}
-      \strng{bibnamehash}{af05011ef932571b63118654e584db53}
-      \strng{authorbibnamehash}{af05011ef932571b63118654e584db53}
-      \strng{authornamehash}{af05011ef932571b63118654e584db53}
-      \strng{authorfullhash}{af05011ef932571b63118654e584db53}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Guide to app architecture  |  Android Developers}}
-      \field{urlday}{8}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://developer.android.com/jetpack/docs/guide
-      \endverb
-      \verb{url}
-      \verb https://developer.android.com/jetpack/docs/guide
-      \endverb
-    \endentry
-    \entry{BhavyaKaria2018}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=a32d68bd84eba08327ec037afbf95d85}{%
-           family={{Bhavya Karia}},
-           familyi={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{a32d68bd84eba08327ec037afbf95d85}
-      \strng{fullhash}{a32d68bd84eba08327ec037afbf95d85}
-      \strng{bibnamehash}{a32d68bd84eba08327ec037afbf95d85}
-      \strng{authorbibnamehash}{a32d68bd84eba08327ec037afbf95d85}
-      \strng{authornamehash}{a32d68bd84eba08327ec037afbf95d85}
-      \strng{authorfullhash}{a32d68bd84eba08327ec037afbf95d85}
-      \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Medium}
-      \field{title}{{A quick intro to Dependency Injection: what it is, and when to use it}}
-      \field{urlday}{9}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://medium.freecodecamp.org/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f
-      \endverb
-      \verb{url}
-      \verb https://medium.freecodecamp.org/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f
-      \endverb
-    \endentry
-    \entry{DanieleFaraglia2014}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=a66f86ce647c9d47b368112ea87a30ae}{%
-           family={{Daniele Faraglia}},
-           familyi={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{a66f86ce647c9d47b368112ea87a30ae}
-      \strng{fullhash}{a66f86ce647c9d47b368112ea87a30ae}
-      \strng{bibnamehash}{a66f86ce647c9d47b368112ea87a30ae}
-      \strng{authorbibnamehash}{a66f86ce647c9d47b368112ea87a30ae}
-      \strng{authornamehash}{a66f86ce647c9d47b368112ea87a30ae}
-      \strng{authorfullhash}{a66f86ce647c9d47b368112ea87a30ae}
-      \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Welcome to Faker's documentation! — Faker 1.0.2 documentation}}
-      \field{urlday}{8}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2014}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://faker.readthedocs.io/en/master/
-      \endverb
-      \verb{url}
-      \verb https://faker.readthedocs.io/en/master/
-      \endverb
-    \endentry
-    \entry{EslamHussein2018}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=1b9c8fadeb81bcbff7d8a99e5d51aa38}{%
-           family={{Eslam Hussein}},
+        {{hash=0e5f07ffc688215c8757c02412c4b160}{%
+           family={ElectronicsNotes},
            familyi={E\bibinitperiod}}}%
       }
-      \strng{namehash}{1b9c8fadeb81bcbff7d8a99e5d51aa38}
-      \strng{fullhash}{1b9c8fadeb81bcbff7d8a99e5d51aa38}
-      \strng{bibnamehash}{1b9c8fadeb81bcbff7d8a99e5d51aa38}
-      \strng{authorbibnamehash}{1b9c8fadeb81bcbff7d8a99e5d51aa38}
-      \strng{authornamehash}{1b9c8fadeb81bcbff7d8a99e5d51aa38}
-      \strng{authorfullhash}{1b9c8fadeb81bcbff7d8a99e5d51aa38}
+      \strng{namehash}{0e5f07ffc688215c8757c02412c4b160}
+      \strng{fullhash}{0e5f07ffc688215c8757c02412c4b160}
+      \strng{bibnamehash}{0e5f07ffc688215c8757c02412c4b160}
+      \strng{authorbibnamehash}{0e5f07ffc688215c8757c02412c4b160}
+      \strng{authornamehash}{0e5f07ffc688215c8757c02412c4b160}
+      \strng{authorfullhash}{0e5f07ffc688215c8757c02412c4b160}
       \field{sortinit}{E}
       \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Medium}
-      \field{title}{{Dominate Remote/local data with (RX+Retrofit+ROOM+MVP)}}
-      \field{urlday}{17}
-      \field{urlmonth}{3}
+      \field{title}{{Wi-Fi Channels, Frequency Bands {\&} Bandwidth | Electronics Notes}}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
       \field{urlyear}{2019}
-      \field{year}{2018}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://medium.com/@eslam.hussein/dominate-remote-local-data-with-rx-retrofit-room-mvp-f2b13a0ac27b
+      \verb https://www.electronics-notes.com/articles/connectivity/wifi-ieee-802-11/channels-frequencies-bands-bandwidth.php
       \endverb
       \verb{url}
-      \verb https://medium.com/@eslam.hussein/dominate-remote-local-data-with-rx-retrofit-room-mvp-f2b13a0ac27b
+      \verb https://www.electronics-notes.com/articles/connectivity/wifi-ieee-802-11/channels-frequencies-bands-bandwidth.php
       \endverb
     \endentry
-    \entry{EUGDPRPortal:byTrunomi2019}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=9cf867ed1e26e7b5834814bc8e019bb9}{%
-           family={{EU GDPR Portal: by Trunomi}},
-           familyi={E\bibinitperiod}}}%
+    \entry{Gu2009}{article}{}
+      \name{author}{3}{}{%
+        {{hash=546d4ea45256166b961768bb391e0f58}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Yanying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5d54465a9bc01677cf278036207ca402}{%
+           family={Lo},
+           familyi={L\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e1e50599e5b31ffb708ba6f0db668c4b}{%
+           family={Niemegeers},
+           familyi={N\bibinitperiod},
+           given={Ignas},
+           giveni={I\bibinitperiod}}}%
       }
-      \strng{namehash}{9cf867ed1e26e7b5834814bc8e019bb9}
-      \strng{fullhash}{9cf867ed1e26e7b5834814bc8e019bb9}
-      \strng{bibnamehash}{9cf867ed1e26e7b5834814bc8e019bb9}
-      \strng{authorbibnamehash}{9cf867ed1e26e7b5834814bc8e019bb9}
-      \strng{authornamehash}{9cf867ed1e26e7b5834814bc8e019bb9}
-      \strng{authorfullhash}{9cf867ed1e26e7b5834814bc8e019bb9}
-      \field{sortinit}{E}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Key Changes with the General Data Protection Regulation – EUGDPR}}
-      \field{urlday}{23}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://eugdpr.org/the-regulation/
-      \endverb
-      \verb{url}
-      \verb https://eugdpr.org/the-regulation/
-      \endverb
-    \endentry
-    \entry{Express2019}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=b144fa061545497bebee8c414efc99a9}{%
-           family={Express},
-           familyi={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{b144fa061545497bebee8c414efc99a9}
-      \strng{fullhash}{b144fa061545497bebee8c414efc99a9}
-      \strng{bibnamehash}{b144fa061545497bebee8c414efc99a9}
-      \strng{authorbibnamehash}{b144fa061545497bebee8c414efc99a9}
-      \strng{authornamehash}{b144fa061545497bebee8c414efc99a9}
-      \strng{authorfullhash}{b144fa061545497bebee8c414efc99a9}
-      \field{sortinit}{E}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Express - Node.js web application framework}}
-      \field{urlday}{8}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://expressjs.com/
-      \endverb
-      \verb{url}
-      \verb https://expressjs.com/
-      \endverb
-    \endentry
-    \entry{Unknown2018}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=3bc52a4e0eb6757b295ea2dfc51a527e}{%
-           family={GoogleDeveloperTraining},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{3bc52a4e0eb6757b295ea2dfc51a527e}
-      \strng{fullhash}{3bc52a4e0eb6757b295ea2dfc51a527e}
-      \strng{bibnamehash}{3bc52a4e0eb6757b295ea2dfc51a527e}
-      \strng{authorbibnamehash}{3bc52a4e0eb6757b295ea2dfc51a527e}
-      \strng{authornamehash}{3bc52a4e0eb6757b295ea2dfc51a527e}
-      \strng{authorfullhash}{3bc52a4e0eb6757b295ea2dfc51a527e}
+      \strng{namehash}{43829e8faa91b7bf656b3dd6fc7935ca}
+      \strng{fullhash}{43829e8faa91b7bf656b3dd6fc7935ca}
+      \strng{bibnamehash}{43829e8faa91b7bf656b3dd6fc7935ca}
+      \strng{authorbibnamehash}{43829e8faa91b7bf656b3dd6fc7935ca}
+      \strng{authornamehash}{43829e8faa91b7bf656b3dd6fc7935ca}
+      \strng{authorfullhash}{43829e8faa91b7bf656b3dd6fc7935ca}
       \field{sortinit}{G}
       \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{14.1A: Room, LiveData, ViewModel {·} Advanced Android Development Course- Practicals}}
-      \field{urlday}{17}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2018}
-      \field{urldateera}{ce}
+      \field{abstract}{Recently, indoor positioning systems (IPSs) have been designed to provide location information of persons and devices. The position information enables location-based protocols for user applications. Personal networks (PNs) are designed to meet the users' needs and interconnect users' devices equipped with different communications technologies in various places to form one network. Location-aware services need to be developed in PNs to offer flexible and adaptive personal services and improve the quality of lives. This paper gives a comprehensive survey of numerous IPSs, which include both commercial products and research-oriented solutions. Evaluation criteria are proposed for assessing these systems, namely security and privacy, cost, performance, robustness, complexity, user preferences , commercial availability, and limitations. We compare the existing IPSs and outline the trade-offs among these systems from the viewpoint of a user in a PN.}
+      \field{journaltitle}{IEEE COMMUNICATIONS SURVEYS {\&} TUTORIALS}
+      \field{number}{1}
+      \field{title}{{A Survey of Indoor Positioning Systems for Wireless Personal Networks}}
+      \field{volume}{11}
+      \field{year}{2009}
+      \verb{doi}
+      \verb 10.1109/SURV.2009.090103
+      \endverb
+      \verb{file}
+      \verb ::
+      \endverb
       \verb{urlraw}
-      \verb https://google-developer-training.gitbooks.io/android-developer-advanced-course-practicals/content/unit-6-working-with-architecture-components/lesson-14-room,-livedata,-viewmodel/14-1-a-room-livedata-viewmodel/14-1-a-room-livedata-viewmodel.html
+      \verb https://www.csd.uoc.gr/{~}hy439/papers/gu2009pdf.pdf
       \endverb
       \verb{url}
-      \verb https://google-developer-training.gitbooks.io/android-developer-advanced-course-practicals/content/unit-6-working-with-architecture-components/lesson-14-room,-livedata,-viewmodel/14-1-a-room-livedata-viewmodel/14-1-a-room-livedata-viewmodel.html
+      \verb https://www.csd.uoc.gr/%7B~%7Dhy439/papers/gu2009pdf.pdf
       \endverb
+      \keyw{Index Terms-Personal Networks,Indoor Positioning Systems,Location Techniques}
+    \endentry
+    \entry{Henniges2012}{report}{}
+      \name{author}{1}{}{%
+        {{hash=9a3687ada663c0226b16e35501297316}{%
+           family={Henniges},
+           familyi={H\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a3687ada663c0226b16e35501297316}
+      \strng{fullhash}{9a3687ada663c0226b16e35501297316}
+      \strng{bibnamehash}{9a3687ada663c0226b16e35501297316}
+      \strng{authorbibnamehash}{9a3687ada663c0226b16e35501297316}
+      \strng{authornamehash}{9a3687ada663c0226b16e35501297316}
+      \strng{authorfullhash}{9a3687ada663c0226b16e35501297316}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{WiFi positioning plays an increasingly important role in improving performance because good positioning can improve performance in indoor environments without additional devices. It will make use of existing WiFi infrastructure, although this was never designed to do so. Methods that were used for other positioning technologies can be adopted for WiFi. Whether or not these other methods work with WiFi will be explained and examined. This paper also discusses the accuracy of the methods and the optimal area of application.}
+      \field{title}{{Current approches of Wifi Positioning}}
+      \field{type}{techreport}
+      \field{year}{2012}
+      \verb{file}
+      \verb ::
+      \endverb
+      \verb{urlraw}
+      \verb http://www.gpsworld.com/wireless/indoor-positioning/
+      \endverb
+      \verb{url}
+      \verb http://www.gpsworld.com/wireless/indoor-positioning/
+      \endverb
+      \keyw{Fingerprinting,Index Terms-Wifi,Location,Position determination,Positioning,WLAN,localization}
     \endentry
     \entry{medappspec}{misc}{}
       \name{author}{1}{}{%
@@ -299,425 +200,270 @@
       \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Med App Project Specification}}
+      \field{title}{{No Title}}
       \field{year}{2018}
       \field{pages}{12}
       \range{pages}{1}
     \endentry
-    \entry{IndoorLocation.io2019}{misc}{}
+    \entry{Indoors2019}{misc}{}
       \name{author}{1}{}{%
-        {{hash=efac8979329add1a6fe64a8e5b671297}{%
-           family={IndoorLocation.io},
+        {{hash=9d61df8d504275ad91ae1796fab6f9ad}{%
+           family={Indoors},
            familyi={I\bibinitperiod}}}%
       }
-      \strng{namehash}{efac8979329add1a6fe64a8e5b671297}
-      \strng{fullhash}{efac8979329add1a6fe64a8e5b671297}
-      \strng{bibnamehash}{efac8979329add1a6fe64a8e5b671297}
-      \strng{authorbibnamehash}{efac8979329add1a6fe64a8e5b671297}
-      \strng{authornamehash}{efac8979329add1a6fe64a8e5b671297}
-      \strng{authorfullhash}{efac8979329add1a6fe64a8e5b671297}
+      \strng{namehash}{9d61df8d504275ad91ae1796fab6f9ad}
+      \strng{fullhash}{9d61df8d504275ad91ae1796fab6f9ad}
+      \strng{bibnamehash}{9d61df8d504275ad91ae1796fab6f9ad}
+      \strng{authorbibnamehash}{9d61df8d504275ad91ae1796fab6f9ad}
+      \strng{authornamehash}{9d61df8d504275ad91ae1796fab6f9ad}
+      \strng{authorfullhash}{9d61df8d504275ad91ae1796fab6f9ad}
       \field{sortinit}{I}
       \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Indoor Location - The open-source framework for indoor mapping.}}
-      \field{urlday}{9}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.indoorlocation.io/
-      \endverb
-      \verb{url}
-      \verb https://www.indoorlocation.io/
-      \endverb
-    \endentry
-    \entry{JaewoongEum2018}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=1e33a87abadc72129a8146caecb87664}{%
-           family={{Jaewoong Eum}},
-           familyi={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{1e33a87abadc72129a8146caecb87664}
-      \strng{fullhash}{1e33a87abadc72129a8146caecb87664}
-      \strng{bibnamehash}{1e33a87abadc72129a8146caecb87664}
-      \strng{authorbibnamehash}{1e33a87abadc72129a8146caecb87664}
-      \strng{authornamehash}{1e33a87abadc72129a8146caecb87664}
-      \strng{authorfullhash}{1e33a87abadc72129a8146caecb87664}
-      \field{sortinit}{J}
-      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Medium}
-      \field{title}{{Android MVVM Architecture Components using The Movie Database API.}}
-      \field{urlday}{6}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://medium.com/@skydoves/android-mvvm-architecture-components-using-the-movie-database-api-8fbab128d7
-      \endverb
-      \verb{url}
-      \verb https://medium.com/@skydoves/android-mvvm-architecture-components-using-the-movie-database-api-8fbab128d7
-      \endverb
-    \endentry
-    \entry{JamesHalpern2012}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=c6e51b1cd2b377ef49aef3c9d9c2a98d}{%
-           family={{James Halpern}},
-           familyi={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{c6e51b1cd2b377ef49aef3c9d9c2a98d}
-      \strng{fullhash}{c6e51b1cd2b377ef49aef3c9d9c2a98d}
-      \strng{bibnamehash}{c6e51b1cd2b377ef49aef3c9d9c2a98d}
-      \strng{authorbibnamehash}{c6e51b1cd2b377ef49aef3c9d9c2a98d}
-      \strng{authornamehash}{c6e51b1cd2b377ef49aef3c9d9c2a98d}
-      \strng{authorfullhash}{c6e51b1cd2b377ef49aef3c9d9c2a98d}
-      \field{sortinit}{J}
-      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Pivotal}
-      \field{title}{{Android – SavedInstanceState Bundle FAQ}}
-      \field{urlday}{6}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2012}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://content.pivotal.io/blog/android-savedinstancestate-bundle-faq
-      \endverb
-      \verb{url}
-      \verb https://content.pivotal.io/blog/android-savedinstancestate-bundle-faq
-      \endverb
-    \endentry
-    \entry{Mabox2019}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=b9581d3afd386e452bb6ea357a6a4a34}{%
-           family={MapBox},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{b9581d3afd386e452bb6ea357a6a4a34}
-      \strng{fullhash}{b9581d3afd386e452bb6ea357a6a4a34}
-      \strng{bibnamehash}{b9581d3afd386e452bb6ea357a6a4a34}
-      \strng{authorbibnamehash}{b9581d3afd386e452bb6ea357a6a4a34}
-      \strng{authornamehash}{b9581d3afd386e452bb6ea357a6a4a34}
-      \strng{authorfullhash}{b9581d3afd386e452bb6ea357a6a4a34}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Mobile | Mapbox}}
-      \field{urlday}{23}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.mapbox.com/mobile/
-      \endverb
-      \verb{url}
-      \verb https://www.mapbox.com/mobile/
-      \endverb
-    \endentry
-    \entry{MapWize.io2019}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=37b3cec05f38964b605a0db49e16caee}{%
-           family={MapWize.io},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{37b3cec05f38964b605a0db49e16caee}
-      \strng{fullhash}{37b3cec05f38964b605a0db49e16caee}
-      \strng{bibnamehash}{37b3cec05f38964b605a0db49e16caee}
-      \strng{authorbibnamehash}{37b3cec05f38964b605a0db49e16caee}
-      \strng{authornamehash}{37b3cec05f38964b605a0db49e16caee}
-      \strng{authorfullhash}{37b3cec05f38964b605a0db49e16caee}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Indoor mapping {\&} Wayfinding for Smart Buildings}}
-      \field{urlday}{9}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.mapwize.io/
-      \endverb
-      \verb{url}
-      \verb https://www.mapwize.io/
-      \endverb
-    \endentry
-    \entry{MapWize.io2019a}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=37b3cec05f38964b605a0db49e16caee}{%
-           family={MapWize.io},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{37b3cec05f38964b605a0db49e16caee}
-      \strng{fullhash}{37b3cec05f38964b605a0db49e16caee}
-      \strng{bibnamehash}{37b3cec05f38964b605a0db49e16caee}
-      \strng{authorbibnamehash}{37b3cec05f38964b605a0db49e16caee}
-      \strng{authornamehash}{37b3cec05f38964b605a0db49e16caee}
-      \strng{authorfullhash}{37b3cec05f38964b605a0db49e16caee}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Indoor mapping for developers}}
-      \field{urlday}{9}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.mapwize.io/developers
-      \endverb
-      \verb{url}
-      \verb https://www.mapwize.io/developers
-      \endverb
-    \endentry
-    \entry{NahidulHasan2018}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=d2ff4a7d4027ef541f519d18437acc43}{%
-           family={{Nahidul Hasan}},
-           familyi={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{d2ff4a7d4027ef541f519d18437acc43}
-      \strng{fullhash}{d2ff4a7d4027ef541f519d18437acc43}
-      \strng{bibnamehash}{d2ff4a7d4027ef541f519d18437acc43}
-      \strng{authorbibnamehash}{d2ff4a7d4027ef541f519d18437acc43}
-      \strng{authornamehash}{d2ff4a7d4027ef541f519d18437acc43}
-      \strng{authorfullhash}{d2ff4a7d4027ef541f519d18437acc43}
-      \field{sortinit}{N}
-      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Medium}
-      \field{title}{{SOLID Principles-simple and easy explanation – Hacker Noon}}
-      \field{urlday}{23}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://hackernoon.com/solid-principles-simple-and-easy-explanation-f57d86c47a7f
-      \endverb
-      \verb{url}
-      \verb https://hackernoon.com/solid-principles-simple-and-easy-explanation-f57d86c47a7f
-      \endverb
-    \endentry
-    \entry{Per-ErikBergman2017}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=a5b2b8583cc3035334dfa2b4135df13b}{%
-           family={{Per-Erik Bergman}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{a5b2b8583cc3035334dfa2b4135df13b}
-      \strng{fullhash}{a5b2b8583cc3035334dfa2b4135df13b}
-      \strng{bibnamehash}{a5b2b8583cc3035334dfa2b4135df13b}
-      \strng{authorbibnamehash}{a5b2b8583cc3035334dfa2b4135df13b}
-      \strng{authornamehash}{a5b2b8583cc3035334dfa2b4135df13b}
-      \strng{authorfullhash}{a5b2b8583cc3035334dfa2b4135df13b}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Medium}
-      \field{title}{{Repository Design Pattern – Per-Erik Bergman – Medium}}
-      \field{urlday}{23}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2017}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30
-      \endverb
-      \verb{url}
-      \verb https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30
-      \endverb
-    \endentry
-    \entry{Retrofit}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=b9794896d699a78542122d376a03c005}{%
-           family={Retrofit},
-           familyi={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{b9794896d699a78542122d376a03c005}
-      \strng{fullhash}{b9794896d699a78542122d376a03c005}
-      \strng{bibnamehash}{b9794896d699a78542122d376a03c005}
-      \strng{authorbibnamehash}{b9794896d699a78542122d376a03c005}
-      \strng{authornamehash}{b9794896d699a78542122d376a03c005}
-      \strng{authorfullhash}{b9794896d699a78542122d376a03c005}
-      \field{sortinit}{R}
-      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2019}
-      \field{title}{{Retrofit}}
-      \field{urlday}{24}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://square.github.io/retrofit/
-      \endverb
-      \verb{url}
-      \verb https://square.github.io/retrofit/
-      \endverb
-    \endentry
-    \entry{Seemann2011}{book}{}
-      \name{author}{1}{}{%
-        {{hash=4f08d24826cb0bb50101e66d040b84a7}{%
-           family={Seemann},
-           familyi={S\bibinitperiod},
-           given={Mark},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{4f08d24826cb0bb50101e66d040b84a7}
-      \strng{fullhash}{4f08d24826cb0bb50101e66d040b84a7}
-      \strng{bibnamehash}{4f08d24826cb0bb50101e66d040b84a7}
-      \strng{authorbibnamehash}{4f08d24826cb0bb50101e66d040b84a7}
-      \strng{authornamehash}{4f08d24826cb0bb50101e66d040b84a7}
-      \strng{authorfullhash}{4f08d24826cb0bb50101e66d040b84a7}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Dependency Injection in .NET}}
-      \field{year}{2011}
-      \field{pages}{16}
-      \range{pages}{1}
-    \endentry
-    \entry{SwaggerHub2019}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=c41b85bdf069f70440f0cf61e6a1eee5}{%
-           family={SwaggerHub},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{c41b85bdf069f70440f0cf61e6a1eee5}
-      \strng{fullhash}{c41b85bdf069f70440f0cf61e6a1eee5}
-      \strng{bibnamehash}{c41b85bdf069f70440f0cf61e6a1eee5}
-      \strng{authorbibnamehash}{c41b85bdf069f70440f0cf61e6a1eee5}
-      \strng{authornamehash}{c41b85bdf069f70440f0cf61e6a1eee5}
-      \strng{authorfullhash}{c41b85bdf069f70440f0cf61e6a1eee5}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Basic Authentication | Swagger}}
-      \field{urlday}{7}
+      \field{title}{{Indoor Positioning System - Data Drives Innovation}}
+      \field{urlday}{13}
       \field{urlmonth}{4}
       \field{urlyear}{2019}
       \field{year}{2019}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://swagger.io/docs/specification/authentication/basic-authentication/
+      \verb https://indoo.rs/solution/indoor-positioning-system/
       \endverb
       \verb{url}
-      \verb https://swagger.io/docs/specification/authentication/basic-authentication/
+      \verb https://indoo.rs/solution/indoor-positioning-system/
       \endverb
     \endentry
-    \entry{THEEUROPEANPARLIAMENTANDTHECOUNCILOF1995}{report}{}
-      \name{author}{2}{}{%
-        {{hash=ca9190861d7a9a3083e3d759592c956b}{%
-           family={{THE EUROPEAN PARLIAMENT AND THE COUNCIL OF}},
-           familyi={T\bibinitperiod}}}%
-        {{hash=e2eeabdec62519f262534f7976f66810}{%
-           family={{THE EUROPEAN UNION}},
-           familyi={T\bibinitperiod}}}%
+    \entry{Liu2007}{article}{}
+      \name{author}{5}{}{%
+        {{hash=c2969289c79bfb5f2bd68129932f963b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0f8b0ec0f8e9bdef6c30d4023590635c}{%
+           family={Member},
+           familyi={M\bibinitperiod},
+           given={Student},
+           giveni={S\bibinitperiod}}}%
+        {{hash=67f055b8170de4924493b8b4c8f167da}{%
+           family={Darabi},
+           familyi={D\bibinitperiod},
+           given={Houshang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=353655ef8df477d1f9b20b307f658a8f}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={Pat},
+           giveni={P\bibinitperiod}}}%
+        {{hash=83f95dca7c81df3fe67380769eb0321c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
       }
-      \list{institution}{2}{%
-        {European Parliament}%
-        {of the Council}%
-      }
-      \strng{namehash}{8c41c24f340c6c0e4839bf61b0b9c5ac}
-      \strng{fullhash}{8c41c24f340c6c0e4839bf61b0b9c5ac}
-      \strng{bibnamehash}{8c41c24f340c6c0e4839bf61b0b9c5ac}
-      \strng{authorbibnamehash}{8c41c24f340c6c0e4839bf61b0b9c5ac}
-      \strng{authornamehash}{8c41c24f340c6c0e4839bf61b0b9c5ac}
-      \strng{authorfullhash}{8c41c24f340c6c0e4839bf61b0b9c5ac}
-      \field{sortinit}{T}
-      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \strng{namehash}{139886769503600276bca11a46937697}
+      \strng{fullhash}{ab3d44c3dc78e22416749948d905605f}
+      \strng{bibnamehash}{139886769503600276bca11a46937697}
+      \strng{authorbibnamehash}{139886769503600276bca11a46937697}
+      \strng{authornamehash}{139886769503600276bca11a46937697}
+      \strng{authorfullhash}{ab3d44c3dc78e22416749948d905605f}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{DIRECTIVE 95/46/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL}}
-      \field{type}{techreport}
-      \field{year}{1995}
+      \field{abstract}{Wireless indoor positioning systems have become very popular in recent years. These systems have been successfully used in many applications such as asset tracking and inventory management. This paper provides an overview of the existing wireless indoor positioning solutions and attempts to classify different techniques and systems. Three typical location estimation schemes of triangulation, scene analysis, and proximity are analyzed. We also discuss location fingerprinting in detail since it is used in most current system or solutions. We then examine a set of properties by which location systems are evaluated, and apply this evaluation method to survey a number of existing systems. Comprehensive performance comparisons including accuracy, precision, complexity , scalability, robustness, and cost are presented.}
+      \field{journaltitle}{APPLICATIONS AND REVIEWS}
+      \field{number}{6}
+      \field{title}{{Survey of Wireless Indoor Positioning Techniques and Systems}}
+      \field{volume}{37}
+      \field{year}{2007}
+      \verb{doi}
+      \verb 10.1109/TSMCC.2007.905750
+      \endverb
       \verb{file}
       \verb ::
       \endverb
       \verb{urlraw}
-      \verb https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:31995L0046{\&}from=en
+      \verb https://s3.amazonaws.com/academia.edu.documents/31555342/Survey{\_}of{\_}Wireless{\_}Indoor{\_}Positioning1.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A{\&}Expires=1555165014{\&}Signature=x9AxxWgLevqXwZMBax2u4jkuXVo{\%}3D{\&}response-content-disposition=inline{\%}3B filename{\%}3DSurvey{\_}of
       \endverb
       \verb{url}
-      \verb https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:31995L0046%7B%5C&%7Dfrom=en
+      \verb https://s3.amazonaws.com/academia.edu.documents/31555342/Survey%7B%5C_%7Dof%7B%5C_%7DWireless%7B%5C_%7DIndoor%7B%5C_%7DPositioning1.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A%7B%5C&%7DExpires=1555165014%7B%5C&%7DSignature=x9AxxWgLevqXwZMBax2u4jkuXVo%7B%5C%%7D3D%7B%5C&%7Dresponse-content-disposition=inline%7B%5C%%7D3B%20filename%7B%5C%%7D3DSurvey%7B%5C_%7Dof
+      \endverb
+      \keyw{Index Terms-Indoor location sensing,location fingerprinting,positioning algorithm,radio frequency (RF),wireless localization}
+    \endentry
+    \entry{Retscher}{report}{}
+      \name{author}{4}{}{%
+        {{hash=b6254f3fdc34075e99fd8721f39da9e4}{%
+           family={Retscher},
+           familyi={R\bibinitperiod},
+           given={Guenther},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1826eaec1812862f603439f26f48b710}{%
+           family={Heberling},
+           familyi={H\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b64ea4e3280f02d54dc91989492595fb}{%
+           family={Moser},
+           familyi={M\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod}}}%
+        {{hash=60ee5ba4b21c16e031bcced6c482f21d}{%
+           family={Vredeveld},
+           familyi={V\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7118bef5b248fe8ee8a6df78cbe17456}
+      \strng{fullhash}{470ede4289a9a3ec39377d110541e09a}
+      \strng{bibnamehash}{7118bef5b248fe8ee8a6df78cbe17456}
+      \strng{authorbibnamehash}{7118bef5b248fe8ee8a6df78cbe17456}
+      \strng{authornamehash}{7118bef5b248fe8ee8a6df78cbe17456}
+      \strng{authorfullhash}{470ede4289a9a3ec39377d110541e09a}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Location based-services and personal navigation require the location determination of a user not only in outdoor environments but also indoor. For indoor location already established wireless infrastructure such as WLAN (Wireless Local Area Networks) can be employed. This approach has the advantage that no costly hardware installations are necessary inside a building if WLAN is already available. The IMST GmbH has developed a software framework called "ipos" for indoor positioning technologies. The principle of the developed platform and the performance of the location determination using WLAN in a localization testbed of IMST GmbH are presented in this paper.}
+      \field{title}{{Performance and Accuracy Test of the WLAN Indoor Positioning System" ipos SBDist-Ultra-rapid and highly-secure control via next-generation broadband radio View project Performance and Accuracy Test of the WLAN Indoor Positioning System "ipos{\&}quo}}
+      \field{type}{techreport}
+      \verb{file}
+      \verb ::
+      \endverb
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/228664602
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/228664602
       \endverb
     \endentry
-    \entry{TheoJungeblut2015}{misc}{}
+    \entry{Sakpere2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=38a0968906719bab50d22b034eeadbc9}{%
+           family={Sakpere},
+           familyi={S\bibinitperiod},
+           given={Wilson},
+           giveni={W\bibinitperiod}}}%
+        {{hash=6f80837144c0db5ee16a66e7bcb9cb1c}{%
+           family={{Adeyeye Oshin}},
+           familyi={A\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bc6ffc1c65db331d7d7cdd714c8cdf65}{%
+           family={Mlitwa},
+           familyi={M\bibinitperiod},
+           given={Nhlanhla\bibnamedelima BW},
+           giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {South African Computer Journal}%
+      }
+      \strng{namehash}{701c941778507764073fad931c18820d}
+      \strng{fullhash}{701c941778507764073fad931c18820d}
+      \strng{bibnamehash}{701c941778507764073fad931c18820d}
+      \strng{authorbibnamehash}{701c941778507764073fad931c18820d}
+      \strng{authornamehash}{701c941778507764073fad931c18820d}
+      \strng{authorfullhash}{701c941778507764073fad931c18820d}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{<}p{>}The research and use of positioning and navigation technologies outdoors has seen a steady and exponential growth. Based on this success, there have been attempts to implement these technologies indoors, leading to numerous studies. Most of the algorithms, techniques and technologies used have been implemented outdoors. However, how they fare indoors is different altogether. Thus, several technologies have been proposed and implemented to improve positioning and navigation indoors. Among them are Infrared (IR), Ultrasound, Audible Sound, Magnetic, Optical and Vision, Radio Frequency (RF), Visible Light, Pedestrian Dead Reckoning (PDR)/Inertial Navigation System (INS) and Hybrid. The RF technologies include Bluetooth, Ultra-wideband (UWB), Wireless Sensor Network (WSN), Wireless Local Area Network (WLAN), Radio-Frequency Identification (RFID) and Near Field Communication (NFC). In addition, positioning techniques applied in indoor positioning systems include the signal properties and positioning algorithms. The prevalent signal properties are Angle of Arrival (AOA), Time of Arrival (TOA), Time Difference of Arrival (TDOA) and Received Signal Strength Indication (RSSI), while the positioning algorithms are Triangulation, Trilateration, Proximity and Scene Analysis/ Fingerprinting. This paper presents a state-of-the-art survey of indoor positioning and navigation systems and technologies, and their use in various scenarios. It analyses distinct positioning technology metrics such as accuracy, complexity, cost, privacy, scalability and usability. This paper has profound implications for future studies of positioning and navigation.{<}/p{>}}
+      \field{issn}{2313-7835}
+      \field{journaltitle}{South African Computer Journal}
+      \field{month}{12}
+      \field{number}{3}
+      \field{title}{{A State-of-the-Art Survey of Indoor Positioning and Navigation Systems and Technologies}}
+      \field{volume}{29}
+      \field{year}{2017}
+      \field{pages}{145\bibrangedash 197}
+      \range{pages}{53}
+      \verb{doi}
+      \verb 10.18489/sacj.v29i3.452
+      \endverb
+      \verb{file}
+      \verb ::
+      \endverb
+      \verb{urlraw}
+      \verb http://sacj.cs.uct.ac.za/index.php/sacj/article/view/452
+      \endverb
+      \verb{url}
+      \verb http://sacj.cs.uct.ac.za/index.php/sacj/article/view/452
+      \endverb
+    \endentry
+    \entry{Shchekotov}{report}{}
+      \name{author}{3}{}{%
+        {{hash=a3f6f0553a7fbd54d17f348ee5a97aac}{%
+           family={Shchekotov},
+           familyi={S\bibinitperiod},
+           given={Maxim},
+           giveni={M\bibinitperiod}}}%
+        {{hash=107528bbbee16353da52b3829adcd79e}{%
+           family={Spiiras},
+           familyi={S\bibinitperiod},
+           given={St},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e719f5635575c9410110ba0a7df6a92b}{%
+           family={Petersburg},
+           familyi={P\bibinitperiod},
+           given={Russia},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcb627e1d3626d71bd2f9900718b6719}
+      \strng{fullhash}{fcb627e1d3626d71bd2f9900718b6719}
+      \strng{bibnamehash}{fcb627e1d3626d71bd2f9900718b6719}
+      \strng{authorbibnamehash}{fcb627e1d3626d71bd2f9900718b6719}
+      \strng{authornamehash}{fcb627e1d3626d71bd2f9900718b6719}
+      \strng{authorfullhash}{fcb627e1d3626d71bd2f9900718b6719}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper describes a Wi-Fi trilateration method for indoor localization using Android-based mobile device. Approaches based on signal propagation model and received signal strength measurement collection are considered. The indoor signal propagation problem is resolved by received signal strength measurement collection that improves localization accuracy. Indoor positioning technique opens possibilities for development various intelligent systems that provide the user location-based information inside buildings. These systems include positioning functionality based on such technologies as Wi-Fi, Bluetooth, and GSM.}
+      \field{title}{{Indoor Localization Method Based on Wi-Fi Trilateration Technique}}
+      \field{type}{techreport}
+      \verb{file}
+      \verb ::
+      \endverb
+      \verb{urlraw}
+      \verb https://pdfs.semanticscholar.org/e796/6215ebe9df591c43794dcff5024a088cb80d.pdf
+      \endverb
+      \verb{url}
+      \verb https://pdfs.semanticscholar.org/e796/6215ebe9df591c43794dcff5024a088cb80d.pdf
+      \endverb
+    \endentry
+    \entry{Techopedia}{misc}{}
       \name{author}{1}{}{%
-        {{hash=30d5079e8519b6b44bad857d67b29483}{%
-           family={{Theo Jungeblut}},
+        {{hash=2d0ed76dc2bb8ec0ba5cf4473f5c4c74}{%
+           family={Techopedia},
            familyi={T\bibinitperiod}}}%
       }
-      \strng{namehash}{30d5079e8519b6b44bad857d67b29483}
-      \strng{fullhash}{30d5079e8519b6b44bad857d67b29483}
-      \strng{bibnamehash}{30d5079e8519b6b44bad857d67b29483}
-      \strng{authorbibnamehash}{30d5079e8519b6b44bad857d67b29483}
-      \strng{authornamehash}{30d5079e8519b6b44bad857d67b29483}
-      \strng{authorfullhash}{30d5079e8519b6b44bad857d67b29483}
+      \strng{namehash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{fullhash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{bibnamehash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{authorbibnamehash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{authornamehash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{authorfullhash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
       \field{sortinit}{T}
       \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Slideshare.net}
-      \field{title}{{Clean Code II - Dependency Injection}}
-      \field{urlday}{17}
-      \field{urlmonth}{3}
+      \field{title}{{What is IEEE 802.11? - Definition from Techopedia}}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
       \field{urlyear}{2019}
-      \field{year}{2015}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.slideshare.net/theojungeblut/clean-code-part-ii-dependency-injection
+      \verb https://www.techopedia.com/definition/24967/ieee-80211
       \endverb
       \verb{url}
-      \verb https://www.slideshare.net/theojungeblut/clean-code-part-ii-dependency-injection
-      \endverb
-    \endentry
-    \entry{TutorialsPoint2019}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=02bb701746a2e79501c61d749787e4a0}{%
-           family={TutorialsPoint},
-           familyi={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{02bb701746a2e79501c61d749787e4a0}
-      \strng{fullhash}{02bb701746a2e79501c61d749787e4a0}
-      \strng{bibnamehash}{02bb701746a2e79501c61d749787e4a0}
-      \strng{authorbibnamehash}{02bb701746a2e79501c61d749787e4a0}
-      \strng{authornamehash}{02bb701746a2e79501c61d749787e4a0}
-      \strng{authorfullhash}{02bb701746a2e79501c61d749787e4a0}
-      \field{sortinit}{T}
-      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{SQLite Tutorial}}
-      \field{urlday}{6}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.tutorialspoint.com/sqlite/
-      \endverb
-      \verb{url}
-      \verb https://www.tutorialspoint.com/sqlite/
+      \verb https://www.techopedia.com/definition/24967/ieee-80211
       \endverb
     \endentry
   \enddatalist
-  \missing{https://developer.android.com/guide/topics/ui/layout/recyclerview}
+  \missing{IndoorLocation.io2019}
+  \missing{MapWize.io2019}
 \endrefsection
 \endinput
 

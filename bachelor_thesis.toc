@@ -1,48 +1,168 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Summary}{6}
+\contentsline {chapter}{\numberline {1}Summary}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Context}{7}
+\contentsline {chapter}{\numberline {2}Context}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Project Specification}{8}
+\contentsline {chapter}{\numberline {3}Project Specification}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Project Description}{8}
+\contentsline {section}{\numberline {3.1}Project Description}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Technical Design Specs}{8}
+\contentsline {subsection}{\numberline {3.1.1}Technical Design Specs}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Features}{8}
+\contentsline {subsection}{\numberline {3.1.2}Features}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}Detailed View of Features}{9}
+\contentsline {subsection}{\numberline {3.1.3}Detailed View of Features}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Login and Registration Process}{9}
+\contentsline {subsubsection}{Login and Registration Process}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Appointments}{9}
+\contentsline {subsubsection}{Appointments}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{General Information}{10}
+\contentsline {subsubsection}{General Information}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Geolocalization}{10}
+\contentsline {subsubsection}{Geolocalization}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{User Settings}{11}
+\contentsline {subsubsection}{User Settings}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Ideas}{11}
+\contentsline {subsubsection}{Ideas}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.4}Technologies to research}{11}
+\contentsline {subsection}{\numberline {3.1.4}Technologies to research}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Development Guidelines}{11}
+\contentsline {chapter}{\numberline {4}Indoor Positioning Systems}{13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Indoor Positioning Systems}{12}
+\contentsline {section}{\numberline {4.1}Introduction}{13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Indoor Positioning}{12}
+\contentsline {section}{\numberline {4.2}Definition of Indoor Positioning}{13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Cisco CMX}{13}
+\contentsline {section}{\numberline {4.3}Indoor Positioning Technologies}{13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Cisco CMX}{13}
+\contentsline {section}{\numberline {4.4}Indoor Positioning Techniques}{14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Integration using MapWize and IndoorLocation}{14}
+\contentsline {subsection}{\numberline {4.4.1}Triangulation}{14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}IMplementation}{14}
+\contentsline {subsection}{\numberline {4.4.2}Fingerprinting}{14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusion}{15}
+\contentsline {subsection}{\numberline {4.4.3}Proximity}{14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Development Guidelines}{16}
+\contentsline {subsection}{\numberline {4.4.4}Vision Analysis}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Indoor Positioning Algorithms}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}Time of Arrival}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.2}Time Difference of Arrival}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.3}Angle of Arrival}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.4}Received Signal Strength}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Performance Metrics}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6.1}Accuracy ~\& Precision}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6.2}Coverage Area}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6.3}Scalability}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6.4}Cost}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6.5}Privacy}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.7}Feasibility Study}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.7.1}RFID}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.7.2}UWB}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.7.3}Infrared}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.7.4}Ultrasonic}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.7.5}Zigbee}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.7.6}WLAN}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.7.7}Cellular Based}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.7.8}Bluetooth}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.7.9}Vision Analysys}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.7.10}Dead reckoning}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.7.11}Conclusion}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.8}IPS for Personal Networks}{15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{Case of a patient in a hospital}{15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.8.1}Location Information for Positioning Systems}{15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.9}WLAN Indoor Positioning Technology}{15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.9.1}Indoor Positioning Topology}{15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Network-based}{16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Terminal-Based}{16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.9.2}Indoor Positioning Techniques}{16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.9.3}Trilateration Technique}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Distance Technique}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Signal Propagation for distance estimation}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.9.4}Fingerprinting Technique}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Offline Acquisition}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Online Phase}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Implications using fingerprinting}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.9.5}Conclusion}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Cisco CMX}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Cisco CMX as IPS}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Cisco CMX Specifications}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Precision}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Complexity}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}Robustness}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.4}Scalability}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.5}Operating Costs}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Cisco CMX Configuration}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Case Study}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}Configuration Metric}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Integration using MapWize and IndoorLocation}{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Indoor Mapping}{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.1}MapWize}{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.2}MapWize SDK for Android Applications}{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Application Setup}{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Indoor Location tracking}{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}IndoorLocation Framework}{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Application Setup}{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.2}Applying IndoorLocation Framework to Android Applications}{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Conclusion}{21}% 
