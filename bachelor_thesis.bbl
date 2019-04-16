@@ -103,6 +103,54 @@
       \verb https://www.electronics-notes.com/articles/connectivity/wifi-ieee-802-11/channels-frequencies-bands-bandwidth.php
       \endverb
     \endentry
+    \entry{Frank2009}{report}{}
+      \name{author}{4}{}{%
+        {{hash=1c4217dfebf355e6618dfc93db449de5}{%
+           family={Frank},
+           familyi={F\bibinitperiod},
+           given={Korbinian},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0d8e1738a662c5d0f3045a6dbf717c6a}{%
+           family={Robertson},
+           familyi={R\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a265650905d91631ade2a69586f4efff}{%
+           family={Krach},
+           familyi={K\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6abd3ed20e9af1e738afe1e9652b799e}{%
+           family={Catterall},
+           familyi={C\bibinitperiod},
+           given={Noel},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d43e4177ee7992749937964cb3fc1690}
+      \strng{fullhash}{31ecd8fec8d3cbca1141ecb3a125d5aa}
+      \strng{bibnamehash}{d43e4177ee7992749937964cb3fc1690}
+      \strng{authorbibnamehash}{d43e4177ee7992749937964cb3fc1690}
+      \strng{authornamehash}{d43e4177ee7992749937964cb3fc1690}
+      \strng{authorfullhash}{31ecd8fec8d3cbca1141ecb3a125d5aa}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{he has been with the Institute of Communications and Navigation at DLR. Since 2009 he is with EADS Military Air Systems. Patrick Robertson received a Ph.D. from the University of the Federal Armed Forces, Munich, in 1995. He is currently with DLR, where his research interests are navigation , sensor based context aware systems, signal processing, and novel systems and services in various mobile and ubiquitous computing contexts. ABSTRACT In this paper we have presented an indoor positioning system for pedestrians combining Wireless LAN fingerprinting with foot mounted inertial and magnetometer sensors. To achieve a system capable of real-time processing we have employed a hierarchical Bayesian filtering approach using cascaded extended Kalman filters. The accuracy of the combined system was quantitatively evaluated in a real building against ground-truth. Our results show that accuracy is much higher than using Wireless LAN fingerprinting alone; in our experiment we achieved a positioning error (standard deviation) of roughly 1.6 meters. The approach requires only minimal fingerprinting effort since the high accuracy is achieved by the support of the inertial-based step estimation in the overall estimation process.}
+      \field{annotation}{Indication of two methods}
+      \field{title}{{Development and Evaluation of a Combined WLAN and Inertial Indoor Pedestrian Positioning System Pervasive Computing View project Development and Evaluation of a Combined WLAN {\&} Inertial Indoor Pedestrian Positioning System}}
+      \field{type}{techreport}
+      \field{year}{2009}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Frank et al. - 2009 - Development and Evaluation of a Combined WLAN and Inertial Indoor Pedestrian Positioning System Pervasive Computin.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/229142278
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/229142278
+      \endverb
+    \endentry
     \entry{Gu2009}{article}{}
       \name{author}{3}{}{%
         {{hash=546d4ea45256166b961768bb391e0f58}{%
@@ -236,6 +284,118 @@
       \verb https://indoo.rs/solution/indoor-positioning-system/
       \endverb
     \endentry
+    \entry{Jindal}{article}{}
+      \name{author}{1}{}{%
+        {{hash=29de4be1f51cc0303331fa9a84867bad}{%
+           family={Jindal},
+           familyi={J\bibinitperiod},
+           given={Tanu},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{29de4be1f51cc0303331fa9a84867bad}
+      \strng{fullhash}{29de4be1f51cc0303331fa9a84867bad}
+      \strng{bibnamehash}{29de4be1f51cc0303331fa9a84867bad}
+      \strng{authorbibnamehash}{29de4be1f51cc0303331fa9a84867bad}
+      \strng{authornamehash}{29de4be1f51cc0303331fa9a84867bad}
+      \strng{authorfullhash}{29de4be1f51cc0303331fa9a84867bad}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Encyclopedia of Multimedia Technology and {\ldots}}
+      \field{title}{{2G-4G Networks: Evolution of Technologies, Standards, and Deployment}}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Joachim/Downloads/LCS-010019.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.academia.edu/1201698/2G-4G{\_}Networks{\_}Evolution{\_}of{\_}Technologies{\_}Standards{\_}and{\_}Deployment
+      \endverb
+      \verb{url}
+      \verb https://www.academia.edu/1201698/2G-4G%7B%5C_%7DNetworks%7B%5C_%7DEvolution%7B%5C_%7Dof%7B%5C_%7DTechnologies%7B%5C_%7DStandards%7B%5C_%7Dand%7B%5C_%7DDeployment
+      \endverb
+    \endentry
+    \entry{KristianJorstad2016}{report}{}
+      \name{author}{2}{}{%
+        {{hash=4cde9711ed6be78734c81d307564f5fa}{%
+           family={{Kristian J{ø}rstad}},
+           familyi={K\bibinitperiod},
+           given={Finn},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1ee03fba6e5fa363f8fb927a95957f76}{%
+           family={Krogstie},
+           familyi={K\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a087a30f4e1298553cca47cdb816ea84}
+      \strng{fullhash}{a087a30f4e1298553cca47cdb816ea84}
+      \strng{bibnamehash}{a087a30f4e1298553cca47cdb816ea84}
+      \strng{authorbibnamehash}{a087a30f4e1298553cca47cdb816ea84}
+      \strng{authornamehash}{a087a30f4e1298553cca47cdb816ea84}
+      \strng{authorfullhash}{a087a30f4e1298553cca47cdb816ea84}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Smart Hospital: Indoor positioning with BIM}}
+      \field{type}{techreport}
+      \field{year}{2016}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Kristian J{\o}rstad, Krogstie - 2016 - Smart Hospital Indoor positioning with BIM.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://folk.idi.ntnu.no/krogstie/project-reports/2016/smart hospital/TDT4501{\_}Smart{\_}Hospital{\_}FinnK{\_}Jorstad{\_}FINAL.pdf
+      \endverb
+      \verb{url}
+      \verb https://folk.idi.ntnu.no/krogstie/project-reports/2016/smart%20hospital/TDT4501%7B%5C_%7DSmart%7B%5C_%7DHospital%7B%5C_%7DFinnK%7B%5C_%7DJorstad%7B%5C_%7DFINAL.pdf
+      \endverb
+    \endentry
+    \entry{Li}{report}{}
+      \name{author}{4}{}{%
+        {{hash=91f0285539e0dd7b4dbb618797bf9619}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Binghao},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0719cda35894ccd7cee125732dd30986}{%
+           family={Salter},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6d25b7365632017b38c8478214a9dfe3}{%
+           family={Dempster},
+           familyi={D\bibinitperiod},
+           given={Andrew\bibnamedelima G},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=df96519034bd8ee80aec952f15d8dff0}{%
+           family={Rizos},
+           familyi={R\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{abce7bde8577e44b07b766cc39c1454d}
+      \strng{fullhash}{a554a13ceaa5e0d063792d6cc706f0f5}
+      \strng{bibnamehash}{abce7bde8577e44b07b766cc39c1454d}
+      \strng{authorbibnamehash}{abce7bde8577e44b07b766cc39c1454d}
+      \strng{authornamehash}{abce7bde8577e44b07b766cc39c1454d}
+      \strng{authorfullhash}{a554a13ceaa5e0d063792d6cc706f0f5}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As well as delivering high speed internet, Wireless LAN (WLAN) can be used as an effective indoor positioning system. It is competitive in terms of both accuracy and cost compared to similar systems. To date, several signal strength based techniques have been proposed. Researchers at the University of New South Wales (UNSW) have developed several innovative implementations of WLAN positioning systems. This paper describes the techniques used and details the experimental results of the research.}
+      \field{title}{{Indoor Positioning Techniques Based on Wireless LAN}}
+      \field{type}{techreport}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Li et al. - Unknown - Indoor Positioning Techniques Based on Wireless LAN.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://opus.lib.uts.edu.au/bitstream/10453/19580/1/113{\_}Li.pdf
+      \endverb
+      \verb{url}
+      \verb https://opus.lib.uts.edu.au/bitstream/10453/19580/1/113%7B%5C_%7DLi.pdf
+      \endverb
+    \endentry
     \entry{Liu2007}{article}{}
       \name{author}{5}{}{%
         {{hash=c2969289c79bfb5f2bd68129932f963b}{%
@@ -295,6 +455,82 @@
       \endverb
       \keyw{Index Terms-Indoor location sensing,location fingerprinting,positioning algorithm,radio frequency (RF),wireless localization}
     \endentry
+    \entry{Loy2018}{report}{}
+      \name{author}{3}{}{%
+        {{hash=9d2546e7418209af36195938520ce645}{%
+           family={Loy},
+           familyi={L\bibinitperiod},
+           given={N\bibnamedelima Van},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=b1f8b1da251fdee924ea0eab0c7bf4a2}{%
+           family={Verbeeck²},
+           familyi={V\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0fc7c749077f8f1c7bc1b650fd17d3c4}{%
+           family={Knapen³},
+           familyi={K\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b560dcde45a2f1092e7134f5198005bc}
+      \strng{fullhash}{b560dcde45a2f1092e7134f5198005bc}
+      \strng{bibnamehash}{b560dcde45a2f1092e7134f5198005bc}
+      \strng{authorbibnamehash}{b560dcde45a2f1092e7134f5198005bc}
+      \strng{authornamehash}{b560dcde45a2f1092e7134f5198005bc}
+      \strng{authorfullhash}{b560dcde45a2f1092e7134f5198005bc}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{High accuracy indoor positioning system to monitor spatial use in dwellings}}
+      \field{type}{techreport}
+      \field{year}{2018}
+      \field{pages}{6\bibrangedash 8}
+      \range{pages}{3}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Loy, Verbeeck², Knapen³ - 2018 - High accuracy indoor positioning system to monitor spatial use in dwellings.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb www.measuringbehavior.org
+      \endverb
+      \verb{url}
+      \verb www.measuringbehavior.org
+      \endverb
+    \endentry
+    \entry{Mautz}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1a79e2ad776b1467c4976431066ba01e}{%
+           family={Mautz},
+           familyi={M\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a79e2ad776b1467c4976431066ba01e}
+      \strng{fullhash}{1a79e2ad776b1467c4976431066ba01e}
+      \strng{bibnamehash}{1a79e2ad776b1467c4976431066ba01e}
+      \strng{authorbibnamehash}{1a79e2ad776b1467c4976431066ba01e}
+      \strng{authornamehash}{1a79e2ad776b1467c4976431066ba01e}
+      \strng{authorfullhash}{1a79e2ad776b1467c4976431066ba01e}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Permanent Link: https://doi.}
+      \field{title}{{Indoor positioning technologies}}
+      \verb{doi}
+      \verb 10.3929/ethz-a-007313554
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Mautz - Unknown - Indoor positioning technologies.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3929/ethz-a-007313554
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3929/ethz-a-007313554
+      \endverb
+    \endentry
     \entry{Retscher}{report}{}
       \name{author}{4}{}{%
         {{hash=b6254f3fdc34075e99fd8721f39da9e4}{%
@@ -332,13 +568,44 @@
       \field{title}{{Performance and Accuracy Test of the WLAN Indoor Positioning System" ipos SBDist-Ultra-rapid and highly-secure control via next-generation broadband radio View project Performance and Accuracy Test of the WLAN Indoor Positioning System "ipos{\&}quo}}
       \field{type}{techreport}
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Retscher et al. - Unknown - Performance and Accuracy Test of the WLAN Indoor Positioning System{\&}quot ipos SBDist-Ultra-rapid and highly-.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://www.researchgate.net/publication/228664602
       \endverb
       \verb{url}
       \verb https://www.researchgate.net/publication/228664602
+      \endverb
+    \endentry
+    \entry{S2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=afdcbf325a5d99cae72b1960634a5129}{%
+           family={S},
+           familyi={S\bibinitperiod},
+           given={Ibrahim\bibnamedelima Khandker},
+           giveni={I\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{afdcbf325a5d99cae72b1960634a5129}
+      \strng{fullhash}{afdcbf325a5d99cae72b1960634a5129}
+      \strng{bibnamehash}{afdcbf325a5d99cae72b1960634a5129}
+      \strng{authorbibnamehash}{afdcbf325a5d99cae72b1960634a5129}
+      \strng{authornamehash}{afdcbf325a5d99cae72b1960634a5129}
+      \strng{authorfullhash}{afdcbf325a5d99cae72b1960634a5129}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{- Good for signal properties overview}
+      \field{title}{{RF fingerprinting for user locationing in LTE/WLAN networks}}
+      \field{year}{2016}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Unknown - Unknown - full-text.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://jyx.jyu.fi/bitstream/handle/123456789/51204/1/URN{\%}3ANBN{\%}3Afi{\%}3Ajyu-201609063970.pdf
+      \endverb
+      \verb{url}
+      \verb https://jyx.jyu.fi/bitstream/handle/123456789/51204/1/URN%7B%5C%%7D3ANBN%7B%5C%%7D3Afi%7B%5C%%7D3Ajyu-201609063970.pdf
       \endverb
     \endentry
     \entry{Sakpere2017}{article}{}
@@ -373,6 +640,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{<}p{>}The research and use of positioning and navigation technologies outdoors has seen a steady and exponential growth. Based on this success, there have been attempts to implement these technologies indoors, leading to numerous studies. Most of the algorithms, techniques and technologies used have been implemented outdoors. However, how they fare indoors is different altogether. Thus, several technologies have been proposed and implemented to improve positioning and navigation indoors. Among them are Infrared (IR), Ultrasound, Audible Sound, Magnetic, Optical and Vision, Radio Frequency (RF), Visible Light, Pedestrian Dead Reckoning (PDR)/Inertial Navigation System (INS) and Hybrid. The RF technologies include Bluetooth, Ultra-wideband (UWB), Wireless Sensor Network (WSN), Wireless Local Area Network (WLAN), Radio-Frequency Identification (RFID) and Near Field Communication (NFC). In addition, positioning techniques applied in indoor positioning systems include the signal properties and positioning algorithms. The prevalent signal properties are Angle of Arrival (AOA), Time of Arrival (TOA), Time Difference of Arrival (TDOA) and Received Signal Strength Indication (RSSI), while the positioning algorithms are Triangulation, Trilateration, Proximity and Scene Analysis/ Fingerprinting. This paper presents a state-of-the-art survey of indoor positioning and navigation systems and technologies, and their use in various scenarios. It analyses distinct positioning technology metrics such as accuracy, complexity, cost, privacy, scalability and usability. This paper has profound implications for future studies of positioning and navigation.{<}/p{>}}
+      \field{annotation}{- Provides overview of techniques and algorithms in an explainable fashion - Check some sources on specific experiments of WLAN based positioning}
       \field{issn}{2313-7835}
       \field{journaltitle}{South African Computer Journal}
       \field{month}{12}
@@ -465,9 +733,63 @@
       \verb https://www.techopedia.com/definition/24967/ieee-80211
       \endverb
     \endentry
+    \entry{Wang2003}{report}{}
+      \name{author}{4}{}{%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=64ba599feaf2495192fcb4c428e737a4}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={X},
+           giveni={X\bibinitperiod}}}%
+        {{hash=07c2dd101acd2a2e5fd9e99c39f9b070}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={H\bibnamedelima K},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=b11c60164fa97b2c87d733149da8219c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={G\bibnamedelima Y},
+           giveni={G\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
+      \strng{fullhash}{55b07b8e81083fb505508495b9c7d9a6}
+      \strng{bibnamehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
+      \strng{authorbibnamehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
+      \strng{authornamehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
+      \strng{authorfullhash}{55b07b8e81083fb505508495b9c7d9a6}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{With the increasing use of mobile computing devices such as Personal Digital Assistants (PDA), and an expansion of Wireless Local Area Networks (WLAN), there is growing interest in an indoor Wireless Positioning Systems (WPS) based on WLAN infrastructure. This paper describes a WPS that uses the signal strength of WLAN transmissions from/to WLAN Access Points to determine the position of the mobile user. To some extent, this technique addresses a shortcoming of GPS positioning systems, which are ideal outdoors but which are generally not available indoors. In this paper, the authors describe the configuration of WPS. Experiments and a discussion of the accuracy are presented. The results of the experiments shows that a wireless access point-based indoor positioning system is feasible and a positioning accuracy of 1-3m can be achieved while an accuracy of 0.1m-level can be obtained under an idealised situation.}
+      \field{annotation}{- Good experiment on wall loss and signal strength deviation USED}
+      \field{title}{{An indoors wireless positioning system based on wireless local area network infrastructure}}
+      \field{type}{techreport}
+      \field{year}{2003}
+      \field{pages}{22\bibrangedash 25}
+      \range{pages}{4}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Wang et al. - 2003 - An indoors wireless positioning system based on wireless local area network infrastructure.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pdfs.semanticscholar.org/3dda/3b5083137e6c749392f9326dce461298b6c7.pdf
+      \endverb
+      \verb{url}
+      \verb https://pdfs.semanticscholar.org/3dda/3b5083137e6c749392f9326dce461298b6c7.pdf
+      \endverb
+      \keyw{Indoors positioning,Signal propagation,Wireless LAN infrastructure,Wireless positioning}
+    \endentry
   \enddatalist
   \missing{IndoorLocation.io2019}
   \missing{MapWize.io2019}
+  \missing{fig:euclidean}
+  \missing{fig:triang}
+  \missing{fig:wang_test}
 \endrefsection
 \endinput
 

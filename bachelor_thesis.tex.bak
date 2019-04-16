@@ -27,10 +27,16 @@
 \newacronym{ir}{IR}{infrared}
 \newacronym{wlan}{WLAN}{wireless local area network}
 \newacronym{lbs}{LBS}{location-based services}
+\newacronym{mhz}{MHz}{megahertz}
+\newacronym{dbm}{dBm}{decibel-milliwatts}
 \newacronym{mu}{MU}{mobile user}
 \newacronym{rss}{RSS}{radio signal strength}
 \newacronym{mac}{MAC}{media access control}
+\newacronym{tx}{Tx}{transmitter}
+\newacronym{rx}{Rx}{receiver}
+\newacronym{gps}{GPS}{global positioning system}
 \newacronym{toa}{ToA}{time of arrival}
+\newacronym{aoa}{AoA}{angle of arrival}
 \newacronym{tdoa}{TDoA}{time difference of arrival}
 \newacronym{pn}{PN}{personal network}
 \newacronym{rfid}{RFID}{radio-frequency identification}

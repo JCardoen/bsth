@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.3)  15 APR 2019 13:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.3)  16 APR 2019 16:58
 entering extended mode
 **./bachelor_thesis.tex
 (bachelor_thesis.tex
@@ -738,29 +738,22 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (bachelor_thesis.aux
-
-LaTeX Warning: Label `fig:ips_topologies' multiply defined.
-
-
-LaTeX Warning: Label `fig:euclidean' multiply defined.
-
-)
+ (bachelor_thesis.aux)
 \openout1 = `bachelor_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 70.
 
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd
 "
@@ -788,9 +781,30 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                fig:euclidean
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                fig:triang
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                fig:wang_test
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
 )
-Package biblatex Info: Reference section=0 on input line 64.
-Package biblatex Info: Reference segment=0 on input line 64.
+Package biblatex Info: Reference section=0 on input line 70.
+Package biblatex Info: Reference segment=0 on input line 70.
 
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp
 -pdf.mkii"
@@ -860,28 +874,28 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 66
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 72
 .
 
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ztmcm.
 fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 66
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 72
 .
 
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omlztmcm.
 fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 66
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 72
 .
 
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsztmcm.
 fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 66
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 72
 .
 
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omxztmcm.
@@ -889,11 +903,11 @@ fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
  [1
 
 \openout4 = `bachelor_thesis.ist'.
@@ -901,7 +915,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 {C:/Users/Joachim/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
  [3
 
 ] (bachelor_thesis.toc
@@ -924,7 +938,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 ]
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
 [7
 
 ]
@@ -936,58 +950,60 @@ Chapter 3.
 (chapters/project_specification.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
- [9
+) [9
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 22.
-
-("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd
-"
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
- [10] [11]) [12]
 Chapter 4.
-(chapters/indoor_positioning_systems.tex
-<figures/classification_ips.png, id=42, 310.91156pt x 293.59688pt>
+(chapters/indoor_positioning_systems.tex [10
+
+]
+<figures/classification_ips.png, id=35, 310.91156pt x 293.59688pt>
 File: figures/classification_ips.png Graphic file (type png)
 <use figures/classification_ips.png>
-Package pdftex.def Info: figures/classification_ips.png  used on input line 9.
+Package pdftex.def Info: figures/classification_ips.png  used on input line 11.
+
 (pdftex.def)             Requested size: 233.18307pt x 220.1971pt.
 
 
-LaTeX Warning: Citation 'ComparativeSurvey' on page 13 undefined on input line 
-10.
+LaTeX Warning: Citation 'ComparativeSurvey' on page 11 undefined on input line 
+12.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/classification_indoor_positioning_techniques.png, id=44, 345.54094pt x
+<figures/classification_indoor_positioning_techniques.png, id=37, 345.54094pt x
  427.5975pt>
 File: figures/classification_indoor_positioning_techniques.png Graphic file (ty
 pe png)
 <use figures/classification_indoor_positioning_techniques.png>
 Package pdftex.def Info: figures/classification_indoor_positioning_techniques.p
-ng  used on input line 16.
+ng  used on input line 26.
 (pdftex.def)             Requested size: 259.15506pt x 320.69733pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 6691) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13
+ [11 <./figures/classification_ips.png>]
+<figures/toa.png, id=42, 288.3272pt x 201.00093pt>
+File: figures/toa.png Graphic file (type png)
+<use figures/toa.png>
+Package pdftex.def Info: figures/toa.png  used on input line 39.
+(pdftex.def)             Requested size: 288.32648pt x 201.00043pt.
+ [12 <./figures/classification_indoor_positioning_techniques.png>]
+<figures/aoa.png, id=50, 319.94531pt x 140.02313pt>
+File: figures/aoa.png Graphic file (type png)
+<use figures/aoa.png>
+Package pdftex.def Info: figures/aoa.png  used on input line 48.
+(pdftex.def)             Requested size: 319.94452pt x 140.02278pt.
+<figures/triang.png, id=51, 331.99031pt x 267.24844pt>
+File: figures/triang.png Graphic file (type png)
+<use figures/triang.png>
+Package pdftex.def Info: figures/triang.png  used on input line 58.
+(pdftex.def)             Requested size: 165.99474pt x 133.62389pt.
+ [13 <./figures/toa.png> <./figures/aoa.png>] [14 <./figures/triang.png>]) [15]
 
-]
-Overfull \vbox (387.87631pt too high) has occurred while \output is active []
-
-
-[14 <./figures/classification_ips.png> <./figures/classification_indoor_positio
-ning_techniques.png>]) [15]
 Chapter 5.
 (chapters/wlan_positioning.tex
-<figures/ips_topologies.png, id=57, 500.62032pt x 311.66437pt>
+<figures/ips_topologies.png, id=66, 500.62032pt x 311.66437pt>
 File: figures/ips_topologies.png Graphic file (type png)
 <use figures/ips_topologies.png>
 Package pdftex.def Info: figures/ips_topologies.png  used on input line 13.
@@ -995,62 +1011,142 @@ Package pdftex.def Info: figures/ips_topologies.png  used on input line 13.
  [16
 
  <./figures/ips_topologies.png>] [17]
-<figures/euclidean_distance.png, id=68, 483.30562pt x 387.69844pt>
+<figures/euclidean_distance.png, id=74, 483.30562pt x 387.69844pt>
 File: figures/euclidean_distance.png Graphic file (type png)
 <use figures/euclidean_distance.png>
-Package pdftex.def Info: figures/euclidean_distance.png  used on input line 34.
+Package pdftex.def Info: figures/euclidean_distance.png  used on input line 36.
 
 (pdftex.def)             Requested size: 362.47833pt x 290.7731pt.
+<figures/distribution_of_rssi.png, id=75, 386.94562pt x 235.63031pt>
+File: figures/distribution_of_rssi.png Graphic file (type png)
+<use figures/distribution_of_rssi.png>
+Package pdftex.def Info: figures/distribution_of_rssi.png  used on input line 4
+4.
+(pdftex.def)             Requested size: 290.2085pt x 176.72229pt.
+<figures/rssi_distance.png, id=76, 394.47375pt x 315.42844pt>
+File: figures/rssi_distance.png Graphic file (type png)
+<use figures/rssi_distance.png>
+Package pdftex.def Info: figures/rssi_distance.png  used on input line 50.
+(pdftex.def)             Requested size: 295.85458pt x 236.57074pt.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 41.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 56.
 
 [18 <./figures/euclidean_distance.png>]
-<figures/estimated_distance_segments.png, id=74, 654.94687pt x 494.59781pt>
+<figures/estimated_distance_segments.png, id=82, 654.94687pt x 494.59781pt>
 File: figures/estimated_distance_segments.png Graphic file (type png)
 <use figures/estimated_distance_segments.png>
 Package pdftex.def Info: figures/estimated_distance_segments.png  used on input
- line 54.
+ line 68.
 (pdftex.def)             Requested size: 327.47264pt x 247.2983pt.
-) [19 <./figures/estimated_distance_segments.png>] [20]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 3009) has occurred while \output is active []
+
+ [19 <./figures/distribution_of_rssi.png> <./figures/rssi_distance.png>]
+<figures/fingerprint_chart.png, id=91, 441.90094pt x 239.39438pt>
+File: figures/fingerprint_chart.png Graphic file (type png)
+<use figures/fingerprint_chart.png>
+Package pdftex.def Info: figures/fingerprint_chart.png  used on input line 83.
+(pdftex.def)             Requested size: 441.89986pt x 239.39378pt.
+<figures/fingerprinting_stages.png, id=92, 584.1825pt x 255.20343pt>
+File: figures/fingerprinting_stages.png Graphic file (type png)
+<use figures/fingerprinting_stages.png>
+Package pdftex.def Info: figures/fingerprinting_stages.png  used on input line 
+89.
+(pdftex.def)             Requested size: 438.13579pt x 191.4021pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20 <./figures/estimated_distance_segments.png>] [21 <./figures/fingerprint_cha
+rt.png> <./figures/fingerprinting_stages.png>]
+<figures/wang_test.png, id=102, 386.94562pt x 161.10187pt>
+File: figures/wang_test.png Graphic file (type png)
+<use figures/wang_test.png>
+Package pdftex.def Info: figures/wang_test.png  used on input line 116.
+(pdftex.def)             Requested size: 386.94467pt x 161.10147pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22]) [23 <./figures/wang_test.png>]
 Chapter 6.
-(chapters/cisco_cmx.tex) [21
+(chapters/cisco_cmx.tex) [24
 
 ]
 Chapter 7.
-(chapters/implementation.tex) [22
+(chapters/implementation.tex) [25
 
 ]
 Chapter 8.
-(chapters/conclusion.tex) [23
+(chapters/conclusion.tex) [26
 
 ]
-Overfull \hbox (31.88196pt too wide) in paragraph at lines 93--93
+Overfull \hbox (2.13852pt too wide) in paragraph at lines 99--99
+\OT1/cmtt/m/n/10.95 smart % 20hospital / TDT4501 % 7B % 5C _ %7DSmart % 7B % 5C
+ _ %7DHospital % 7B % 5C _ %7DFinnK %
+ []
+
+
+Overfull \hbox (31.88196pt too wide) in paragraph at lines 99--99
 \OT1/cmtt/m/n/10.95 x9AxxWgLevqXwZMBax2u4jkuXVo % 7B % 5C % %7D3D % 7B % 5C & %
 7Dresponse -[] content -[] disposition =
  []
 
+[27
 
-Overfull \hbox (3.01494pt too wide) in paragraph at lines 93--93
+]
+
+! Package inputenc Error: Unicode character ² (U+00B2)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 
+     
+? 
+
+! Package inputenc Error: Unicode character ³ (U+00B3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 
+     
+? 
+
+Overfull \hbox (3.01494pt too wide) in paragraph at lines 99--99
 \OT1/ptm/m/it/10.95 View project Per-for-mance and Ac-cu-racy Test of the WLAN 
 In-door Po-si-tion-ing Sys-tem "ipos&quo\OT1/ptm/m/n/10.95 .
  []
 
-[24
 
-]
-Overfull \hbox (20.7815pt too wide) in paragraph at lines 93--93
+Overfull \hbox (20.7815pt too wide) in paragraph at lines 99--99
 []\OT1/ptm/m/n/10.95 Techopedia. \OT1/ptm/m/it/10.95 What is IEEE 802.11? - Def
 -i-ni-tion from Techo-pe-dia\OT1/ptm/m/n/10.95 . \OT1/ptm/m/sc/10.95 url\OT1/pt
 m/m/n/10.95 : $\OT1/cmtt/m/n/10.95 https : / / www . techopedia .
  []
 
-[25] (bachelor_thesis.aux)
+[28] (bachelor_thesis.aux)
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -1062,10 +1158,10 @@ Package logreq Info: Writing requests to 'bachelor_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17206 strings out of 492946
- 308520 string characters out of 3125379
- 788936 words of memory out of 3000000
- 20789 multiletter control sequences out of 15000+200000
+ 17442 strings out of 492946
+ 312694 string characters out of 3125379
+ 791372 words of memory out of 3000000
+ 21019 multiletter control sequences out of 15000+200000
  40562 words of font info for 83 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,11n,46p,1998b,1749s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1077,13 +1173,14 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Joachim/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joachim
 /AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C
 :/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.p
-fb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/ut
-mb8a.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ti
-mes/utmr8a.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-urw/times/utmri8a.pfb>
-Output written on bachelor_thesis.pdf (25 pages, 419382 bytes).
+fb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/symbol/u
+syr.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/tim
+es/utmb8a.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
+rw/times/utmr8a.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on bachelor_thesis.pdf (28 pages, 734683 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
+ 160 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
