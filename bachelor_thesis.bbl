@@ -234,27 +234,6 @@
       \endverb
       \keyw{Fingerprinting,Index Terms-Wifi,Location,Position determination,Positioning,WLAN,localization}
     \endentry
-    \entry{medappspec}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
-           family={IBM},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \field{sortinit}{I}
-      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{No Title}}
-      \field{year}{2018}
-      \field{pages}{12}
-      \range{pages}{1}
-    \endentry
     \entry{Indoors2019}{misc}{}
       \name{author}{1}{}{%
         {{hash=9d61df8d504275ad91ae1796fab6f9ad}{%
@@ -787,6 +766,7 @@
   \enddatalist
   \missing{IndoorLocation.io2019}
   \missing{MapWize.io2019}
+  \missing{Mautza}
   \missing{fig:euclidean}
   \missing{fig:triang}
   \missing{fig:wang_test}
