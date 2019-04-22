@@ -1,4 +1,15 @@
 \section{Cisco CMX as IPS}
+One of the companies that jumped on the bandwagon of the implementation of \acrlong{ips} is Cisco. Over the years they have developed a dashboard to gain intelligence from user's position such as hotspots where users gather most frequently and heat maps of different routes \acrlong{mu}s take.
+\subsection{Functionality of Cisco CMX}
+As featured in the datasheet provided by Cisco itself, Cisco CMX components can be distinguished into three different components, being: indoor location, CMX Connect, CMX Analytics \cite{Ciscoa}.
+\section{Location}
+\subsection{Location Techniques}
+\subsubsection{Proximity, Presence}
+This technique is most feasible when dealing with outdoor positioning as it requires less \acrlong{ap}s but has less accuracy. According to the datasheet of Cisco \cite{Ciscoa}, the accuracy of this technique is limited to 10 to 30 metres. To calculate the user's position, the \acrshort{ap} with the strongest \acrlong{rssi} is picked as a correct representation of the \acrshort{mu}'s location.
+\subsubsection{RSSI Triangulation}
+\subsubsection{Hyperlocation}
+\subsection{CMX Connect}
+\subsection{CMX Analytics}
 \section{Performance Metrics}
 \subsection{Accuracy ~\& Precision}
 \subsection{Coverage Area}
