@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 3.0 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -31,6 +31,7 @@
       \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
       \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
       \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
+      \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{labelnamesource}{author}
@@ -59,6 +60,7 @@
       \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
       \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
       \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
+      \field{extraname}{2}
       \field{sortinit}{C}
       \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{labelnamesource}{author}
@@ -170,7 +172,7 @@
       \field{type}{techreport}
       \field{year}{2009}
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Frank et al. - 2009 - Development and Evaluation of a Combined WLAN and Inertial Indoor Pedestrian Positioning System Pervasive Computin.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://www.researchgate.net/publication/229142278
@@ -218,7 +220,7 @@
       \verb 10.1109/SURV.2009.090103
       \endverb
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Gu, Lo, Niemegeers - 2009 - A Survey of Indoor Positioning Systems for Wireless Personal Networks.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://www.csd.uoc.gr/{~}hy439/papers/gu2009pdf.pdf
@@ -227,6 +229,52 @@
       \verb https://www.csd.uoc.gr/%7B~%7Dhy439/papers/gu2009pdf.pdf
       \endverb
       \keyw{Index Terms-Personal Networks,Indoor Positioning Systems,Location Techniques}
+    \endentry
+    \entry{Hallock2015}{report}{}
+      \name{author}{4}{}{%
+        {{hash=197cda45bb5404df05a8ec8601de2838}{%
+           family={Hallock},
+           familyi={H\bibinitperiod},
+           given={Zeb},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7a2ec5bfbc43d48061b483862c4919a5}{%
+           family={Deshpande},
+           familyi={D\bibinitperiod},
+           given={Suyog},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6b23c67926253c400f7ffaf903f64e38}{%
+           family={Saville},
+           familyi={S\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+        {{hash=05fcbfe9026a22536e3e23fdd34a91bb}{%
+           family={Chastain},
+           familyi={C\bibinitperiod},
+           given={Stephenie},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{716fbe69fd50d2cea0cf62c5788a99b6}
+      \strng{fullhash}{47d42d3afc2ef75763d025b007763c34}
+      \strng{bibnamehash}{716fbe69fd50d2cea0cf62c5788a99b6}
+      \strng{authorbibnamehash}{716fbe69fd50d2cea0cf62c5788a99b6}
+      \strng{authornamehash}{716fbe69fd50d2cea0cf62c5788a99b6}
+      \strng{authorfullhash}{47d42d3afc2ef75763d025b007763c34}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Cisco Connected Mobile Experiences (CMX) CVD Building Architectures to Solve Business Problems}}
+      \field{type}{techreport}
+      \field{year}{2015}
+      \verb{file}
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Hallock et al. - 2015 - Cisco Connected Mobile Experiences (CMX) CVD Building Architectures to Solve Business Problems.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cisco.com/c/en/us/td/docs/solutions/Enterprise/Borderless{\_}Networks/Unified{\_}Access/CMX.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cisco.com/c/en/us/td/docs/solutions/Enterprise/Borderless%7B%5C_%7DNetworks/Unified%7B%5C_%7DAccess/CMX.pdf
+      \endverb
     \endentry
     \entry{Henniges2012}{report}{}
       \name{author}{1}{}{%
@@ -252,7 +300,7 @@
       \field{type}{techreport}
       \field{year}{2012}
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Henniges - 2012 - Current approches of Wifi Positioning.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb http://www.gpsworld.com/wireless/indoor-positioning/
@@ -312,7 +360,7 @@
       \field{journaltitle}{Encyclopedia of Multimedia Technology and {\ldots}}
       \field{title}{{2G-4G Networks: Evolution of Technologies, Standards, and Deployment}}
       \verb{file}
-      \verb :home/johnmcclane/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Jindal - Unknown - 2G-4G Networks Evolution of Technologies, Standards, and Deployment.pdf:pdf
+      \verb :C$\backslash$:/Users/Joachim/Downloads/LCS-010019.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://www.academia.edu/1201698/2G-4G{\_}Networks{\_}Evolution{\_}of{\_}Technologies{\_}Standards{\_}and{\_}Deployment
@@ -323,8 +371,8 @@
     \endentry
     \entry{KristianJorstad2016}{report}{}
       \name{author}{2}{}{%
-        {{hash=e81be45d49c584817f4a0bd1ba50bbe6}{%
-           family={{Kristian Jørstad}},
+        {{hash=4cde9711ed6be78734c81d307564f5fa}{%
+           family={{Kristian J{ø}rstad}},
            familyi={K\bibinitperiod},
            given={Finn},
            giveni={F\bibinitperiod}}}%
@@ -334,12 +382,12 @@
            given={John},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{883cb60a45414e5cb6f99013e0552cc0}
-      \strng{fullhash}{883cb60a45414e5cb6f99013e0552cc0}
-      \strng{bibnamehash}{883cb60a45414e5cb6f99013e0552cc0}
-      \strng{authorbibnamehash}{883cb60a45414e5cb6f99013e0552cc0}
-      \strng{authornamehash}{883cb60a45414e5cb6f99013e0552cc0}
-      \strng{authorfullhash}{883cb60a45414e5cb6f99013e0552cc0}
+      \strng{namehash}{a087a30f4e1298553cca47cdb816ea84}
+      \strng{fullhash}{a087a30f4e1298553cca47cdb816ea84}
+      \strng{bibnamehash}{a087a30f4e1298553cca47cdb816ea84}
+      \strng{authorbibnamehash}{a087a30f4e1298553cca47cdb816ea84}
+      \strng{authornamehash}{a087a30f4e1298553cca47cdb816ea84}
+      \strng{authorfullhash}{a087a30f4e1298553cca47cdb816ea84}
       \field{sortinit}{K}
       \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
       \field{labelnamesource}{author}
@@ -348,7 +396,7 @@
       \field{type}{techreport}
       \field{year}{2016}
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Kristian J{\o}rstad, Krogstie - 2016 - Smart Hospital Indoor positioning with BIM.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://folk.idi.ntnu.no/krogstie/project-reports/2016/smart hospital/TDT4501{\_}Smart{\_}Hospital{\_}FinnK{\_}Jorstad{\_}FINAL.pdf
@@ -369,7 +417,7 @@
            familyi={S\bibinitperiod},
            given={James},
            giveni={J\bibinitperiod}}}%
-        {{hash=11d2f36968e449c7d567ca74a2ae793a}{%
+        {{hash=6d25b7365632017b38c8478214a9dfe3}{%
            family={Dempster},
            familyi={D\bibinitperiod},
            given={Andrew\bibnamedelima G},
@@ -381,11 +429,11 @@
            giveni={C\bibinitperiod}}}%
       }
       \strng{namehash}{abce7bde8577e44b07b766cc39c1454d}
-      \strng{fullhash}{d6f16129263ae2dcbc428d7e7c81a2fa}
+      \strng{fullhash}{a554a13ceaa5e0d063792d6cc706f0f5}
       \strng{bibnamehash}{abce7bde8577e44b07b766cc39c1454d}
       \strng{authorbibnamehash}{abce7bde8577e44b07b766cc39c1454d}
       \strng{authornamehash}{abce7bde8577e44b07b766cc39c1454d}
-      \strng{authorfullhash}{d6f16129263ae2dcbc428d7e7c81a2fa}
+      \strng{authorfullhash}{a554a13ceaa5e0d063792d6cc706f0f5}
       \field{sortinit}{L}
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{labelnamesource}{author}
@@ -395,7 +443,7 @@
       \field{title}{{Indoor Positioning Techniques Based on Wireless LAN}}
       \field{type}{techreport}
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Li et al. - Unknown - Indoor Positioning Techniques Based on Wireless LAN.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://opus.lib.uts.edu.au/bitstream/10453/19580/1/113{\_}Li.pdf
@@ -453,7 +501,7 @@
       \verb 10.1109/TSMCC.2007.905750
       \endverb
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Liu et al. - 2007 - Survey of Wireless Indoor Positioning Techniques and Systems.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://s3.amazonaws.com/academia.edu.documents/31555342/Survey{\_}of{\_}Wireless{\_}Indoor{\_}Positioning1.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A{\&}Expires=1555165014{\&}Signature=x9AxxWgLevqXwZMBax2u4jkuXVo{\%}3D{\&}response-content-disposition=inline{\%}3B filename{\%}3DSurvey{\_}of
@@ -465,7 +513,7 @@
     \endentry
     \entry{Loy2018}{report}{}
       \name{author}{3}{}{%
-        {{hash=2da99ea9ec6edc412146ef468868f17d}{%
+        {{hash=9d2546e7418209af36195938520ce645}{%
            family={Loy},
            familyi={L\bibinitperiod},
            given={N\bibnamedelima Van},
@@ -481,12 +529,12 @@
            given={E},
            giveni={E\bibinitperiod}}}%
       }
-      \strng{namehash}{a3542e0a7c0e1a1e12c839ff1eb87737}
-      \strng{fullhash}{a3542e0a7c0e1a1e12c839ff1eb87737}
-      \strng{bibnamehash}{a3542e0a7c0e1a1e12c839ff1eb87737}
-      \strng{authorbibnamehash}{a3542e0a7c0e1a1e12c839ff1eb87737}
-      \strng{authornamehash}{a3542e0a7c0e1a1e12c839ff1eb87737}
-      \strng{authorfullhash}{a3542e0a7c0e1a1e12c839ff1eb87737}
+      \strng{namehash}{8155f341b24b6dc73413dde3972c1d86}
+      \strng{fullhash}{8155f341b24b6dc73413dde3972c1d86}
+      \strng{bibnamehash}{8155f341b24b6dc73413dde3972c1d86}
+      \strng{authorbibnamehash}{8155f341b24b6dc73413dde3972c1d86}
+      \strng{authornamehash}{8155f341b24b6dc73413dde3972c1d86}
+      \strng{authorfullhash}{8155f341b24b6dc73413dde3972c1d86}
       \field{sortinit}{L}
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{labelnamesource}{author}
@@ -497,7 +545,7 @@
       \field{pages}{6\bibrangedash 8}
       \range{pages}{3}
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Loy, Verbeeck², Knapen³ - 2018 - High accuracy indoor positioning system to monitor spatial use in dwellings.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb www.measuringbehavior.org
@@ -530,7 +578,7 @@
       \verb 10.3929/ethz-a-007313554
       \endverb
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Mautz - Unknown - Indoor positioning technologies.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://doi.org/10.3929/ethz-a-007313554
@@ -576,7 +624,7 @@
       \field{title}{{Performance and Accuracy Test of the WLAN Indoor Positioning System" ipos SBDist-Ultra-rapid and highly-secure control via next-generation broadband radio View project Performance and Accuracy Test of the WLAN Indoor Positioning System "ipos{\&}quo}}
       \field{type}{techreport}
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Retscher et al. - Unknown - Performance and Accuracy Test of the WLAN Indoor Positioning System{\&}quot ipos SBDist-Ultra-rapid and highly-.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://www.researchgate.net/publication/228664602
@@ -587,18 +635,18 @@
     \endentry
     \entry{S2016}{article}{}
       \name{author}{1}{}{%
-        {{hash=0d8abf6ab8d405760f380a250c71f78c}{%
+        {{hash=afdcbf325a5d99cae72b1960634a5129}{%
            family={S},
            familyi={S\bibinitperiod},
            given={Ibrahim\bibnamedelima Khandker},
            giveni={I\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
-      \strng{namehash}{0d8abf6ab8d405760f380a250c71f78c}
-      \strng{fullhash}{0d8abf6ab8d405760f380a250c71f78c}
-      \strng{bibnamehash}{0d8abf6ab8d405760f380a250c71f78c}
-      \strng{authorbibnamehash}{0d8abf6ab8d405760f380a250c71f78c}
-      \strng{authornamehash}{0d8abf6ab8d405760f380a250c71f78c}
-      \strng{authorfullhash}{0d8abf6ab8d405760f380a250c71f78c}
+      \strng{namehash}{afdcbf325a5d99cae72b1960634a5129}
+      \strng{fullhash}{afdcbf325a5d99cae72b1960634a5129}
+      \strng{bibnamehash}{afdcbf325a5d99cae72b1960634a5129}
+      \strng{authorbibnamehash}{afdcbf325a5d99cae72b1960634a5129}
+      \strng{authornamehash}{afdcbf325a5d99cae72b1960634a5129}
+      \strng{authorfullhash}{afdcbf325a5d99cae72b1960634a5129}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{labelnamesource}{author}
@@ -607,7 +655,7 @@
       \field{title}{{RF fingerprinting for user locationing in LTE/WLAN networks}}
       \field{year}{2016}
       \verb{file}
-      \verb :home/johnmcclane/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/S - 2016 - RF fingerprinting for user locationing in LTEWLAN networks.pdf:pdf
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Unknown - Unknown - full-text.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://jyx.jyu.fi/bitstream/handle/123456789/51204/1/URN{\%}3ANBN{\%}3Afi{\%}3Ajyu-201609063970.pdf
@@ -623,12 +671,12 @@
            familyi={S\bibinitperiod},
            given={Wilson},
            giveni={W\bibinitperiod}}}%
-        {{hash=0ac4940774159689eebe564bf4e50e25}{%
+        {{hash=6f80837144c0db5ee16a66e7bcb9cb1c}{%
            family={{Adeyeye Oshin}},
            familyi={A\bibinitperiod},
            given={Michael},
            giveni={M\bibinitperiod}}}%
-        {{hash=60e586e863223d53062cc8443551ecaa}{%
+        {{hash=bc6ffc1c65db331d7d7cdd714c8cdf65}{%
            family={Mlitwa},
            familyi={M\bibinitperiod},
            given={Nhlanhla\bibnamedelima BW},
@@ -637,12 +685,12 @@
       \list{publisher}{1}{%
         {South African Computer Journal}%
       }
-      \strng{namehash}{7411957de9608fbd7f701e6e46984dc6}
-      \strng{fullhash}{7411957de9608fbd7f701e6e46984dc6}
-      \strng{bibnamehash}{7411957de9608fbd7f701e6e46984dc6}
-      \strng{authorbibnamehash}{7411957de9608fbd7f701e6e46984dc6}
-      \strng{authornamehash}{7411957de9608fbd7f701e6e46984dc6}
-      \strng{authorfullhash}{7411957de9608fbd7f701e6e46984dc6}
+      \strng{namehash}{701c941778507764073fad931c18820d}
+      \strng{fullhash}{701c941778507764073fad931c18820d}
+      \strng{bibnamehash}{701c941778507764073fad931c18820d}
+      \strng{authorbibnamehash}{701c941778507764073fad931c18820d}
+      \strng{authornamehash}{701c941778507764073fad931c18820d}
+      \strng{authorfullhash}{701c941778507764073fad931c18820d}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{labelnamesource}{author}
@@ -662,7 +710,7 @@
       \verb 10.18489/sacj.v29i3.452
       \endverb
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Sakpere, Adeyeye Oshin, Mlitwa - 2017 - A State-of-the-Art Survey of Indoor Positioning and Navigation Systems and Technologies.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb http://sacj.cs.uct.ac.za/index.php/sacj/article/view/452
@@ -704,7 +752,7 @@
       \field{title}{{Indoor Localization Method Based on Wi-Fi Trilateration Technique}}
       \field{type}{techreport}
       \verb{file}
-      \verb ::
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Shchekotov, Spiiras, Petersburg - Unknown - Indoor Localization Method Based on Wi-Fi Trilateration Technique.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://pdfs.semanticscholar.org/e796/6215ebe9df591c43794dcff5024a088cb80d.pdf
@@ -753,23 +801,23 @@
            familyi={J\bibinitperiod},
            given={X},
            giveni={X\bibinitperiod}}}%
-        {{hash=099e62d9083f5ad7ab7040691b5523b4}{%
+        {{hash=07c2dd101acd2a2e5fd9e99c39f9b070}{%
            family={Lee},
            familyi={L\bibinitperiod},
            given={H\bibnamedelima K},
            giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=3bd2aadee4e1358645e4116231139548}{%
+        {{hash=b11c60164fa97b2c87d733149da8219c}{%
            family={Li},
            familyi={L\bibinitperiod},
            given={G\bibnamedelima Y},
            giveni={G\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
       }
       \strng{namehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
-      \strng{fullhash}{0ebf05d372fd7397dfdae8118d1d1bb8}
+      \strng{fullhash}{55b07b8e81083fb505508495b9c7d9a6}
       \strng{bibnamehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
       \strng{authorbibnamehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
       \strng{authornamehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
-      \strng{authorfullhash}{0ebf05d372fd7397dfdae8118d1d1bb8}
+      \strng{authorfullhash}{55b07b8e81083fb505508495b9c7d9a6}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
@@ -782,7 +830,7 @@
       \field{pages}{22\bibrangedash 25}
       \range{pages}{4}
       \verb{file}
-      \verb :home/johnmcclane/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Wang et al. - 2003 - An indoors wireless positioning system based on wireless local area network infrastructure.pdf:pdf
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Wang et al. - 2003 - An indoors wireless positioning system based on wireless local area network infrastructure.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://pdfs.semanticscholar.org/3dda/3b5083137e6c749392f9326dce461298b6c7.pdf
@@ -791,6 +839,51 @@
       \verb https://pdfs.semanticscholar.org/3dda/3b5083137e6c749392f9326dce461298b6c7.pdf
       \endverb
       \keyw{Indoors positioning,Signal propagation,Wireless LAN infrastructure,Wireless positioning}
+    \endentry
+    \entry{Woland}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=d33075f68cd378bca6f6f8f75f955f08}{%
+           family={Woland},
+           familyi={W\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2dc30cae48b4a8e54e64b705ec4fcafb}{%
+           family={Santuka},
+           familyi={S\bibinitperiod},
+           given={Vivek},
+           giveni={V\bibinitperiod}}}%
+        {{hash=3ec1131ea6a926f8235f2d173e9fb939}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Mason},
+           giveni={M\bibinitperiod}}}%
+        {{hash=82f4845ce499b563e04ac70b8efff1e1}{%
+           family={Sanbower},
+           familyi={S\bibinitperiod},
+           given={Jamie},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{95007274e4b23c1ca45e92a0da9c3dec}
+      \strng{fullhash}{cf31d03a1d5e915b2df97a91970bcb20}
+      \strng{bibnamehash}{95007274e4b23c1ca45e92a0da9c3dec}
+      \strng{authorbibnamehash}{95007274e4b23c1ca45e92a0da9c3dec}
+      \strng{authornamehash}{95007274e4b23c1ca45e92a0da9c3dec}
+      \strng{authorfullhash}{cf31d03a1d5e915b2df97a91970bcb20}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Integrated Security Technologies and Solutions - Volume I: Cisco Security ... - Aaron Woland, Vivek Santuka, Mason Harris, Jamie Sanbower - Google Boeken}}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.be/books?id=i3dZDwAAQBAJ{\&}pg=PP116{\&}lpg=PP116{\&}dq=centrally+switched+wlans{\&}source=bl{\&}ots=wdEAovRqmn{\&}sig=ACfU3U2lv08jBAaVLg400c0ORsxLPDdI9Q{\&}hl=nl{\&}sa=X{\&}ved=2ahUKEwim95r3zeXhAhXLLlAKHZE7CS0Q6AEwCXoECGAQAQ{\#}v=onepage{\&}q=centrally switched
+      \endverb
+      \verb{url}
+      \verb https://books.google.be/books?id=i3dZDwAAQBAJ%7B%5C&%7Dpg=PP116%7B%5C&%7Dlpg=PP116%7B%5C&%7Ddq=centrally+switched+wlans%7B%5C&%7Dsource=bl%7B%5C&%7Dots=wdEAovRqmn%7B%5C&%7Dsig=ACfU3U2lv08jBAaVLg400c0ORsxLPDdI9Q%7B%5C&%7Dhl=nl%7B%5C&%7Dsa=X%7B%5C&%7Dved=2ahUKEwim95r3zeXhAhXLLlAKHZE7CS0Q6AEwCXoECGAQAQ%7B%5C#%7Dv=onepage%7B%5C&%7Dq=centrally%20switched
+      \endverb
     \endentry
   \enddatalist
   \missing{IndoorLocation.io2019}

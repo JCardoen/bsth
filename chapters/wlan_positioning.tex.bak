@@ -1,11 +1,15 @@
 \section{Introduction}
 One of the easiest \acrlong{ips} to implement is \acrshort{wlan} (specified by IEEE in their 802.11 specification) \acrshort{ips}. The adoption of such a system comes without extra cost as most of the hardware is already prevalent in large, indoor environments.  The globally adopted operating bandwidth of \acrshort{wlan} is 2.4GHz (IEEE 802.11b, also known as Wi-Fi \cite{Li}), which does not come without its problems as discussed in a later chapter \cite{Techopedia} \cite{ElectronicsNotes}\cite{Cisco}. In this chapter the most commonly used techniques to calculate the position of a \acrlong{mu} and the distance between a \acrlong{tx} and a \acrlong{rx}, being the \acrlong{mu}, are covered. After having covered the specific techniques, this chapter discusses the feasibility of this specific \acrlong{ips} with the complications of the 2.4GHz bandwidth as well as already commercially available systems.
+\section{WLAN Characteristics}
+\subsection{Signal Properties}
+\subsection{Available Channels}
+\subsection{Access Points}
 \section{Indoor Positioning Topology}
 Three topologies exists that can be used for gathering information about the position, as listed below \cite{Henniges2012}:
 \begin{enumerate}
 \item Network-based topology: position is determined by a central server and different \acrshort{ap}s;
 \item Terminal-based: the position is identified by the mobile device;
-\item Terminal-assisted: hybrid version of 1. and 2., where 
+\item Terminal-assisted: hybrid version of 1. and 2.
 \end{enumerate}
 \begin{figure}[h!]
 \centering
@@ -115,10 +119,25 @@ Based on a study performed in \cite{Wang2003}, where the signal strength of a 2.
 \end{figure}
 \subparagraph{Conclusion of experiment conducted in ~\cite{Wang2003}}
 The experiment concludes that the radio signal of a WLAN infrastructure, operating on a 2.4GHz frequency, is stable and consistent, thus this signal can be used in calculations for positioning algorithms. However, the developer of such an algorithm needs to take the standard deviation into account as this differs throughout the use of different indoor environments, even on the level of floors, meaning that the signal strength on the first floor can differ on the third, based on environmental changes (e.g. moving persons, microwaves, other interfering electronic devices).
-\subsubsection{Climate}
-\subsubsection{Interfering Signals}
+\subsubsection{SNR in WLAN}
+The signal to noise ratio is the difference between the signal strength and the interfering signals. This is a facotr to take into account when deploying any \acrshort{wlan} \acrlong{ips}. A satisfactory \acrlong{snr} should lie above 20 to 25 \cite{Hallock2015}.
+\subsubsection{Signal Attenuation}
+Signal attenuation, or signal loss, represents the loss of signal strength in \acrfull{db} of radio signals travelling through certain objects. The most common objects and their derived signal attenuation are represented below:
+\begin{table}[]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Object}             & \textbf{Signal Attenuation} \\ \hline
+Plasterboard wall           & 3 dB                        \\ \hline
+Glass wall with metal frame & 6 dB                        \\ \hline
+Cinder block wall           & 4 dB                        \\ \hline
+Office window               & 3 dB                        \\ \hline
+Metal door                  & 6 dB                        \\ \hline
+\end{tabular}
+\caption{Objects with corresponding signal attenuation ~\cite[p.99]{Hallock2015}}
+\end{table}
 \subsubsection{Human Body}
-The human body also has an effect on signals that are transmitted through the human body. As seen in the experiment by \cite{S2016} the difference of the standard deviation is 2.32dBm. The research conducted in \cite{Mautza} even reports a measurement error of nearly 15dBm.
+The human body also has an effect on signals that are transmitted through the human body. As seen in the experiment by \cite{S2016} the difference of the standard deviation is 2.32dBm. The research conducted in \cite{Mautz} even reports a measurement error of nearly 15dBm.
 This is why the fingerprinting technique is the favourable method to estimate the current position of a \acrlong{mu}, the fingerprinting provides a fault-tolerant method due to the multiple calibration measurements conducted in the offline phase, where the calibration should include signals passing through the human body.
 \subsection{Complexity}
 \subsection{Application Use}

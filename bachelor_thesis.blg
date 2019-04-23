@@ -1,25 +1,25 @@
-[0] Config.pm:302> INFO - This is Biber 2.9
-[1] Config.pm:305> INFO - Logfile is 'bachelor_thesis.blg'
-[43] biber:313> INFO - === Mon Apr 22, 2019, 15:54:17
-[73] Biber.pm:371> INFO - Reading 'bachelor_thesis.bcf'
-[165] Biber.pm:857> INFO - Found 27 citekeys in bib section 0
-[186] Biber.pm:3981> INFO - Processing section 0
-[201] Biber.pm:4154> INFO - Looking for bibtex format file 'Bachelor's Thesis.bib' for section 0
-[207] bibtex.pm:1468> INFO - LaTeX decoding ...
-[259] bibtex.pm:1294> INFO - Found BibTeX data source 'Bachelor's Thesis.bib'
-[275] Utils.pm:169> WARN - month field 'dec' in entry 'Sakpere2017' is not an integer - this will probably not sort properly.
-[300] Utils.pm:169> WARN - Name "{A. Al-Ammar, Mai and Alhadhrami, Suheer and Al-Salman, Abdulmalik and Alarifi, Abdulrahman and Al-Khalifa, Hend and Alnafessah, Ahmad and Alsaleh}, Mansour" has too many commas: skipping name
-[420] Utils.pm:169> WARN - BibTeX subsystem: /tmp/fRTLRDl52D/Bachelor's Thesis.bib_7706.utf8, line 6, warning: 172 characters of junk seen at toplevel
-[421] Utils.pm:169> WARN - I didn't find a database entry for 'MapWize.io2019' (section 0)
-[421] Utils.pm:169> WARN - I didn't find a database entry for 'IndoorLocation.io2019' (section 0)
-[421] Utils.pm:169> WARN - I didn't find a database entry for 'fig:triang' (section 0)
-[421] Utils.pm:169> WARN - I didn't find a database entry for 'Mautza' (section 0)
-[422] Utils.pm:169> WARN - I didn't find a database entry for 'fig:euclidean' (section 0)
-[422] Utils.pm:169> WARN - I didn't find a database entry for 'fig:wang_test' (section 0)
-[460] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[461] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[461] Biber.pm:3809> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[461] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
-[498] bbl.pm:617> INFO - Writing 'bachelor_thesis.bbl' with encoding 'UTF-8'
-[510] bbl.pm:720> INFO - Output to bachelor_thesis.bbl
-[512] Biber.pm:110> INFO - WARNINGS: 9
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'bachelor_thesis.blg'
+[30] biber-MSWIN64:315> INFO - === 
+[60] Biber.pm:371> INFO - Reading 'bachelor_thesis.bcf'
+[154] Biber.pm:889> INFO - Found 29 citekeys in bib section 0
+[169] Biber.pm:4093> INFO - Processing section 0
+[186] Biber.pm:4254> INFO - Looking for bibtex format file 'Bachelor's Thesis.bib' for section 0
+[201] bibtex.pm:1523> INFO - LaTeX decoding ...
+[290] bibtex.pm:1340> INFO - Found BibTeX data source 'Bachelor's Thesis.bib'
+[302] Utils.pm:193> WARN - month field 'dec' in entry 'Sakpere2017' is not an integer - this will probably not sort properly.
+[317] Utils.pm:193> WARN - Name "{A. Al-Ammar, Mai and Alhadhrami, Suheer and Al-Salman, Abdulmalik and Alarifi, Abdulrahman and Al-Khalifa, Hend and Alnafessah, Ahmad and Alsaleh}, Mansour" has too many commas: skipping name
+[400] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Joachim\AppData\Local\Temp\xiCAObuWWG\Bachelor's Thesis.bib_5096.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[402] Utils.pm:193> WARN - I didn't find a database entry for 'MapWize.io2019' (section 0)
+[403] Utils.pm:193> WARN - I didn't find a database entry for 'IndoorLocation.io2019' (section 0)
+[404] Utils.pm:193> WARN - I didn't find a database entry for 'fig:triang' (section 0)
+[404] Utils.pm:193> WARN - I didn't find a database entry for 'Mautza' (section 0)
+[405] Utils.pm:193> WARN - I didn't find a database entry for 'fig:euclidean' (section 0)
+[405] Utils.pm:193> WARN - I didn't find a database entry for 'fig:wang_test' (section 0)
+[433] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[433] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[435] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[435] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[465] bbl.pm:636> INFO - Writing 'bachelor_thesis.bbl' with encoding 'UTF-8'
+[475] bbl.pm:739> INFO - Output to bachelor_thesis.bbl
+[479] Biber.pm:110> INFO - WARNINGS: 9
