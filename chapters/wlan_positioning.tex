@@ -1,5 +1,5 @@
 \section{Introduction}
-One of the easiest \acrlong{ips} to implement is \acrshort{wlan} (specified by IEEE in their 802.11 specification) \acrshort{ips}. The adoption of such a system comes without extra cost as most of the hardware is already prevalent in large, indoor environments.  The globally adopted operating bandwidth of \acrshort{wlan} is 2.4GHz (IEEE 802.11b, also known as Wi-Fi \cite{Li}), which does not come without its problems as discussed in a later chapter \cite{Techopedia} \cite{ElectronicsNotes}\cite{Cisco}. In this chapter the most commonly used techniques to calculate the position of a \acrlong{mu} and the distance between a \acrlong{tx} and a \acrlong{rx}, being the \acrlong{mu}, are covered. After having covered the specific techniques, this chapter discusses the feasibility of this specific \acrlong{ips} with the complications of the 2.4GHz bandwidth as well as already commercially available systems.
+One of the easiest \acrlong{ips} to implement are \acrshort{wlan} (specified by IEEE in their 802.11 specification) \acrshort{ips}s. The adoption of such a system comes without extra cost as most of the hardware is already prevalent in large, indoor environments.  The globally adopted operating bandwidth of \acrshort{wlan} is 2.4GHz (IEEE 802.11b, also known as Wi-Fi \cite{Li}), which does not come without its problems as discussed in a later section in this chapter \cite{Techopedia} \cite{ElectronicsNotes}\cite{Cisco}. In this chapter the most commonly used techniques to calculate the position of a \acrlong{mu} and the distance between a \acrlong{tx} and a \acrlong{rx}, being the \acrlong{mu}, are covered. After having covered the specific techniques, this chapter discusses the feasibility of this specific \acrlong{ips} with the complications of the 2.4GHz bandwidth as well as already commercially available systems.
 \section{WLAN Characteristics}
 \subsection{Signal Properties}
 \subsection{Available Channels}
@@ -20,12 +20,24 @@ Three topologies exists that can be used for gathering information about the pos
 \subsection{Network-based}
 This method only functions when the \acrshort{ap}s are adapted to not only receive network data but also signal data and redirect this to a central server that can handle and compute the data. This requires a change in the software of each \acrlong{ap}.
 \subsection{Terminal-Based}
-In this specific topology, the device driver of the \acrshort{ap} or terminal broadcasts beacons in its signalling range so a client can determine the best connectivity to a certain \acrshort{ap} and determine which \acrshort{ap} will be used. There are two ways of obtaining this information: active probing and \acrshort{rf} monitoring. The RF monitoring is a form of passive scanning that listens to the periodic broadcasting by the \acrlong{ap}s, this is important to identify a connection in decline (due to significant noise on the signal, also known as \acrfull{snr}) . When using active probing, the driver sends request frames to each known channel to detect any active WLAN connections. Each \acrshort{ap} receiving a request frame will in its turn respond with a response frame. These packets contain the \acrshort{mac} addresses of available devices. Based on this list of available devices and the corresponding signal strength (obtained from services that provide the information via the \acrshort{mac}-layer) an optimal \acrshort{ap} is selected\cite[p.~8]{Retscher}.
+In this specific topology, the device driver of the \acrshort{ap} or terminal broadcasts beacons in its signalling range so a client can determine the best connectivity to a certain \acrshort{ap} and determine which \acrshort{ap} will be used. There are two ways of obtaining this information: 
+\begin{enumerate}
+\item active probing;
+\item \acrshort{rf} monitoring
+\end{enumerate}
+RF monitoring is a form of passive scanning that listens to the periodic broadcasting by the \acrlong{ap}s, this is important to identify a connection in decline (due to significant noise on the signal, also known as \acrfull{snr}). When using active probing, the driver sends request frames to each known channel to detect any active WLAN connections. Each \acrshort{ap} receiving a request frame will in its turn respond with a response frame. These packets contain the \acrshort{mac} addresses of available devices. Based on this list of available devices and the corresponding signal strength (obtained from services that provide the information via the \acrshort{mac}-layer) an optimal \acrshort{ap} is selected\cite[p.~8]{Retscher}.
 \subsection{Terminal-Assisted}
 \section{Indoor Positioning Techniques}
-The main difficulty in using this technique is determining the position of a device, relative to a Wi-Fi \acrfull{ap}. There are two mainly used technologies to determine the location of a \acrfull{mu}, being: positioning based on \acrshort{rssi} measurements (used in trilateration) and on empirical observations (fingerprinting) \cite{Frank2009}.
+The main difficulty in using this technique is determining the position of a device, relative to a Wi-Fi \acrfull{ap}. There are two mainly used technologies to determine the location of a \acrfull{mu}, being: positioning based on \acrshort{rssi} measurements (used in trilateration) and on empirical observations (fingerprinting) \cite{Frank2009}. Another less popular option is the proximity, presence or Cell of Origin technique that has less accuracy than the other two options.
 \subsection{Proximity or Cell of Origin Technique}
-This technique does not result in an absolute or relative position, rather the position of a specific \acrlong{ap} which can then be used to determine a symbolic location. This is a straightforward technique that uses the position of the \acrshort{ap} with the strongest \acrlong{rss} to the \acrlong{mu}. This is an optimal technique to provide symbolic \acrlong{lbs} \cite{Sakpere2017}.
+This technique is not optimal to determine an absolute or relative position, however this technique is used when accuracy is not the most important factor. This method simply locates the \acrshort{ap} with the strongest \acrshort{rssi} value, which often is the closest to the \acrlong{mu}. This is an optimal technique to provide symbolic \acrlong{lbs} \cite{Sakpere2017}.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{coo}
+\caption{Visual representation of the Cell of Origin technique ~\cite[p.12]{S2016}}
+\label{fig:coo}
+\end{figure}
+\subparagraph{Conclusion} This technique is ideal when the accuracy is a less important factor and provides \acrlong{lbs} with a very low cost and fast response time.
 \subsection{Trilateration Technique}
 Trilateration, or multilateration, is based on a mathematical approach that incorporate the characteristics of the \acrshort{ap} and its signals, such are: characteristics of the radio signal (wavelength, frequency, noise etc.), \acrfull{mac} address of the \acrlong{ap} and the position of WLAN \acrshort{ap}s, without being limited to taking the signal strength in account. This approach requires three base points to calculate and determine a point in range of these three base points. Applying this method to the current case in which the available base points are the \acrshort{ap}s and the \acrshort{mu}, one has to calculate the distance of the \acrlong{mu} to each of the three \acrshort{ap}s in the vicinity. The main difficulty using this method is the estimation of the distances between both the \acrshort{ap}s and the device. Commonly used methods to determine the distance between both the AP as well as the mobile user include: \, \acrfull{toa} from transmitters or \acrfull{tdoa} \cite[p.~1]{Shchekotov} \cite[p.~60]{Mautz}.
 \subsubsection{Geometric Principle}
@@ -40,9 +52,8 @@ By solving this system of equation, each distance is considered to be the radius
 \caption{Euclidean distance resulting in geometric intersection of three circles, determining the position of a point in between these three points.}
 \label{fig:euclidean}
 \end{figure}
-\section{Distance Measurement Techniques}
 \subsection{Path Loss Positioning based on RSSI Measurements}
-To handle the loss and gain of the radio signal, a free-space path loss model is used, as seen in an experiment in \cite[p.178]{Shchekotov}. Shchekotov's research is funded on the research of Sklar in 1997 that suggests that the average \acrshort{rssi} is distributed lognormally and can therefore be predicted by using a path loss model \cite[p.16]{S2016}. The path-loss model revolves around the calculation of the distance based on the attenuation of the signal \cite{Mautza}.
+To handle the loss and gain of the radio signal, a free-space path loss model is used, as seen in an experiment in \cite[p.178]{Shchekotov}. Shchekotov's research is funded on the research of Sklar in 1997 that suggests that the average \acrshort{rssi} is distributed lognormally and can therefore be predicted by using a path loss model \cite[p.16]{S2016}. The path-loss model revolves around the calculation of the distance based on the attenuation of the signal \cite{Mautz}.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.75]{distribution_of_rssi}
@@ -55,13 +66,17 @@ To handle the loss and gain of the radio signal, a free-space path loss model is
 \caption{Dependency of ~\acrlong{rssi} and distance ~\cite[p.61]{Mautz}}
 \label{fig:rssi_distance}
 \end{figure}
-The empirical formula, solely based on measurements from the experiment so not a standard analytical model, provided by \cite{S2016} is as follows:
+The empirical formula, solely based on measurements from the experiment so not a standard analytic model, provided by \cite{S2016} is as follows:
 \[
 FPSL = 20log10(d) + 20log10(f) - 27.55
 \]
-Where the \acrlong{tx}-\acrlong{rx} separation distance is annotated by the variable $d$ and the frequence in \acrfull{mhz} by $f$. $FPSL$ indicates the received signal strength path loss in \acrfull{dbm}.
+Where the \acrlong{tx}-\acrlong{rx} separation distance is annotated by the variable $d$ and the frequence in \acrfull{mhz} by $f$. $FPSL$ indicates the received signal strength path loss in \acrfull{dbm}. Based on the formula above and the one specified below, as specified in the research in \cite[p.13]{S2016}, the distance between a \acrlong{tx} and \acrlong{rx} can be calculated.
+\[
+P_r = P_t G_t G_r \frac{\lambda^2}{(4 \pi d)^2}
+\]
+In this formula, $G$ specifies gains of both \acrshort{tx} and \acrshort{rx} antennae, $\lambda$ specifies the wavelength, $d$ resembles the distance between both \
 \subparagraph{Conclusion}
-Based on the research done in \cite{Shchekotov}, the signal propagation model using a free-space path loss approach does not provide an accurate estimation of the user's current position due to fluctuations in the radio wave channel and decrease of accuracy with an increasing distance \cite[p~61]{Mautz} \cite[p~2]{Loy2018}.
+Based on the research done in \cite{Shchekotov}, the signal propagation model using a free-space path loss approach does not provide an accurate estimation of the user's current position due to fluctuations in the radio wave channel and decrease of accuracy with an increasing distance \cite[p~61]{Mautz} \cite[p~2]{Loy2018}. Nonetheless, this technique can be feasible in environments with less fluctuations and a denser distribution of \acrshort{ap}s, resulting in a smaller margin of error. 
 \subsection{RSS Measurement Collection}
 This method uses an empirical (observational) model, generated by trial runs using different calibration points with different \acrlong{ap}s. As seen in experiment in \cite{Shchekotov}, this experiments results in a table containing different measurements of different distances and the received signal strength in dBm, from \acrlong{tx} to the \acrlong{rx}. This empirical method results in a usable mathematical formula:
 \[
@@ -76,11 +91,6 @@ In this equation $\Delta$ annotates the observational error in dBm, $\sigma$ is 
 \end{figure}
 \subparagraph{Conclusion}
 As seen in the trials performed in the research of \cite{Shchekotov}, this approach can be perceived as a special case of fingerprinting due to the creation of a \acrshort{rss} to \acrshort{ap} table. This method results in a more accurate estimation of the user's location by taking the error and deviation into account. However, this research was not based on extensive measurements and it is uncertain this approach will yield an optimal accuracy and precision.
-\subsubsection{Time of Arrival}
-\subsubsection{Time Difference of Arrival}
-\subsubsection{Angle of Arrival}
-To enable the use of the \acrshort{aoa} method, the network needs to be equipped with additional directional antennae that are able to calculate the distance. Based on this requirement alone, which comes at a high cost, this approach is not feasible for production environments .
-\subsubsection{Round Trip Time}
 \subsection{Fingerprinting Technique}
 A computationally effective method of determining a user's location is the fingerprinting technique. This technique consists of two phases: offline acquisition of \acrshort{rssi} values at particular locations and an online phase with the actual implementation of periodically sent signals from a \acrshort{mu} \cite[p.~9]{Retscher}. This method bases itself only on the strength of the signal compared to trilateration that incorporates multiple methods to calculate the distance.
 \begin{figure}[h!]
@@ -102,7 +112,7 @@ In the online phase, the fingerprints stored in the database are used to determi
 \subsubsection{Improving Performance}
 Contributing factors to increasing the performance, mainly accuracy and precision, are: number of \acrshort{ap}s per $m^2$, the amount of calibration points measurement in the offline phase, the density of those points and the fluctuations in  \acrshort{rssi} values.
 \subparagraph{Conclusion}
-This method requires a lot of time to set up the radiomap in the offline phase, but results in a satisfactory accuracy, generally several meters, and precision. This is the preferred method of providing indoor location using a \acrshort{wlan}-based technology as it does not require additional equipment to be installed or configured. However, this technique is complex, hard to initially set up and does not scale well with an increase in users due to the increasing fluctuations in the radio signal that arise because of environmental factors.
+This method requires a lot of time to set up the radio map in the offline phase, but results in a satisfactory accuracy, generally several meters, and precision. This is the preferred method of providing indoor location using a \acrshort{wlan}-based technology as it does not require additional equipment to be installed or configured. However, this technique is complex, hard to initially set up and does not scale well with an increase in users due to the increasing fluctuations in the radio signal that arise because of environmental factors, resulting in the need for re-calibrations at certain points in time with an increasing number of users.
 \section{Feasibility}
 \subsection{Security and Privacy}
 \subsection{Cost}
