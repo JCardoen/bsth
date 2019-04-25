@@ -1,7 +1,7 @@
 \documentclass[11pt,twoside]{report}
 \usepackage{mathptmx}
 \renewcommand{\baselinestretch}{1.2}
-\usepackage[english]{babel}
+\usepackage[british]{babel}
 \usepackage{biblatex}
 \usepackage{listing}
 \usepackage{lscape}
@@ -25,6 +25,8 @@
 \renewcommand{\footrulewidth}{0.4pt}
 \usepackage[acronym]{glossaries}
 \makeglossaries
+\newacronym{gbs}{GBS}{Global Business Services}
+\newacronym{mse}{MSE}{Mobility Services Engine}
 \newacronym{ips}{IPS}{indoor positioning technologies}
 \newacronym{ir}{IR}{infrared}
 \newacronym{wlan}{WLAN}{wireless local area network}
@@ -83,6 +85,7 @@ Thanksssssss
 \listoftables
 \chapter{Summary}
 \chapter{Context}
+\input{chapters/context}
 \chapter{Case Study}
 \input{chapters/project_specification}
 \chapter{Indoor Positioning Systems}

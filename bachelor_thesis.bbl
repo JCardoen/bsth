@@ -47,6 +47,36 @@
       \verb https://blog.algorithmia.com/introduction-to-loss-functions/
       \endverb
     \endentry
+    \entry{Cisco2019a}{report}{}
+      \name{author}{1}{}{%
+        {{hash=7b1d1185b835814de783483f686e9825}{%
+           family={Cisco},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b1d1185b835814de783483f686e9825}
+      \strng{fullhash}{7b1d1185b835814de783483f686e9825}
+      \strng{bibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Digitization has rocked the foundation of every industry, changing the economics and reinventing business models. Companies that digitize can use behavioral data on people and things to make business decisions and to gain a strategic advantage against the competition. However, when it comes to physical spaces, enterprises experience a data blind spot. They have limited visibility into the behavior of people (visitors, guests, and employees) and things (sensors, smart devices, and assets) and how people and things interact in the space. What if your Cisco{®} wireless network could deliver more than connectivity and eliminate the data blind spots in your physical spaces? Introducing Cisco DNA Spaces, a single scalable, reliable location platform that digitizes spaces by centralizing location services for both people and things. This powerful location platform leverages existing Wi-Fi infrastructure to give you actionable insights, provide trigger notifications, and drive business outcomes. Benefits • Gain centralized control over and visibility into location services via a single role-based dashboard with 24x7 monitoring and end-to-end Service-Level Agreements (SLAs) to help ensure reliability and performance. • Enhance customer experiences by gaining insights into people (visitors and employees) and delivering relevant notifications and content at the right time and place. • Improve the efficiency of business operations and reduce costs by establishing business rules and monitoring your assets, sensors, and operations devices. • Realize industry-specific business outcomes through a multivendor partner ecosystem, with APIs to connect to other applications.}
+      \field{title}{{At a glance Cisco public Cisco DNA Spaces: Digitizing People and Things Get more from Wi-Fi}}
+      \field{type}{techreport}
+      \field{year}{2019}
+      \verb{file}
+      \verb ::
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cisco.com/go/trademarks.
+      \endverb
+      \verb{url}
+      \verb https://www.cisco.com/go/trademarks.
+      \endverb
+    \endentry
     \entry{Ciscoa}{misc}{}
       \name{author}{1}{}{%
         {{hash=7b1d1185b835814de783483f686e9825}{%
@@ -75,6 +105,34 @@
       \verb https://www.cisco.com/c/en/us/products/collateral/wireless/mobility-services-engine/datasheet-c78-734648.html
       \endverb
     \endentry
+    \entry{Ciscok}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7b1d1185b835814de783483f686e9825}{%
+           family={Cisco},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b1d1185b835814de783483f686e9825}
+      \strng{fullhash}{7b1d1185b835814de783483f686e9825}
+      \strng{bibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Cisco DNA Spaces - Cisco}}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cisco.com/c/en/us/solutions/enterprise-networks/dna-spaces/index.html{\#}{~}stickynav=1
+      \endverb
+      \verb{url}
+      \verb https://www.cisco.com/c/en/us/solutions/enterprise-networks/dna-spaces/index.html%7B%5C#%7D%7B~%7Dstickynav=1
+      \endverb
+    \endentry
     \entry{Cisco}{misc}{}
       \name{author}{1}{}{%
         {{hash=7b1d1185b835814de783483f686e9825}{%
@@ -101,6 +159,37 @@
       \endverb
       \verb{url}
       \verb https://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-mesh/111451-indoor-mesh-deploy-guide-00.html%7B%5C#%7Dintro
+      \endverb
+    \endentry
+    \entry{Condon2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7c916df2950cbeec6c0b2e6f19b17f75}{%
+           family={Condon},
+           familyi={C\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c916df2950cbeec6c0b2e6f19b17f75}
+      \strng{fullhash}{7c916df2950cbeec6c0b2e6f19b17f75}
+      \strng{bibnamehash}{7c916df2950cbeec6c0b2e6f19b17f75}
+      \strng{authorbibnamehash}{7c916df2950cbeec6c0b2e6f19b17f75}
+      \strng{authornamehash}{7c916df2950cbeec6c0b2e6f19b17f75}
+      \strng{authorfullhash}{7c916df2950cbeec6c0b2e6f19b17f75}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{IBM beats Q4 expectations, reports full-year revenue growth | ZDNet}}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.zdnet.com/article/ibm-revenues-down-for-q4-but-slightly-up-for-the-full-fiscal-year/
+      \endverb
+      \verb{url}
+      \verb https://www.zdnet.com/article/ibm-revenues-down-for-q4-but-slightly-up-for-the-full-fiscal-year/
       \endverb
     \endentry
     \entry{CutTheKnot}{misc}{}
@@ -335,6 +424,34 @@
       \verb http://www.gpsworld.com/wireless/indoor-positioning/
       \endverb
       \keyw{Fingerprinting,Index Terms-Wifi,Location,Position determination,Positioning,WLAN,localization}
+    \endentry
+    \entry{IBMa}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={IBM},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{IBM - Belgium/Luxembourg}}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/be-en/
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/be-en/
+      \endverb
     \endentry
     \entry{Indoors2019}{misc}{}
       \name{author}{1}{}{%
@@ -613,6 +730,34 @@
       \verb https://doi.org/10.3929/ethz-a-007313554
       \endverb
     \endentry
+    \entry{Metageek}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1c1448f04585fb19b9b53bef42d4837c}{%
+           family={Metageek},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c1448f04585fb19b9b53bef42d4837c}
+      \strng{fullhash}{1c1448f04585fb19b9b53bef42d4837c}
+      \strng{bibnamehash}{1c1448f04585fb19b9b53bef42d4837c}
+      \strng{authorbibnamehash}{1c1448f04585fb19b9b53bef42d4837c}
+      \strng{authornamehash}{1c1448f04585fb19b9b53bef42d4837c}
+      \strng{authorfullhash}{1c1448f04585fb19b9b53bef42d4837c}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Why Channels 1, 6, and 11? | MetaGeek}}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.metageek.com/training/resources/why-channels-1-6-11.html
+      \endverb
+      \verb{url}
+      \verb https://www.metageek.com/training/resources/why-channels-1-6-11.html
+      \endverb
+    \endentry
     \entry{Retscher}{report}{}
       \name{author}{4}{}{%
         {{hash=b6254f3fdc34075e99fd8721f39da9e4}{%
@@ -743,6 +888,69 @@
       \endverb
       \verb{url}
       \verb http://sacj.cs.uct.ac.za/index.php/sacj/article/view/452
+      \endverb
+    \endentry
+    \entry{Shah2015a}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a465388cb0ffa295e9464ee394de8def}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Pritam},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a465388cb0ffa295e9464ee394de8def}
+      \strng{fullhash}{a465388cb0ffa295e9464ee394de8def}
+      \strng{bibnamehash}{a465388cb0ffa295e9464ee394de8def}
+      \strng{authorbibnamehash}{a465388cb0ffa295e9464ee394de8def}
+      \strng{authornamehash}{a465388cb0ffa295e9464ee394de8def}
+      \strng{authorfullhash}{a465388cb0ffa295e9464ee394de8def}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Cisco Blogs}
+      \field{title}{{Cisco's Commitment to Excellence: Connected Mobile Experiences 10.0}}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blogs.cisco.com/wireless/ciscos-commitment-to-excellence-mobility-services-engine-mse-10-0
+      \endverb
+      \verb{url}
+      \verb https://blogs.cisco.com/wireless/ciscos-commitment-to-excellence-mobility-services-engine-mse-10-0
+      \endverb
+    \endentry
+    \entry{Shah}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a465388cb0ffa295e9464ee394de8def}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Pritam},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a465388cb0ffa295e9464ee394de8def}
+      \strng{fullhash}{a465388cb0ffa295e9464ee394de8def}
+      \strng{bibnamehash}{a465388cb0ffa295e9464ee394de8def}
+      \strng{authorbibnamehash}{a465388cb0ffa295e9464ee394de8def}
+      \strng{authornamehash}{a465388cb0ffa295e9464ee394de8def}
+      \strng{authorfullhash}{a465388cb0ffa295e9464ee394de8def}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Cisco Blogs}
+      \field{title}{{MSE and CMX: What's the Difference?}}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blogs.cisco.com/wireless/mse-and-cmx-whats-the-difference
+      \endverb
+      \verb{url}
+      \verb https://blogs.cisco.com/wireless/mse-and-cmx-whats-the-difference
       \endverb
     \endentry
     \entry{Shchekotov}{report}{}
@@ -912,7 +1120,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Mautza}
   \missing{fig:euclidean}
   \missing{fig:triang}
   \missing{fig:wang_test}

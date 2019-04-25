@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.7)  24 APR 2019 11:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.7)  25 APR 2019 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -66,6 +66,9 @@ Package: babel 2018/02/14 3.18 The Babel package
 (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/british.ldf
+Language: british 2017/06/06 v3.3r English support from the babel system
+
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
@@ -82,7 +85,7 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-))
+)))
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
 
@@ -1000,35 +1003,49 @@ e 27.
 
 Package glossaries Info: Writing glossary file bachelor_thesis.acn on input lin
 e 27.
+Package biblatex Info: Trying to load language 'british'...
+Package biblatex Info: ... file 'british.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/british.lbx
+File: british.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
-)
+))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'english'.
+Package csquotes Info: Redefining alias 'default' -> 'british'.
 
-(./bachelor_thesis.aux)
+(./bachelor_thesis.aux
+
+LaTeX Warning: Label `fig:toa' multiply defined.
+
+
+LaTeX Warning: Label `fig:ips_topologies' multiply defined.
+
+
+LaTeX Warning: Label `fig:toa' multiply defined.
+
+)
 \openout1 = `bachelor_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 68.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 70.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -1040,13 +1057,6 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bachelor_thesis.bbl' found.
 
 (./bachelor_thesis.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Mautza
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
@@ -1069,8 +1079,8 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 68.
-Package biblatex Info: Reference segment=0 on input line 68.
+Package biblatex Info: Reference section=0 on input line 70.
+Package biblatex Info: Reference segment=0 on input line 70.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count328
@@ -1138,66 +1148,66 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 70
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 72
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 70
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 72
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 70
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 72
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 70
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 72
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 70.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 72.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
  [1
 
 \openout5 = `bachelor_thesis.ist'.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 75.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 77.
  [3
 
 ] (./bachelor_thesis.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
  [4
 
-])
+] [5])
 \tf@toc=\write8
 \openout8 = `bachelor_thesis.toc'.
 
- [5]
-(./bachelor_thesis.acr
+
+[6] (./bachelor_thesis.acr
 
 Package glossaries Warning: Glossary entry `poc' has not been defined on input 
 line 34.
@@ -1206,14 +1216,14 @@ line 34.
 Package glossaries Warning: Glossary entry `poc' has not been defined on input 
 line 34.
 
-) (./bachelor_thesis.gls) [6
+) (./bachelor_thesis.gls) [7
 
 
 ] (./bachelor_thesis.lof)
 \tf@lof=\write9
 \openout9 = `bachelor_thesis.lof'.
 
- [7
+ [8
 
 
 ]
@@ -1221,34 +1231,43 @@ line 34.
 \tf@lot=\write10
 \openout10 = `bachelor_thesis.lot'.
 
- [8
+ [9
 
 
 ]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 84.
-[9
-
-]
-Chapter 2.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 86.
 [10
 
 ]
-Chapter 3.
-(./chapters/project_specification.tex
+Chapter 2.
+(./chapters/context.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 3.
+<figures/interns.jpg, id=36, 963.6pt x 722.7pt>
+File: figures/interns.jpg Graphic file (type jpg)
+<use figures/interns.jpg>
+Package pdftex.def Info: figures/interns.jpg  used on input line 21.
+(pdftex.def)             Requested size: 385.43317pt x 289.07487pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 ) [11
+
+] [12 <./figures/interns.jpg>]
+Chapter 3.
+(./chapters/project_specification.tex) [13
 
 ]
 Chapter 4.
 (./chapters/indoor_positioning_systems.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-<figures/classification_ips.png, id=39, 310.91156pt x 293.59688pt>
+<figures/classification_ips.png, id=47, 310.91156pt x 293.59688pt>
 File: figures/classification_ips.png Graphic file (type png)
 <use figures/classification_ips.png>
 Package pdftex.def Info: figures/classification_ips.png  used on input line 11.
@@ -1256,13 +1275,13 @@ Package pdftex.def Info: figures/classification_ips.png  used on input line 11.
 (pdftex.def)             Requested size: 233.18307pt x 220.1971pt.
 
 
-LaTeX Warning: Citation 'ComparativeSurvey' on page 12 undefined on input line 
+LaTeX Warning: Citation 'ComparativeSurvey' on page 14 undefined on input line 
 12.
 
-[12
+[14
 
 ]
-<figures/classification_indoor_positioning_techniques.png, id=44, 345.54094pt x
+<figures/classification_indoor_positioning_techniques.png, id=52, 345.54094pt x
  427.5975pt>
 File: figures/classification_indoor_positioning_techniques.png Graphic file (ty
 pe png)
@@ -1274,177 +1293,192 @@ ng  used on input line 26.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/toa.png, id=45, 288.3272pt x 201.00093pt>
+<figures/toa.png, id=53, 288.3272pt x 201.00093pt>
 File: figures/toa.png Graphic file (type png)
 <use figures/toa.png>
 Package pdftex.def Info: figures/toa.png  used on input line 38.
 (pdftex.def)             Requested size: 216.24486pt x 150.75032pt.
-[13 <./figures/classification_ips.png>]
-<figures/aoa.png, id=55, 319.94531pt x 140.02313pt>
+[15 <./figures/classification_ips.png>]
+<figures/aoa.png, id=62, 319.94531pt x 140.02313pt>
 File: figures/aoa.png Graphic file (type png)
 <use figures/aoa.png>
 Package pdftex.def Info: figures/aoa.png  used on input line 47.
 (pdftex.def)             Requested size: 239.95839pt x 105.01707pt.
- [14 <./figures/classification_indoor_positioning_techniques.png> <./figures/to
+ [16 <./figures/classification_indoor_positioning_techniques.png> <./figures/to
 a.png>]
-<figures/triang.png, id=61, 331.99031pt x 267.24844pt>
+<figures/triang.png, id=68, 331.99031pt x 267.24844pt>
 File: figures/triang.png Graphic file (type png)
 <use figures/triang.png>
 Package pdftex.def Info: figures/triang.png  used on input line 58.
 (pdftex.def)             Requested size: 165.99474pt x 133.62389pt.
-) [15 <./figures/aoa.png> <./figures/triang.png>]
+) [17 <./figures/aoa.png> <./figures/triang.png>]
 Chapter 5.
 (./chapters/wlan_positioning.tex
-<figures/ips_topologies.png, id=68, 500.62032pt x 311.66437pt>
+<figures/wlan_channels.png, id=75, 916.42375pt x 203.76125pt>
+File: figures/wlan_channels.png Graphic file (type png)
+<use figures/wlan_channels.png>
+Package pdftex.def Info: figures/wlan_channels.png  used on input line 9.
+(pdftex.def)             Requested size: 458.21075pt x 101.88037pt.
+
+Overfull \hbox (11.50247pt too wide) in paragraph at lines 9--10
+ [][] 
+ []
+
+
+Underfull \vbox (badness 2368) has occurred while \output is active []
+
+ [18
+
+ <./figures/wlan_channels.png>]
+<figures/ips_topologies.png, id=80, 500.62032pt x 311.66437pt>
 File: figures/ips_topologies.png Graphic file (type png)
 <use figures/ips_topologies.png>
-Package pdftex.def Info: figures/ips_topologies.png  used on input line 16.
+Package pdftex.def Info: figures/ips_topologies.png  used on input line 23.
 (pdftex.def)             Requested size: 375.46431pt x 233.7477pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[16
-
-]
-<figures/coo.png, id=72, 511.9125pt x 358.33875pt>
+ [19 <./figures/ips_topologies.png>]
+<figures/coo.png, id=86, 511.9125pt x 358.33875pt>
 File: figures/coo.png Graphic file (type png)
 <use figures/coo.png>
-Package pdftex.def Info: figures/coo.png  used on input line 36.
+Package pdftex.def Info: figures/coo.png  used on input line 43.
 (pdftex.def)             Requested size: 255.95563pt x 179.16893pt.
- [17 <./figures/ips_topologies.png>]
-<figures/euclidean_distance.png, id=77, 483.30562pt x 387.69844pt>
+ [20 <./figures/coo.png>]
+<figures/euclidean_distance.png, id=91, 483.30562pt x 387.69844pt>
 File: figures/euclidean_distance.png Graphic file (type png)
 <use figures/euclidean_distance.png>
-Package pdftex.def Info: figures/euclidean_distance.png  used on input line 51.
+Package pdftex.def Info: figures/euclidean_distance.png  used on input line 58.
 
 (pdftex.def)             Requested size: 241.65222pt x 193.84874pt.
- [18 <./figures/coo.png>]
-<figures/distribution_of_rssi.png, id=83, 386.94562pt x 235.63031pt>
+<figures/distribution_of_rssi.png, id=92, 386.94562pt x 235.63031pt>
 File: figures/distribution_of_rssi.png Graphic file (type png)
 <use figures/distribution_of_rssi.png>
-Package pdftex.def Info: figures/distribution_of_rssi.png  used on input line 5
-9.
+Package pdftex.def Info: figures/distribution_of_rssi.png  used on input line 6
+6.
 (pdftex.def)             Requested size: 290.2085pt x 176.72229pt.
-<figures/rssi_distance.png, id=84, 394.47375pt x 315.42844pt>
+<figures/rssi_distance.png, id=93, 394.47375pt x 315.42844pt>
 File: figures/rssi_distance.png Graphic file (type png)
 <use figures/rssi_distance.png>
-Package pdftex.def Info: figures/rssi_distance.png  used on input line 65.
+Package pdftex.def Info: figures/rssi_distance.png  used on input line 72.
 (pdftex.def)             Requested size: 295.85458pt x 236.57074pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19 <./figures/euclidean_distance.png> <./figures/distribution_of_rssi.png>]
-<figures/estimated_distance_segments.png, id=91, 654.94687pt x 494.59781pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21 <./figures/euclidean_distance.png>] [22 <./figures/distribution_of_rssi.png
+> <./figures/rssi_distance.png>]
+<figures/estimated_distance_segments.png, id=104, 654.94687pt x 494.59781pt>
 File: figures/estimated_distance_segments.png Graphic file (type png)
 <use figures/estimated_distance_segments.png>
 Package pdftex.def Info: figures/estimated_distance_segments.png  used on input
- line 88.
+ line 95.
 (pdftex.def)             Requested size: 327.47264pt x 247.2983pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[20 <./figures/rssi_distance.png>]
-<figures/fingerprint_chart.png, id=97, 441.90094pt x 239.39438pt>
+<figures/fingerprint_chart.png, id=105, 441.90094pt x 239.39438pt>
 File: figures/fingerprint_chart.png Graphic file (type png)
 <use figures/fingerprint_chart.png>
-Package pdftex.def Info: figures/fingerprint_chart.png  used on input line 98.
+Package pdftex.def Info: figures/fingerprint_chart.png  used on input line 105.
+
 (pdftex.def)             Requested size: 441.89986pt x 239.39378pt.
-<figures/fingerprinting_stages.png, id=98, 584.1825pt x 255.20343pt>
+<figures/fingerprinting_stages.png, id=106, 584.1825pt x 255.20343pt>
 File: figures/fingerprinting_stages.png Graphic file (type png)
 <use figures/fingerprinting_stages.png>
 Package pdftex.def Info: figures/fingerprinting_stages.png  used on input line 
-104.
+111.
 (pdftex.def)             Requested size: 438.13579pt x 191.4021pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[21 <./figures/estimated_distance_segments.png>]
-Underfull \vbox (badness 1558) has occurred while \output is active []
-
- [22 <./figures/fingerprint_chart.png> <./figures/fingerprinting_stages.png>]
-<figures/wang_test.png, id=108, 386.94562pt x 161.10187pt>
+ [23 <./figures/estimated_distance_segments.png>] [24 <./figures/fingerprint_ch
+art.png> <./figures/fingerprinting_stages.png>]
+<figures/wang_test.png, id=117, 386.94562pt x 161.10187pt>
 File: figures/wang_test.png Graphic file (type png)
 <use figures/wang_test.png>
-Package pdftex.def Info: figures/wang_test.png  used on input line 126.
+Package pdftex.def Info: figures/wang_test.png  used on input line 133.
 (pdftex.def)             Requested size: 386.94467pt x 161.10147pt.
- [23 <./figures/wang_test.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 136.
+               Default added (so using `tbp') on input line 143.
 
-) [24]
+[26 <./figures/wang_test.png>]) [27]
 Chapter 6.
 (./chapters/cisco_cmx.tex
+<figures/cmx_map.png, id=129, 552.0625pt x 355.3275pt>
+File: figures/cmx_map.png Graphic file (type png)
+<use figures/cmx_map.png>
+Package pdftex.def Info: figures/cmx_map.png  used on input line 12.
+(pdftex.def)             Requested size: 414.04585pt x 266.49495pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 5475) has occurred while \output is active []
+
+ [28
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25
-
-])
-[26]
+ [29 <./figures/cmx_map.png>]) [30]
 Chapter 7.
-(./chapters/implementation.tex) [27
+(./chapters/implementation.tex) [31
 
 ]
 Chapter 8.
-[28
+[32
 
 ]
 Chapter 9.
-(./chapters/conclusion.tex) [29
+(./chapters/conclusion.tex) [33
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 105.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 109.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (27.04727pt too wide) in paragraph at lines 106--106
+Overfull \hbox (27.04727pt too wide) in paragraph at lines 110--110
 []\T1/ptm/m/n/10.95 Algorithmia. \T1/ptm/m/it/10.95 In-tro-duc-tion to Loss Fun
 c-tions | Al-go-rith-mia Blog\T1/ptm/m/n/10.95 . \T1/ptm/m/sc/10.95 url\T1/ptm/
 m/n/10.95 : $\T1/cmtt/m/n/10.95 https : / / blog . algorithmia .
  []
 
-[30
+[34
 
 ]
-Overfull \hbox (24.83725pt too wide) in paragraph at lines 106--106
+Overfull \hbox (24.83725pt too wide) in paragraph at lines 110--110
 \T1/cmtt/m/n/10.95 x9AxxWgLevqXwZMBax2u4jkuXVo % 7B % 5C % %7D3D % 7B % 5C & %7
 Dresponse -[] content -[] disposition =
  []
 
 
-Overfull \hbox (1.52576pt too wide) in paragraph at lines 106--106
+Overfull \hbox (1.52576pt too wide) in paragraph at lines 110--110
 \T1/ptm/m/it/10.95 View project Per-for-mance and Ac-cu-racy Test of the WLAN I
 n-door Po-si-tion-ing Sys-tem "ipos&quo\T1/ptm/m/n/10.95 .
  []
 
-
-Overfull \hbox (18.70421pt too wide) in paragraph at lines 106--106
+[35]
+Overfull \hbox (18.70421pt too wide) in paragraph at lines 110--110
 []\T1/ptm/m/n/10.95 Techopedia. \T1/ptm/m/it/10.95 What is IEEE 802.11? - Def-i
 -ni-tion from Techo-pe-dia\T1/ptm/m/n/10.95 . \T1/ptm/m/sc/10.95 url\T1/ptm/m/n
 /10.95 : $\T1/cmtt/m/n/10.95 https : / / www . techopedia .
  []
 
 
-Overfull \hbox (57.78748pt too wide) in paragraph at lines 106--106
+Overfull \hbox (57.78748pt too wide) in paragraph at lines 110--110
 \T1/cmtt/m/n/10.95 %7Dhl = nl % 7B % 5C & %7Dsa = X % 7B % 5C & %7Dved = 2ahUKE
 wim95r3zeXhAhXLLlAKHZE7CS0Q6AEwCXoECGAQAQ %
  []
 
-[31] [32] (./bachelor_thesis.aux)
+[36] (./bachelor_thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -1456,13 +1490,13 @@ Package logreq Info: Writing requests to 'bachelor_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17831 strings out of 494923
- 306997 string characters out of 6180743
- 769546 words of memory out of 5000000
- 20786 multiletter control sequences out of 15000+600000
+ 17949 strings out of 494923
+ 309292 string characters out of 6180743
+ 774807 words of memory out of 5000000
+ 20886 multiletter control sequences out of 15000+600000
  72088 words of font info for 101 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 45i,11n,45p,1991b,2938s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,11n,75p,1991b,2918s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/johnmcclane/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt10
 95.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
@@ -1473,10 +1507,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
 l/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bachelor_thesis.pdf (32 pages, 774362 bytes).
+Output written on bachelor_thesis.pdf (36 pages, 1028633 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
+ 269 PDF objects out of 1000 (max. 8388607)
+ 113 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
