@@ -1,10 +1,11 @@
 \documentclass[11pt,twoside]{report}
 \usepackage{mathptmx}
 \renewcommand{\baselinestretch}{1.2}
-\usepackage[english]{babel}
+\usepackage[british]{babel}
 \usepackage{biblatex}
 \usepackage{listing}
 \usepackage{lscape}
+\usepackage{array}
 \usepackage[T1]{fontenc}
 \addbibresource{Bachelor's Thesis.bib}
 \usepackage[utf8]{inputenc}
@@ -24,6 +25,13 @@
 \renewcommand{\footrulewidth}{0.4pt}
 \usepackage[acronym]{glossaries}
 \makeglossaries
+\newacronym{ghz}{GHz}{gigahertz}
+\newacronym{cad}{CAD}{Computer-Aided Design}
+\newacronym{cmx}{CMX}{Connected Mobile Experiences}
+\newacronym{uc}{UC}{University College}
+\newacronym{byod}{BYOD}{Bring Your Own Device}
+\newacronym{gbs}{GBS}{Global Business Services}
+\newacronym{mse}{MSE}{Mobility Services Engine}
 \newacronym{ips}{IPS}{indoor positioning technologies}
 \newacronym{ir}{IR}{infrared}
 \newacronym{wlan}{WLAN}{wireless local area network}
@@ -37,6 +45,7 @@
 \newacronym{rx}{Rx}{receiver}
 \newacronym{gps}{GPS}{global positioning system}
 \newacronym{toa}{ToA}{time of arrival}
+\newacronym{gbps}{Gbps}{gigabit per second}
 \newacronym{aoa}{AoA}{angle of arrival}
 \newacronym{tdoa}{TDoA}{time difference of arrival}
 \newacronym{pn}{PN}{personal network}
@@ -48,15 +57,10 @@
 \newacronym{snr}{SNR}{signal-to-noise ratio}
 \newacronym{rssi}{RSSI}{radio signal strength indicator}
 \newacronym{poi}{POI}{point of interest}
-\newacronym{poc}{PoC}{proof of concept}
-\newacronym{ide}{IDE}{integrated development environment}
-\newacronym{ux}{UX}{user experience}
 \newacronym{api}{API}{application programming interface}
 \newacronym{sdk}{SDK}{software development kit}
 \newacronym{uml}{UML}{Unified Modelling Language}
-\newacronym{eu}{EU}{European Union}
 \newacronym{http}{HTTP}{Hypetext Transfer Protocol}
-\newacronym{dao}{DAO}{database access object}
 \newacronym{ui}{UI}{user interface}
 \title{
     {\large Bachelor's Thesis}\\
@@ -80,9 +84,14 @@ Thanksssssss
 \clearpage
 \printglossary[type=\acronymtype]
 \printglossary
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
 \chapter{Summary}
 \chapter{Context}
-\chapter{Project Specification}
+\input{chapters/context}
+\chapter{Case Study}
 \input{chapters/project_specification}
 \chapter{Indoor Positioning Systems}
 \input{chapters/indoor_positioning_systems}
@@ -92,8 +101,12 @@ Thanksssssss
 \input{chapters/cisco_cmx}
 \chapter{Integration using MapWize and IndoorLocation}
 \input{chapters/implementation}
-\chapter{Possible fie}
-\input{chapters/implementation}
+\chapter{Possible fields of exploration}
+biometrics
+increasing heart rate, faster pace => optimal routing, based on pedestrians research
+optimal routing
+emergency notifications
+Wifi as sensors, case study columbia
 \chapter{Conclusion}
 \input{chapters/conclusion}
 

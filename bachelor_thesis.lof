@@ -5,49 +5,53 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The team of interns}}{12}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The team of interns}}{12}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Classfication of indoor positioning technologies~\cite {ComparativeSurvey}}}{15}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Classfication of indoor positioning technologies~\cite {ComparativeSurvey}}}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Classification of indoor positioning techniques~\cite {Sakpere2017}}}{16}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Classification of indoor positioning techniques~\cite {Sakpere2017}}}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Determining position in a two dimensional space by ~\acrlong {toa}~\cite {Jindal}}}{16}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Determining position in a two dimensional space by ~\acrlong {toa}~\cite {Jindal}}}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Determining position in a two dimensional space by ~\acrlong {aoa}~\cite {Jindal}}}{17}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Determining position in a two dimensional space by ~\acrlong {aoa}~\cite {Jindal}}}{17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Determining position using triangulation ~\cite {Loy2018}}}{17}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Available WLAN channels ~\cite {Metageek}}}{18}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces IPS Topologies ~\cite {Henniges2012}}}{19}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Visual representation of the Cell of Origin technique ~\cite [p.12]{S2016}}}{20}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Euclidean distance resulting in geometric intersection of three circles, determining the position of a point in between these three points.}}{21}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Distribution of ~\acrlong {rssi} ~\cite [p.16]{S2016}}}{22}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Dependency of ~\acrlong {rssi} and distance ~\cite [p.61]{Mautz}}}{22}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Estimated distance segments ~\cite [p.179]{Shchekotov}}}{23}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Fingerprinting Stages ~\cite [p.11]{S2016}}}{24}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Fingerprinting Stages ~\cite [p.2]{Li}}}{24}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces 24 hour static signal strength measurements ~\cite {Wang2003}}}{26}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Determining position using triangulation ~\cite {Loy2018}}}{17}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Positions of ~\acrlong {mu}s and which ~\acrlong {ap} they are connected to ~\cite {Shah2015a}}}{29}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Available WLAN channels in the 2.4~\acrshort {ghz} spectrum ~\cite {Metageek}}}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces IPS Topologies ~\cite {Henniges2012}}}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Visual representation of the Cell of Origin technique ~\cite [p.12]{S2016}}}{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Euclidean distance resulting in geometric intersection of three circles, determining the position of a point in between these three points.}}{21}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Distribution of ~\acrlong {rssi} ~\cite [p.16]{S2016}}}{22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Dependency of ~\acrlong {rssi} and distance ~\cite [p.61]{Mautz}}}{22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Estimated distance segments ~\cite [p.179]{Shchekotov}}}{23}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Fingerprinting Stages ~\cite [p.11]{S2016}}}{24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Fingerprinting Stages ~\cite [p.2]{Li}}}{24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces 24 hour static signal strength measurements ~\cite {Wang2003}}}{26}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Positions of ~\acrlong {mu}s and which ~\acrlong {ap} they are connected to ~\cite {Shah2015a}}}{29}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Routing feature of MazeMap ~\cite {MazeMapa}}}{32}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Translating floor plans into an interactive map for MazeMap ~\cite {MazeMap}}}{32}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

@@ -1,5 +1,6 @@
 \glossaryentry{ToA?\glossentry{toa}|setentrycounter[]{page}\glsnumberformat}{8}
 \glossaryentry{AoA?\glossentry{aoa}|setentrycounter[]{page}\glsnumberformat}{8}
+\glossaryentry{GHz?\glossentry{ghz}|setentrycounter[]{page}\glsnumberformat}{8}
 \glossaryentry{RSSI?\glossentry{rssi}|setentrycounter[]{page}\glsnumberformat}{8}
 \glossaryentry{RSSI?\glossentry{rssi}|setentrycounter[]{page}\glsnumberformat}{8}
 \glossaryentry{MU?\glossentry{mu}|setentrycounter[]{page}\glsnumberformat}{8}
@@ -64,6 +65,7 @@
 \glossaryentry{Rx?\glossentry{rx}|setentrycounter[]{page}\glsnumberformat}{18}
 \glossaryentry{MU?\glossentry{mu}|setentrycounter[]{page}\glsnumberformat}{18}
 \glossaryentry{IPS?\glossentry{ips}|setentrycounter[]{page}\glsnumberformat}{18}
+\glossaryentry{GHz?\glossentry{ghz}|setentrycounter[]{page}\glsnumberformat}{18}
 \glossaryentry{AP?\glossentry{ap}|setentrycounter[]{page}\glsnumberformat}{19}
 \glossaryentry{AP?\glossentry{ap}|setentrycounter[]{page}\glsnumberformat}{19}
 \glossaryentry{AP?\glossentry{ap}|setentrycounter[]{page}\glsnumberformat}{19}
@@ -168,3 +170,17 @@
 \glossaryentry{AP?\glossentry{ap}|setentrycounter[]{page}\glsnumberformat}{30}
 \glossaryentry{Gbps?\glossentry{gbps}|setentrycounter[]{page}\glsnumberformat}{30}
 \glossaryentry{Gbps?\glossentry{gbps}|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{CAD?\glossentry{cad}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{CAD?\glossentry{cad}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{CMX?\glossentry{cmx}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{UC?\glossentry{uc}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{BYOD?\glossentry{byod}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{BYOD?\glossentry{byod}|setentrycounter[]{page}\glsnumberformat}{31}
+\glossaryentry{AP?\glossentry{ap}|setentrycounter[]{page}\glsnumberformat}{32}
+\glossaryentry{UC?\glossentry{uc}|setentrycounter[]{page}\glsnumberformat}{32}
+\glossaryentry{CAD?\glossentry{cad}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{POI?\glossentry{poi}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{MU?\glossentry{mu}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}\glsnumberformat}{33}
+\glossaryentry{SDK?\glossentry{sdk}|setentrycounter[]{page}\glsnumberformat}{33}
