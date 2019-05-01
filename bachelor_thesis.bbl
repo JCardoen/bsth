@@ -332,6 +332,34 @@
       \verb https://www.researchgate.net/publication/229142278
       \endverb
     \endentry
+    \entry{Google}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Plattegronden – Over – Google Maps}}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.google.com/maps/about/partners/indoormaps/
+      \endverb
+      \verb{url}
+      \verb https://www.google.com/maps/about/partners/indoormaps/
+      \endverb
+    \endentry
     \entry{Gu2009}{article}{}
       \name{author}{3}{}{%
         {{hash=546d4ea45256166b961768bb391e0f58}{%
@@ -489,6 +517,34 @@
       \verb https://www.ibm.com/be-en/
       \endverb
     \endentry
+    \entry{IndoorLocation}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e64d69dc21a67a73a0cf585f1fe6ec7f}{%
+           family={IndoorLocation},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{e64d69dc21a67a73a0cf585f1fe6ec7f}
+      \strng{fullhash}{e64d69dc21a67a73a0cf585f1fe6ec7f}
+      \strng{bibnamehash}{e64d69dc21a67a73a0cf585f1fe6ec7f}
+      \strng{authorbibnamehash}{e64d69dc21a67a73a0cf585f1fe6ec7f}
+      \strng{authornamehash}{e64d69dc21a67a73a0cf585f1fe6ec7f}
+      \strng{authorfullhash}{e64d69dc21a67a73a0cf585f1fe6ec7f}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Indoor Location - The open-source framework for indoor mapping.}}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.indoorlocation.io/
+      \endverb
+      \verb{url}
+      \verb https://www.indoorlocation.io/
+      \endverb
+    \endentry
     \entry{Indoors2019}{misc}{}
       \name{author}{1}{}{%
         {{hash=9d61df8d504275ad91ae1796fab6f9ad}{%
@@ -547,6 +603,51 @@
       \verb{url}
       \verb https://www.academia.edu/1201698/2G-4G%7B%5C_%7DNetworks%7B%5C_%7DEvolution%7B%5C_%7Dof%7B%5C_%7DTechnologies%7B%5C_%7DStandards%7B%5C_%7Dand%7B%5C_%7DDeployment
       \endverb
+    \endentry
+    \entry{Karnik2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2aba2b57619d51f1e66dd95ca38d2d9d}{%
+           family={K{á}rn{í}k},
+           familyi={K\bibinitperiod},
+           given={Jiř{í}},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dcaadca2aa6efb14d899d34ee990887b}{%
+           family={Streit},
+           familyi={S\bibinitperiod},
+           given={Jakub},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{873035f5eef6eda3fa3fd319e6b9ded2}
+      \strng{fullhash}{873035f5eef6eda3fa3fd319e6b9ded2}
+      \strng{bibnamehash}{873035f5eef6eda3fa3fd319e6b9ded2}
+      \strng{authorbibnamehash}{873035f5eef6eda3fa3fd319e6b9ded2}
+      \strng{authornamehash}{873035f5eef6eda3fa3fd319e6b9ded2}
+      \strng{authorfullhash}{873035f5eef6eda3fa3fd319e6b9ded2}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Outdoor location is currently mostly resolved. Contrary to this, indoor location have not yet been completely resolved. No global solution for complete range of possible applications is developed. Development of new wireless technologies gives developers a lot of possibilities to solve location problems inside buildings. Furthermore, new approaches and algorithms to solve location problems are developed too. In this article we discuss these technologies and their practical applications in indoor location systems.}
+      \field{annotation}{Take the comparison overview of the location techniques}
+      \field{journaltitle}{IFAC-PapersOnLine}
+      \field{title}{{Peer review under responsibility of International Federation of Automatic Control}}
+      \field{volume}{49}
+      \field{year}{2016}
+      \field{pages}{311\bibrangedash 317}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.ifacol.2016.12.055
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/Joachim/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/K{\'{a}}rn{\'{i}}k, Streit - 2016 - Peer review under responsibility of International Federation of Automatic Control.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb www.sciencedirect.com
+      \endverb
+      \verb{url}
+      \verb www.sciencedirect.com
+      \endverb
+      \keyw{AoA,Bluetooth,CSI,CoO,FM,Geomagnetism,Indoor location,Inertial sensors,RFID,RSS,SDS-TWR,TDoA,ToA,UWB,WiFi,ZigBee}
     \endentry
     \entry{KristianJorstad2016}{report}{}
       \name{author}{2}{}{%
@@ -765,6 +866,34 @@
       \verb https://blogs.cisco.com/wireless/a-less-stressful-college-experience-all-thanks-to-cisco
       \endverb
     \endentry
+    \entry{MapsIndoors}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fcae8e99d2a5c3715b0eac3fc09ea2a3}{%
+           family={MapsIndoors},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcae8e99d2a5c3715b0eac3fc09ea2a3}
+      \strng{fullhash}{fcae8e99d2a5c3715b0eac3fc09ea2a3}
+      \strng{bibnamehash}{fcae8e99d2a5c3715b0eac3fc09ea2a3}
+      \strng{authorbibnamehash}{fcae8e99d2a5c3715b0eac3fc09ea2a3}
+      \strng{authornamehash}{fcae8e99d2a5c3715b0eac3fc09ea2a3}
+      \strng{authorfullhash}{fcae8e99d2a5c3715b0eac3fc09ea2a3}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Mapsindoors - Cloud-based Saas platform: how it works - MapsPeople}}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mapspeople.com/architectural-overview/
+      \endverb
+      \verb{url}
+      \verb https://www.mapspeople.com/architectural-overview/
+      \endverb
+    \endentry
     \entry{Mautz}{article}{}
       \name{author}{1}{}{%
         {{hash=1a79e2ad776b1467c4976431066ba01e}{%
@@ -854,6 +983,35 @@
       \endverb
       \verb{url}
       \verb https://www.mazemap.com/indoor-positioning
+      \endverb
+    \endentry
+    \entry{MazeMapb}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ffbc69c4d9797f43229834c042631117}{%
+           family={MazeMap},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ffbc69c4d9797f43229834c042631117}
+      \strng{fullhash}{ffbc69c4d9797f43229834c042631117}
+      \strng{bibnamehash}{ffbc69c4d9797f43229834c042631117}
+      \strng{authorbibnamehash}{ffbc69c4d9797f43229834c042631117}
+      \strng{authornamehash}{ffbc69c4d9797f43229834c042631117}
+      \strng{authorfullhash}{ffbc69c4d9797f43229834c042631117}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{System Integrations with Indoor Maps. See examples!}}
+      \field{urlday}{27}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mazemap.com/system-integrations
+      \endverb
+      \verb{url}
+      \verb https://www.mazemap.com/system-integrations
       \endverb
     \endentry
     \entry{Metageek}{misc}{}

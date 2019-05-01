@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.3)  27 APR 2019 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.3)  1 MAY 2019 16:06
 entering extended mode
 **./bachelor_thesis.tex
 (bachelor_thesis.tex
@@ -363,6 +363,17 @@ Package: listing 1999/05/25
 
 Package `listing', V1.2, <1999/05/25>
 \c@listing=\count280
+) ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ulem\ulem.sty"
+\UL@box=\box27
+\UL@hyphenbox=\box28
+\UL@skip=\skip65
+\UL@hook=\toks15
+\UL@height=\dimen104
+\UL@pe=\count281
+\UL@pixel=\dimen105
+\ULC@box=\box29
+Package: ulem 2012/05/18
+\ULdepth=\dimen106
 )
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\lscape.
 sty"
@@ -386,15 +397,43 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 tex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )))
+("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.st
+y"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\col
+or.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colortb
+l.sty"
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen104
-\ar@mcellbox=\box27
-\extrarowheight=\dimen105
-\NC@list=\toks15
-\extratabsurround=\skip65
-\backup@length=\skip66
-\ar@cellbox=\box28
+\col@sep=\dimen107
+\ar@mcellbox=\box30
+\extrarowheight=\dimen108
+\NC@list=\toks16
+\extratabsurround=\skip66
+\backup@length=\skip67
+\ar@cellbox=\box31
+)
+\everycr=\toks17
+\minrowclearance=\skip68
+)
+\rownum=\count282
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty
 "
@@ -403,17 +442,45 @@ Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
+("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listing
+s.sty"
+\lst@mode=\count283
+\lst@gtempboxa=\box32
+\lst@token=\toks18
+\lst@length=\count284
+\lst@currlwidth=\dimen109
+\lst@column=\count285
+\lst@pos=\count286
+\lst@lostspace=\dimen110
+\lst@width=\dimen111
+\lst@newlines=\count287
+\lst@lineno=\count288
+\lst@maxwidth=\dimen112
+
+("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc
+.sty"
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count289
+\lst@skipnumbers=\count290
+\lst@framebox=\box33
+)
+("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listing
+s.cfg"
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.st
 y"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
 )
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphic
 x.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen106
-\Gin@req@width=\dimen107
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
 )
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometr
 y.sty"
@@ -428,43 +495,43 @@ Package ifvtex Info: VTeX not detected.
 x.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count281
-\Gm@cntv=\count282
-\c@Gm@tempcnt=\count283
-\Gm@bindingoffset=\dimen108
-\Gm@wd@mp=\dimen109
-\Gm@odd@mp=\dimen110
-\Gm@even@mp=\dimen111
-\Gm@layoutwidth=\dimen112
-\Gm@layoutheight=\dimen113
-\Gm@layouthoffset=\dimen114
-\Gm@layoutvoffset=\dimen115
-\Gm@dimlist=\toks18
+\Gm@cnth=\count291
+\Gm@cntv=\count292
+\c@Gm@tempcnt=\count293
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@layoutwidth=\dimen119
+\Gm@layoutheight=\dimen120
+\Gm@layouthoffset=\dimen121
+\Gm@layoutvoffset=\dimen122
+\Gm@dimlist=\toks21
 
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometr
 y.cfg"))
 (C:\Users\Joachim\AppData\Roaming\MiKTeX\2.9\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip67
-\f@nch@O@elh=\skip68
-\f@nch@O@erh=\skip69
-\f@nch@O@olh=\skip70
-\f@nch@O@orh=\skip71
-\f@nch@O@elf=\skip72
-\f@nch@O@erf=\skip73
-\f@nch@O@olf=\skip74
-\f@nch@O@orf=\skip75
+\f@nch@headwidth=\skip69
+\f@nch@O@elh=\skip70
+\f@nch@O@erh=\skip71
+\f@nch@O@olh=\skip72
+\f@nch@O@orh=\skip73
+\f@nch@O@elf=\skip74
+\f@nch@O@erf=\skip75
+\f@nch@O@olf=\skip76
+\f@nch@O@orf=\skip77
 )
 (C:\Users\Joachim\AppData\Roaming\MiKTeX\2.9\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2018/04/13 v5.2d context-sensitive quotations (JAW)
-\csq@reset=\count284
-\csq@gtype=\count285
-\csq@glevel=\count286
-\csq@qlevel=\count287
-\csq@maxlvl=\count288
-\csq@tshold=\count289
-\csq@ltx@everypar=\toks19
+\csq@reset=\count294
+\csq@gtype=\count295
+\csq@glevel=\count296
+\csq@qlevel=\count297
+\csq@maxlvl=\count298
+\csq@tshold=\count299
+\csq@ltx@everypar=\toks22
 
 (C:\Users\Joachim\AppData\Roaming\MiKTeX\2.9\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2018/04/13 v5.2d csquotes generic definitions (JAW)
@@ -477,11 +544,11 @@ File: csquotes.cfg
 ))
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count290
-\float@exts=\toks20
-\float@box=\box29
-\@float@everytoks=\toks21
-\@floatcapt=\box30
+\c@float@type=\count300
+\float@exts=\toks23
+\float@box=\box34
+\@float@everytoks=\toks24
+\@floatcapt=\box35
 )
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/base\
 glossaries.sty"
@@ -495,17 +562,17 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 l.tex"
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvuti
 ls.tex"
-\XKV@toks=\toks22
-\XKV@tempa@toks=\toks23
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
 )
-\XKV@depth=\count291
+\XKV@depth=\count301
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mfirstuc\mfirstu
 c.sty"
 Package: mfirstuc 2017/11/14 v2.06 (NLCT)
-\@glsmfirst=\toks24
-\@glsmrest=\toks25
+\@glsmfirst=\toks27
+\@glsmrest=\toks28
 )
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/textcase\textcas
 e.sty"
@@ -521,7 +588,7 @@ Package: datatool-base 2018/12/07 v2.31 (NLCT)
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.
 sty"
 Package: amsmath 2018/12/01 v2.17b AMS math features
-\@mathmargin=\skip76
+\@mathmargin=\skip78
 
 For additional information on amsmath, use the `?' option.
 
@@ -532,60 +599,60 @@ Package: amstext 2000/06/29 v2.01 AMS text
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.s
 ty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks26
-\ex@=\dimen116
+\@emptytoks=\toks29
+\ex@=\dimen123
 ))
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.s
 ty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen117
+\pmbraise@=\dimen124
 )
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.s
 ty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count292
+\inf@bad=\count302
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count293
-\leftroot@=\count294
+\uproot@=\count303
+\leftroot@=\count304
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count295
-\DOTSCASE@=\count296
+\classnum@=\count305
+\DOTSCASE@=\count306
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box31
-\strutbox@=\box32
-\big@size=\dimen118
+\Mathstrutbox@=\box36
+\strutbox@=\box37
+\big@size=\dimen125
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count297
-\c@MaxMatrixCols=\count298
+\macc@depth=\count307
+\c@MaxMatrixCols=\count308
 \dotsspace@=\muskip11
-\c@parentequation=\count299
-\dspbrk@lvl=\count300
-\tag@help=\toks27
-\row@=\count301
-\column@=\count302
-\maxfields@=\count303
-\andhelp@=\toks28
-\eqnshift@=\dimen119
-\alignsep@=\dimen120
-\tagshift@=\dimen121
-\tagwidth@=\dimen122
-\totwidth@=\dimen123
-\lineht@=\dimen124
-\@envbody=\toks29
-\multlinegap=\skip77
-\multlinetaggap=\skip78
-\mathdisplay@stack=\toks30
+\c@parentequation=\count309
+\dspbrk@lvl=\count310
+\tag@help=\toks30
+\row@=\count311
+\column@=\count312
+\maxfields@=\count313
+\andhelp@=\toks31
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
+\@envbody=\toks32
+\multlinegap=\skip79
+\multlinetaggap=\skip80
+\mathdisplay@stack=\toks33
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/substr\substr.st
 y"
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count304
+\c@su@anzahl=\count314
 )
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datatool\datatoo
 l-fp.sty"
@@ -598,19 +665,19 @@ Package: fp 1995/04/02
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\defpattern.st
 y"
 Package: defpattern 1994/10/12
-\actioncount=\count305
+\actioncount=\count315
 )
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-basic.sty"
 Package: fp-basic 1996/05/13
-\FP@xs=\count306
-\FP@xia=\count307
-\FP@xib=\count308
-\FP@xfa=\count309
-\FP@xfb=\count310
-\FP@rega=\count311
-\FP@regb=\count312
-\FP@regs=\count313
-\FP@times=\count314
+\FP@xs=\count316
+\FP@xia=\count317
+\FP@xib=\count318
+\FP@xfa=\count319
+\FP@xfb=\count320
+\FP@rega=\count321
+\FP@regb=\count322
+\FP@regs=\count323
+\FP@times=\count324
 )
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-addons.sty
 "
@@ -629,7 +696,7 @@ Package: fp-pas 1994/08/29
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-random.sty
 "
 Package: fp-random 1995/02/23
-\FPseed=\count315
+\FPseed=\count325
 ) ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-eqn.sty"
 Package: fp-eqn 1995/04/03
 ) ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-upn.sty"
@@ -638,15 +705,15 @@ Package: fp-upn 1996/10/21
 "
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks31
-\@dtl@tmpcount=\count316
-\dtl@tmplength=\skip79
-\dtl@sortresult=\count317
-\@dtl@numgrpsepcount=\count318
-\@dtl@datatype=\count319
-\dtl@codeA=\count320
-\dtl@codeB=\count321
-\@dtl@foreach@level=\count322
+\@dtl@toks=\toks34
+\@dtl@tmpcount=\count326
+\dtl@tmplength=\skip81
+\dtl@sortresult=\count327
+\@dtl@numgrpsepcount=\count328
+\@dtl@datatype=\count329
+\dtl@codeA=\count330
+\dtl@codeB=\count331
+\@dtl@foreach@level=\count332
 )
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/base\
 glossaries-compatible-307.sty"
@@ -666,13 +733,13 @@ Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 sh\glossaries-english.ldf"
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count323
-\@gls@tmpb=\toks32
-\gls@tmplen=\skip80
-\glskeylisttok=\toks33
-\glslabeltok=\toks34
-\glsshorttok=\toks35
-\glslongtok=\toks36
+\gls@level=\count333
+\@gls@tmpb=\toks35
+\gls@tmplen=\skip82
+\glskeylisttok=\toks36
+\glslabeltok=\toks37
+\glsshorttok=\toks38
+\glslongtok=\toks39
 
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/style
 s\glossary-hypernav.sty"
@@ -681,7 +748,7 @@ Package: glossary-hypernav 2019/01/06 v4.42 (NLCT)
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/style
 s\glossary-list.sty"
 Package: glossary-list 2019/01/06 v4.42 (NLCT)
-\glslistdottedwidth=\skip81
+\glslistdottedwidth=\skip83
 )
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/style
 s\glossary-long.sty"
@@ -690,24 +757,24 @@ Package: glossary-long 2019/01/06 v4.42 (NLCT)
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.
 sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
-\LTleft=\skip82
-\LTright=\skip83
-\LTpre=\skip84
-\LTpost=\skip85
-\LTchunksize=\count324
-\LTcapwidth=\dimen125
-\LT@head=\box33
-\LT@firsthead=\box34
-\LT@foot=\box35
-\LT@lastfoot=\box36
-\LT@cols=\count325
-\LT@rows=\count326
-\c@LT@tables=\count327
-\c@LT@chunks=\count328
-\LT@p@ftn=\toks37
+\LTleft=\skip84
+\LTright=\skip85
+\LTpre=\skip86
+\LTpost=\skip87
+\LTchunksize=\count334
+\LTcapwidth=\dimen132
+\LT@head=\box38
+\LT@firsthead=\box39
+\LT@foot=\box40
+\LT@lastfoot=\box41
+\LT@cols=\count335
+\LT@rows=\count336
+\c@LT@tables=\count337
+\c@LT@chunks=\count338
+\LT@p@ftn=\toks40
 )
-\glsdescwidth=\skip86
-\glspagelistwidth=\skip87
+\glsdescwidth=\skip88
+\glspagelistwidth=\skip89
 )
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/style
 s\glossary-super.sty"
@@ -716,39 +783,39 @@ Package: glossary-super 2019/01/06 v4.42 (NLCT)
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/supertabular\sup
 ertabular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count329
-\ST@wd=\dimen126
-\ST@rightskip=\skip88
-\ST@leftskip=\skip89
-\ST@parfillskip=\skip90
-\ST@pageleft=\dimen127
-\ST@headht=\dimen128
-\ST@tailht=\dimen129
-\ST@pagesofar=\dimen130
-\ST@pboxht=\dimen131
-\ST@lineht=\dimen132
-\ST@stretchht=\dimen133
-\ST@prevht=\dimen134
-\ST@toadd=\dimen135
-\ST@dimen=\dimen136
-\ST@pbox=\box37
+\c@tracingst=\count339
+\ST@wd=\dimen133
+\ST@rightskip=\skip90
+\ST@leftskip=\skip91
+\ST@parfillskip=\skip92
+\ST@pageleft=\dimen134
+\ST@headht=\dimen135
+\ST@tailht=\dimen136
+\ST@pagesofar=\dimen137
+\ST@pboxht=\dimen138
+\ST@lineht=\dimen139
+\ST@stretchht=\dimen140
+\ST@prevht=\dimen141
+\ST@toadd=\dimen142
+\ST@dimen=\dimen143
+\ST@pbox=\box42
 ))
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/style
 s\glossary-tree.sty"
 Package: glossary-tree 2019/01/06 v4.42 (NLCT)
-\glstreeindent=\skip91
+\glstreeindent=\skip93
 ))
 \glswrite=\write4
 \glo@main@file=\write5
 \openout5 = `bachelor_thesis.glo'.
 
 Package glossaries Info: Writing glossary file bachelor_thesis.glo on input lin
-e 27.
+e 37.
 \glo@acronym@file=\write6
 \openout6 = `bachelor_thesis.acn'.
 
 Package glossaries Info: Writing glossary file bachelor_thesis.acn on input lin
-e 27.
+e 37.
 Package biblatex Info: Trying to load language 'british'...
 Package biblatex Info: ... file 'british.lbx' found.
 
@@ -780,22 +847,28 @@ LaTeX Warning: Label `fig:ips_topologies' multiply defined.
 
 LaTeX Warning: Label `fig:ips_topologies' multiply defined.
 
+
+LaTeX Warning: Label `fig:ips_topologies' multiply defined.
+
+
+LaTeX Warning: Label `fig:ips_topologies' multiply defined.
+
 )
 \openout1 = `bachelor_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 91.
  ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1ptm.fd
 "
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -830,23 +903,23 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 75.
-Package biblatex Info: Reference segment=0 on input line 75.
+Package biblatex Info: Reference section=0 on input line 91.
+Package biblatex Info: Reference segment=0 on input line 91.
 
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp
 -pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count330
-\scratchdimen=\dimen137
-\scratchbox=\box38
-\nofMPsegments=\count331
-\nofMParguments=\count332
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count333
-\MPscratchDim=\dimen138
-\MPnumerator=\count334
-\makeMPintoPDFobject=\count335
-\everyMPtoPDFconversion=\toks39
+\scratchcounter=\count340
+\scratchdimen=\dimen144
+\scratchbox=\box43
+\nofMPsegments=\count341
+\nofMParguments=\count342
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count343
+\MPscratchDim=\dimen145
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
+\everyMPtoPDFconversion=\toks42
 )
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopd
 f-base.sty"
@@ -867,6 +940,8 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
+\c@lstlisting=\count346
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -901,46 +976,46 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 77
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 93
 .
 
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ztmcm.
 fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 77
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 93
 .
 
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omlztmcm.
 fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 77
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 93
 .
 
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsztmcm.
 fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 77
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 93
 .
 
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omxztmcm.
 fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 77.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 93.
 
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd
 "
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
  [1
 
 \openout4 = `bachelor_thesis.ist'.
@@ -948,7 +1023,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 {C:/Users/Joachim/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 [2]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 82.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 98.
  [3
 
 ] (bachelor_thesis.toc
@@ -996,7 +1071,7 @@ line 34.
 ]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 91.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 107.
 [10
 
 ]
@@ -1037,6 +1112,15 @@ Package pdftex.def Info: figures/classification_ips.png  used on input line 11.
 LaTeX Warning: Citation 'ComparativeSurvey' on page 14 undefined on input line 
 12.
 
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 15.
+
+
+Overfull \hbox (20.87137pt too wide) in paragraph at lines 16--26
+[][] 
+ []
+
 [14
 
 ]
@@ -1046,34 +1130,41 @@ File: figures/classification_indoor_positioning_techniques.png Graphic file (ty
 pe png)
 <use figures/classification_indoor_positioning_techniques.png>
 Package pdftex.def Info: figures/classification_indoor_positioning_techniques.p
-ng  used on input line 26.
+ng  used on input line 39.
 (pdftex.def)             Requested size: 259.15506pt x 320.69733pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/toa.png, id=52, 288.3272pt x 201.00093pt>
+[15 <./figures/classification_ips.png>]
+<figures/toa.png, id=56, 288.3272pt x 201.00093pt>
 File: figures/toa.png Graphic file (type png)
 <use figures/toa.png>
-Package pdftex.def Info: figures/toa.png  used on input line 38.
+Package pdftex.def Info: figures/toa.png  used on input line 51.
 (pdftex.def)             Requested size: 216.24486pt x 150.75032pt.
-[15 <./figures/classification_ips.png>]
-<figures/aoa.png, id=61, 319.94531pt x 140.02313pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/aoa.png, id=57, 319.94531pt x 140.02313pt>
 File: figures/aoa.png Graphic file (type png)
 <use figures/aoa.png>
-Package pdftex.def Info: figures/aoa.png  used on input line 47.
+Package pdftex.def Info: figures/aoa.png  used on input line 60.
 (pdftex.def)             Requested size: 239.95839pt x 105.01707pt.
- [16 <./figures/classification_indoor_positioning_techniques.png> <./figures/to
-a.png>]
-<figures/triang.png, id=67, 331.99031pt x 267.24844pt>
+[16 <./figures/classification_indoor_positioning_techniques.png>]
+<figures/triang.png, id=66, 331.99031pt x 267.24844pt>
 File: figures/triang.png Graphic file (type png)
 <use figures/triang.png>
-Package pdftex.def Info: figures/triang.png  used on input line 58.
+Package pdftex.def Info: figures/triang.png  used on input line 71.
 (pdftex.def)             Requested size: 165.99474pt x 133.62389pt.
-) [17 <./figures/aoa.png> <./figures/triang.png>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [17 <./figures/toa.png> <./figures/aoa.png>] [18 <./figures/triang.png>]
 Chapter 5.
 (chapters/wlan_positioning.tex
-<figures/wlan_channels.png, id=74, 916.42375pt x 203.76125pt>
+<figures/wlan_channels.png, id=77, 916.42375pt x 203.76125pt>
 File: figures/wlan_channels.png Graphic file (type png)
 <use figures/wlan_channels.png>
 Package pdftex.def Info: figures/wlan_channels.png  used on input line 9.
@@ -1086,34 +1177,34 @@ Overfull \hbox (11.50247pt too wide) in paragraph at lines 9--10
 
 Underfull \vbox (badness 2368) has occurred while \output is active []
 
- [18
+ [19
 
  <./figures/wlan_channels.png>]
-<figures/ips_topologies.png, id=79, 500.62032pt x 311.66437pt>
+<figures/ips_topologies.png, id=83, 500.62032pt x 311.66437pt>
 File: figures/ips_topologies.png Graphic file (type png)
 <use figures/ips_topologies.png>
 Package pdftex.def Info: figures/ips_topologies.png  used on input line 23.
 (pdftex.def)             Requested size: 375.46431pt x 233.7477pt.
- [19 <./figures/ips_topologies.png>]
-<figures/coo.png, id=85, 511.9125pt x 358.33875pt>
+ [20 <./figures/ips_topologies.png>]
+<figures/coo.png, id=88, 511.9125pt x 358.33875pt>
 File: figures/coo.png Graphic file (type png)
 <use figures/coo.png>
 Package pdftex.def Info: figures/coo.png  used on input line 43.
 (pdftex.def)             Requested size: 255.95563pt x 179.16893pt.
- [20 <./figures/coo.png>]
-<figures/euclidean_distance.png, id=90, 483.30562pt x 387.69844pt>
+ [21 <./figures/coo.png>]
+<figures/euclidean_distance.png, id=93, 483.30562pt x 387.69844pt>
 File: figures/euclidean_distance.png Graphic file (type png)
 <use figures/euclidean_distance.png>
 Package pdftex.def Info: figures/euclidean_distance.png  used on input line 58.
 
 (pdftex.def)             Requested size: 241.65222pt x 193.84874pt.
-<figures/distribution_of_rssi.png, id=91, 386.94562pt x 235.63031pt>
+<figures/distribution_of_rssi.png, id=94, 386.94562pt x 235.63031pt>
 File: figures/distribution_of_rssi.png Graphic file (type png)
 <use figures/distribution_of_rssi.png>
 Package pdftex.def Info: figures/distribution_of_rssi.png  used on input line 6
 6.
 (pdftex.def)             Requested size: 290.2085pt x 176.72229pt.
-<figures/rssi_distance.png, id=92, 394.47375pt x 315.42844pt>
+<figures/rssi_distance.png, id=95, 394.47375pt x 315.42844pt>
 File: figures/rssi_distance.png Graphic file (type png)
 <use figures/rssi_distance.png>
 Package pdftex.def Info: figures/rssi_distance.png  used on input line 72.
@@ -1125,29 +1216,29 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21 <./figures/euclidean_distance.png>] [22 <./figures/distribution_of_rssi.png
+[22 <./figures/euclidean_distance.png>] [23 <./figures/distribution_of_rssi.png
 > <./figures/rssi_distance.png>]
-<figures/estimated_distance_segments.png, id=103, 654.94687pt x 494.59781pt>
+<figures/estimated_distance_segments.png, id=106, 654.94687pt x 494.59781pt>
 File: figures/estimated_distance_segments.png Graphic file (type png)
 <use figures/estimated_distance_segments.png>
 Package pdftex.def Info: figures/estimated_distance_segments.png  used on input
  line 95.
 (pdftex.def)             Requested size: 327.47264pt x 247.2983pt.
-<figures/fingerprint_chart.png, id=104, 441.90094pt x 239.39438pt>
+<figures/fingerprint_chart.png, id=107, 441.90094pt x 239.39438pt>
 File: figures/fingerprint_chart.png Graphic file (type png)
 <use figures/fingerprint_chart.png>
 Package pdftex.def Info: figures/fingerprint_chart.png  used on input line 105.
 
 (pdftex.def)             Requested size: 441.89986pt x 239.39378pt.
-<figures/fingerprinting_stages.png, id=105, 584.1825pt x 255.20343pt>
+<figures/fingerprinting_stages.png, id=108, 584.1825pt x 255.20343pt>
 File: figures/fingerprinting_stages.png Graphic file (type png)
 <use figures/fingerprinting_stages.png>
 Package pdftex.def Info: figures/fingerprinting_stages.png  used on input line 
 111.
 (pdftex.def)             Requested size: 438.13579pt x 191.4021pt.
- [23 <./figures/estimated_distance_segments.png>] [24 <./figures/fingerprint_ch
+ [24 <./figures/estimated_distance_segments.png>] [25 <./figures/fingerprint_ch
 art.png> <./figures/fingerprinting_stages.png>]
-<figures/wang_test.png, id=116, 386.94562pt x 161.10187pt>
+<figures/wang_test.png, id=120, 386.94562pt x 161.10187pt>
 File: figures/wang_test.png Graphic file (type png)
 <use figures/wang_test.png>
 Package pdftex.def Info: figures/wang_test.png  used on input line 133.
@@ -1155,15 +1246,15 @@ Package pdftex.def Info: figures/wang_test.png  used on input line 133.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25]
+[26]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 143.
 
-[26 <./figures/wang_test.png>]) [27]
+[27 <./figures/wang_test.png>]) [28]
 Chapter 6.
 (chapters/cisco_cmx.tex
-<figures/cmx_map.png, id=128, 552.0625pt x 355.3275pt>
+<figures/cmx_map.png, id=131, 552.0625pt x 355.3275pt>
 File: figures/cmx_map.png Graphic file (type png)
 <use figures/cmx_map.png>
 Package pdftex.def Info: figures/cmx_map.png  used on input line 12.
@@ -1175,14 +1266,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 5475) has occurred while \output is active []
 
- [28
+ [29
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 <./figures/cmx_map.png>]) [30]
+ [30 <./figures/cmx_map.png>]) [31]
 Chapter 7.
-(chapters/implementation.tex
+(chapters/implementation.tex [32
+
+]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 11.
 
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd
@@ -1191,69 +1284,129 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
- [31
-
-]
-<figures/mazemap_wayfinding.png, id=143, 271.0125pt x 167.12437pt>
+<figures/mazemap_wayfinding.png, id=146, 271.0125pt x 167.12437pt>
 File: figures/mazemap_wayfinding.png Graphic file (type png)
 <use figures/mazemap_wayfinding.png>
 Package pdftex.def Info: figures/mazemap_wayfinding.png  used on input line 19.
 
-(pdftex.def)             Requested size: 271.01183pt x 167.12395pt.
-<figures/mazemap_mapping.png, id=144, 803.0pt x 583.17876pt>
+(pdftex.def)             Requested size: 203.25887pt x 125.34296pt.
+<figures/mazemap_mapping.png, id=147, 803.0pt x 583.17876pt>
 File: figures/mazemap_mapping.png Graphic file (type png)
 <use figures/mazemap_mapping.png>
 Package pdftex.def Info: figures/mazemap_mapping.png  used on input line 25.
-(pdftex.def)             Requested size: 401.49902pt x 291.58867pt.
- [32 <./figures/mazemap_wayfinding.png> <./figures/mazemap_mapping.png>]) [33]
-Chapter 8.
-[34
+(pdftex.def)             Requested size: 240.90186pt x 174.95497pt.
+<figures/mapsindoors_architecture.png, id=148, 950.1096pt x 974.4405pt>
+File: figures/mapsindoors_architecture.png Graphic file (type png)
+<use figures/mapsindoors_architecture.png>
+Package pdftex.def Info: figures/mapsindoors_architecture.png  used on input li
+ne 33.
+(pdftex.def)             Requested size: 380.03711pt x 389.7693pt.
+ [33 <./figures/mazemap_wayfinding.png> <./figures/mazemap_mapping.png>]
+<figures/google_indoor_maps_app.png, id=154, 210.03468pt x 372.64218pt>
+File: figures/google_indoor_maps_app.png Graphic file (type png)
+<use figures/google_indoor_maps_app.png>
+Package pdftex.def Info: figures/google_indoor_maps_app.png  used on input line
+ 42.
+(pdftex.def)             Requested size: 157.52562pt x 279.48094pt.
 
-]
-Chapter 9.
-(chapters/conclusion.tex) [35
 
-]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 114.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 1024) has occurred while \output is active []
+
+ [34 <./figures/mapsindoors_architecture.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 62.
+
+[35 <./figures/google_indoor_maps_app.png>] [36]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 117.
 
 
 ("C:\Users\Joachim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Overfull \hbox (27.04727pt too wide) in paragraph at lines 115--115
+) [37]
+Overfull \hbox (1256.46138pt too wide) in paragraph at lines 140--140
+[]        \T1/cmtt/m/n/10.95 AccountManager.start(this, "1f04d780dc30b774c0c10f
+53e3c7d4ea");// PASTE YOU MAPWIZE API KEY HERE !!! This is a demo key, giving y
+ou access to the demo building. It is not allowed to use it for production. The
+ key might change at any time without notice. Get your key by signin up at mapw
+ize.io[] 
+ []
+
+[38]) [39]
+Chapter 8.
+[40
+
+]
+Chapter 9.
+(chapters/conclusion.tex) [41
+
+]
+Chapter 10.
+(chapters/appendix.tex [42
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43])
+[44]
+Overfull \hbox (27.04727pt too wide) in paragraph at lines 135--135
 []\T1/ptm/m/n/10.95 Algorithmia. \T1/ptm/m/it/10.95 In-tro-duc-tion to Loss Fun
 c-tions | Al-gorithmia Blog\T1/ptm/m/n/10.95 . \T1/ptm/m/sc/10.95 url\T1/ptm/m/
 n/10.95 : $\T1/cmtt/m/n/10.95 https : / / blog . algorithmia .
  []
 
-[36
+[45
 
 ]
-Overfull \hbox (24.83725pt too wide) in paragraph at lines 115--115
+Overfull \hbox (4.90448pt too wide) in paragraph at lines 135--135
+[]\T1/ptm/m/n/10.95 IndoorLocation. \T1/ptm/m/it/10.95 In-door Loc-a-tion - The
+ open-source frame-work for in-door map-ping. \T1/ptm/m/sc/10.95 url\T1/ptm/m/n
+/10.95 : $\T1/cmtt/m/n/10.95 https :
+ []
+
+
+Overfull \hbox (2.80077pt too wide) in paragraph at lines 135--135
+\T1/ptm/m/n/10.95 Auto-matic Con-trol'. In: \T1/ptm/m/it/10.95 IFAC-PapersOnLin
+e \T1/ptm/m/n/10.95 49 (2016), pp. 311317. \T1/ptm/m/sc/10.95 doi\T1/ptm/m/n/1
+0.95 : $\T1/cmtt/m/n/10.95 10 . 1016 / j . ifacol .
+ []
+
+
+Overfull \hbox (24.83725pt too wide) in paragraph at lines 135--135
 \T1/cmtt/m/n/10.95 x9AxxWgLevqXwZMBax2u4jkuXVo % 7B % 5C % %7D3D % 7B % 5C & %7
 Dresponse -[] content -[] disposition =
  []
 
+[46]
+Overfull \hbox (2.15466pt too wide) in paragraph at lines 135--135
+[]\T1/ptm/m/n/10.95 MazeMap. \T1/ptm/m/it/10.95 Sys-tem In-teg-ra-tions with In
+-door Maps. See ex-amples! \T1/ptm/m/sc/10.95 url\T1/ptm/m/n/10.95 : $\T1/cmtt/
+m/n/10.95 https : / / www . mazemap .
+ []
 
-Overfull \hbox (1.52576pt too wide) in paragraph at lines 115--115
+
+Overfull \hbox (1.52576pt too wide) in paragraph at lines 135--135
 \T1/ptm/m/it/10.95 View pro-ject Per-form-ance and Ac-cur-acy Test of the WLAN 
 In-door Po-s-i-tion-ing Sys-tem "ipos&quo\T1/ptm/m/n/10.95 .
  []
 
-[37]
-Overfull \hbox (18.70421pt too wide) in paragraph at lines 115--115
+
+Overfull \hbox (18.70421pt too wide) in paragraph at lines 135--135
 []\T1/ptm/m/n/10.95 Techopedia. \T1/ptm/m/it/10.95 What is IEEE 802.11? - Defin
 -i-tion from Techo-pe-dia\T1/ptm/m/n/10.95 . \T1/ptm/m/sc/10.95 url\T1/ptm/m/n/
 10.95 : $\T1/cmtt/m/n/10.95 https : / / www . techopedia .
  []
 
 
-Overfull \hbox (57.78748pt too wide) in paragraph at lines 115--115
+Overfull \hbox (57.78748pt too wide) in paragraph at lines 135--135
 \T1/cmtt/m/n/10.95 %7Dhl = nl % 7B % 5C & %7Dsa = X % 7B % 5C & %7Dved = 2ahUKE
 wim95r3zeXhAhXLLlAKHZE7CS0Q6AEwCXoECGAQAQ %
  []
 
-[38] (bachelor_thesis.aux)
+[47] (bachelor_thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1270,29 +1423,30 @@ Package logreq Info: Writing requests to 'bachelor_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17993 strings out of 492946
- 320998 string characters out of 3125379
- 800161 words of memory out of 3000000
- 21519 multiletter control sequences out of 15000+200000
- 72088 words of font info for 101 fonts, out of 3000000 for 9000
+ 20396 strings out of 492946
+ 352639 string characters out of 3125379
+ 888349 words of memory out of 3000000
+ 23890 multiletter control sequences out of 15000+200000
+ 74151 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,11n,73p,1998b,3011s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,17n,73p,1998b,3011s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Joachim\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ectt1095.pk>{C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
-ps/base/8r.enc}<C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmex10.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Joachim/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Joachim/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
-sers/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb>
-<C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/symbol/usyr
-.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/
-utmb8a.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
-times/utmr8a.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on bachelor_thesis.pdf (38 pages, 1227507 bytes).
+0\ectt1000.pk> <C:\Users\Joachim\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ectt1095.pk>{C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/f
+onts/enc/dvips/base/8r.enc}<C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Joachim/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Joachim/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/User
+s/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/symb
+ol/usyr.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
+/symbol/usyr.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/urw/times/utmb8a.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/urw/times/utmr8a.pfb><C:/Users/Joachim/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bachelor_thesis.pdf (47 pages, 1711346 bytes).
 PDF statistics:
- 279 PDF objects out of 1000 (max. 8388607)
+ 404 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

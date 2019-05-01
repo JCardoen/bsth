@@ -1,22 +1,22 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
-[1] Config.pm:307> INFO - Logfile is 'bachelor_thesis.blg'
+[0] Config.pm:307> INFO - Logfile is 'bachelor_thesis.blg'
 [30] biber-MSWIN64:315> INFO - === 
-[60] Biber.pm:371> INFO - Reading 'bachelor_thesis.bcf'
-[145] Biber.pm:889> INFO - Found 38 citekeys in bib section 0
+[58] Biber.pm:371> INFO - Reading 'bachelor_thesis.bcf'
+[145] Biber.pm:889> INFO - Found 43 citekeys in bib section 0
 [158] Biber.pm:4093> INFO - Processing section 0
 [172] Biber.pm:4254> INFO - Looking for bibtex format file 'Bachelor's Thesis.bib' for section 0
-[187] bibtex.pm:1523> INFO - LaTeX decoding ...
-[282] bibtex.pm:1340> INFO - Found BibTeX data source 'Bachelor's Thesis.bib'
-[313] Utils.pm:193> WARN - Name "{A. Al-Ammar, Mai and Alhadhrami, Suheer and Al-Salman, Abdulmalik and Alarifi, Abdulrahman and Al-Khalifa, Hend and Alnafessah, Ahmad and Alsaleh}, Mansour" has too many commas: skipping name
-[325] Utils.pm:193> WARN - month field 'dec' in entry 'Sakpere2017' is not an integer - this will probably not sort properly.
-[420] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Joachim\AppData\Local\Temp\A3j3WOUNG0\Bachelor's Thesis.bib_17132.utf8, line 6, warning: 172 characters of junk seen at toplevel
-[422] Utils.pm:193> WARN - I didn't find a database entry for 'fig:triang' (section 0)
-[422] Utils.pm:193> WARN - I didn't find a database entry for 'fig:euclidean' (section 0)
-[423] Utils.pm:193> WARN - I didn't find a database entry for 'fig:wang_test' (section 0)
-[461] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[462] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[463] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-GB'
-[464] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-GB'
-[500] bbl.pm:636> INFO - Writing 'bachelor_thesis.bbl' with encoding 'UTF-8'
-[515] bbl.pm:739> INFO - Output to bachelor_thesis.bbl
-[519] Biber.pm:110> INFO - WARNINGS: 6
+[185] bibtex.pm:1523> INFO - LaTeX decoding ...
+[281] bibtex.pm:1340> INFO - Found BibTeX data source 'Bachelor's Thesis.bib'
+[311] Utils.pm:193> WARN - Name "{A. Al-Ammar, Mai and Alhadhrami, Suheer and Al-Salman, Abdulmalik and Alarifi, Abdulrahman and Al-Khalifa, Hend and Alnafessah, Ahmad and Alsaleh}, Mansour" has too many commas: skipping name
+[330] Utils.pm:193> WARN - month field 'dec' in entry 'Sakpere2017' is not an integer - this will probably not sort properly.
+[441] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Joachim\AppData\Local\Temp\RmfSGGO8m6\Bachelor's Thesis.bib_664.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[443] Utils.pm:193> WARN - I didn't find a database entry for 'fig:triang' (section 0)
+[443] Utils.pm:193> WARN - I didn't find a database entry for 'fig:euclidean' (section 0)
+[444] Utils.pm:193> WARN - I didn't find a database entry for 'fig:wang_test' (section 0)
+[485] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[485] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[486] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-GB'
+[486] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-GB'
+[530] bbl.pm:636> INFO - Writing 'bachelor_thesis.bbl' with encoding 'UTF-8'
+[545] bbl.pm:739> INFO - Output to bachelor_thesis.bbl
+[550] Biber.pm:110> INFO - WARNINGS: 6

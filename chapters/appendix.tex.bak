@@ -1,0 +1,97 @@
+\section{Source Code MapWize Activity}
+\begin{lstlisting}
+package com.ibm.geolocationframework.ViewLayer.Activities
+
+class MapActivity : AppCompatActivity(), MapwizeFragment.OnFragmentInteractionListener {
+
+    private var mapwizeFragment: MapwizeFragment? = null
+    private var socketIndoorLocationProvider: SocketIndoorLocationProvider? = null
+    private var mapwizePlugin: MapwizePlugin? = null
+    private var mapboxMap: MapboxMap? = null
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_map)
+
+
+        // Uncomment and fill place holder to test MapwizeUI on your venue
+        val opts = MapOptions.Builder()
+            .restrictContentToVenue("5c64254258338d00167965a4")
+            .centerOnVenue("5c64254258338d00167965a4")
+            .build()
+
+        // Uncomment and change value to test different settings configuration
+        val uiSettings = MapwizeFragmentUISettings.Builder()
+            .menuButtonHidden(false)
+            .followUserButtonHidden(false)
+            .build()
+
+
+        mapwizeFragment = MapwizeFragment.newInstance(opts, uiSettings)
+        val fm = supportFragmentManager
+        val ft = fm.beginTransaction()
+        ft.add(fragmentContainer.id, mapwizeFragment!!)
+        ft.commit()
+    }
+
+    override fun onFragmentReady(mapboxMap: MapboxMap?, mapwizePlugin: MapwizePlugin?) {
+        this.mapboxMap = mapboxMap
+        this.mapwizePlugin = mapwizePlugin
+
+        this.socketIndoorLocationProvider = SocketIndoorLocationProvider(this, "http://9.134.135.64:3003")
+        this.mapwizePlugin?.setLocationProvider(socketIndoorLocationProvider!!)
+
+        socketIndoorLocationProvider!!.start()
+
+        FollowUserMode.FOLLOW_USER_AND_HEADING
+        mapwizePlugin?.getUserPosition()
+    }
+
+    override fun onMenuButtonClick() {
+    }
+
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
+        when (requestCode) {
+            MY_PERMISSION_ACCESS_FINE_LOCATION -> {
+                if (grantResults.size > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+
+                    setupLocationProvider()
+                }
+            }
+        }
+    }
+    private fun setupLocationProvider() {
+         socketIndoorLocationProvider = SocketIndoorLocationProvider(this, "http://9.134.135.64:3003")
+        mapwizePlugin?.setLocationProvider(socketIndoorLocationProvider!!)
+
+    }
+
+    override fun onInformationButtonClick(mapwizeObject: MapwizeObject?) {
+
+    }
+
+    override fun onFollowUserButtonClickWithoutLocation() {
+        Timber.i("onFollowUserButtonClickWithoutLocation")
+    }
+
+    override fun shouldDisplayInformationButton(mapwizeObject: MapwizeObject?): Boolean {
+        Timber.i("shouldDisplayInformationButton")
+        when (mapwizeObject) {
+            is Place -> return true
+        }
+        return false
+    }
+
+    override fun shouldDisplayFloorController(floors: MutableList<Double>?): Boolean {
+        Timber.i("shouldDisplayFloorController")
+        if (floors == null || floors.size <= 1) {
+            return false
+        }
+        return true
+    }
+
+    companion object {
+        private const val MY_PERMISSION_ACCESS_FINE_LOCATION = 0
+    }
+}
+\end{lstlisting}

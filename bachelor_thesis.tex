@@ -4,9 +4,19 @@
 \usepackage[british]{babel}
 \usepackage{biblatex}
 \usepackage{listing}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
 \usepackage{lscape}
+\usepackage[table,xcdraw]{xcolor}
 \usepackage{array}
+\usepackage{lscape}
 \usepackage[T1]{fontenc}
+\usepackage{listings}
+\lstset{
+basicstyle=\small\ttfamily,
+columns=flexible,
+breaklines=true
+}
 \addbibresource{Bachelor's Thesis.bib}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
@@ -28,6 +38,11 @@
 \newacronym{ghz}{GHz}{gigahertz}
 \newacronym{cad}{CAD}{Computer-Aided Design}
 \newacronym{cmx}{CMX}{Connected Mobile Experiences}
+\newacronym{pois}{PoIs}{points of interest}
+\newacronym{cms}{CMS}{Content Management System}
+\newacronym{crm}{CRM}{Customer Relationship Management}
+\newacronym{erp}{ERP}{Enterprise Resource Planning}
+\newacronym{app}{app}{application}
 \newacronym{uc}{UC}{University College}
 \newacronym{byod}{BYOD}{Bring Your Own Device}
 \newacronym{gbs}{GBS}{Global Business Services}
@@ -42,6 +57,7 @@
 \newacronym{rss}{RSS}{radio signal strength}
 \newacronym{mac}{MAC}{media access control}
 \newacronym{tx}{Tx}{transmitter}
+\newacronym{iot}{IoT}{Internet of Things}
 \newacronym{rx}{Rx}{receiver}
 \newacronym{gps}{GPS}{global positioning system}
 \newacronym{toa}{ToA}{time of arrival}
@@ -102,14 +118,18 @@ Thanksssssss
 \chapter{Integration using MapWize and IndoorLocation}
 \input{chapters/implementation}
 \chapter{Possible fields of exploration}
-biometrics
-increasing heart rate, faster pace => optimal routing, based on pedestrians research
-optimal routing
-emergency notifications
-Wifi as sensors, case study columbia
+\section{Smart Devices}
+\section{Biometrics}
+\section{Safety Cultivation}
+\section{Optimizing Routes}
+\section{Applied Radio Signal Artificial Intelligence}
+\subsection{Convex Optimization}
+\subsection{Kalmann Filter}
+\subsection{Denoising Autoencoder}
 \chapter{Conclusion}
 \input{chapters/conclusion}
-
+\chapter{Appendices}
+\input{chapters/appendix}
 \newpage
 \printbibliography
 

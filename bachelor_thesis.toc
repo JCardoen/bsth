@@ -31,9 +31,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.1}Location Information for Positioning Systems}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Distance Measurement Techniques}{15}% 
+\contentsline {section}{\numberline {4.4}Distance Measurement Techniques}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Time of Arrival}{15}% 
+\contentsline {subsection}{\numberline {4.4.1}Time of Arrival}{16}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.2}Time Difference of Arrival}{16}% 
 \defcounter {refsection}{0}\relax 
@@ -53,164 +53,194 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.6}Conclusion}{17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}WLAN Indoor Positioning}{18}% 
+\contentsline {chapter}{\numberline {5}WLAN Indoor Positioning}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Introduction}{18}% 
+\contentsline {section}{\numberline {5.1}Introduction}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}WLAN Characteristics}{18}% 
+\contentsline {section}{\numberline {5.2}WLAN Characteristics}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Signal Properties}{18}% 
+\contentsline {subsection}{\numberline {5.2.1}Signal Properties}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Available Channels}{18}% 
+\contentsline {subsection}{\numberline {5.2.2}Available Channels}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Access Points}{19}% 
+\contentsline {subsection}{\numberline {5.2.3}Access Points}{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Indoor Positioning Topology}{19}% 
+\contentsline {section}{\numberline {5.3}Indoor Positioning Topology}{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Network-based}{19}% 
+\contentsline {subsection}{\numberline {5.3.1}Network-based}{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Terminal-Based}{19}% 
+\contentsline {subsection}{\numberline {5.3.2}Terminal-Based}{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Terminal-Assisted}{20}% 
+\contentsline {subsection}{\numberline {5.3.3}Terminal-Assisted}{21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Indoor Positioning Techniques}{20}% 
+\contentsline {section}{\numberline {5.4}Indoor Positioning Techniques}{21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Proximity or Cell of Origin Technique}{20}% 
+\contentsline {subsection}{\numberline {5.4.1}Proximity or Cell of Origin Technique}{21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Conclusion}{20}% 
+\contentsline {subparagraph}{Conclusion}{21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Trilateration Technique}{20}% 
+\contentsline {subsection}{\numberline {5.4.2}Trilateration Technique}{21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Geometric Principle}{21}% 
+\contentsline {subsubsection}{Geometric Principle}{22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Path Loss Positioning based on RSSI Measurements}{21}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Conclusion}{22}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.4}RSS Measurement Collection}{23}% 
+\contentsline {subsection}{\numberline {5.4.3}Path Loss Positioning based on RSSI Measurements}{22}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{Conclusion}{23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.5}Fingerprinting Technique}{23}% 
+\contentsline {subsection}{\numberline {5.4.4}RSS Measurement Collection}{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Offline Acquisition}{24}% 
+\contentsline {subparagraph}{Conclusion}{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Online Phase}{25}% 
+\contentsline {subsection}{\numberline {5.4.5}Fingerprinting Technique}{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Improving Performance}{25}% 
+\contentsline {subsubsection}{Offline Acquisition}{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Conclusion}{25}% 
+\contentsline {subsubsection}{Online Phase}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Feasibility}{25}% 
+\contentsline {subsubsection}{Improving Performance}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Security and Privacy}{25}% 
+\contentsline {subparagraph}{Conclusion}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.2}Cost}{25}% 
+\contentsline {section}{\numberline {5.5}Feasibility}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.3}Performance}{25}% 
+\contentsline {subsection}{\numberline {5.5.1}Security and Privacy}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.4}Environmental Effects on Radio Frequency and Fault Tolerance}{25}% 
+\contentsline {subsection}{\numberline {5.5.2}Cost}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Indoor Environment}{25}% 
+\contentsline {subsection}{\numberline {5.5.3}Performance}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Conclusion of experiment conducted in ~\cite {Wang2003}}{26}% 
+\contentsline {subsection}{\numberline {5.5.4}Environmental Effects on Radio Frequency and Fault Tolerance}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SNR in WLAN}{26}% 
+\contentsline {subsubsection}{Indoor Environment}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Signal Attenuation}{26}% 
+\contentsline {subparagraph}{Conclusion of experiment conducted in ~\cite {Wang2003}}{27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Human Body}{26}% 
+\contentsline {subsubsection}{SNR in WLAN}{27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.5}Complexity}{27}% 
+\contentsline {subsubsection}{Signal Attenuation}{27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.6}Application Use}{27}% 
+\contentsline {subsubsection}{Human Body}{27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.7}Commercial Availability}{27}% 
+\contentsline {subsection}{\numberline {5.5.5}Complexity}{28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{RADAR}{27}% 
+\contentsline {subsection}{\numberline {5.5.6}Application Use}{28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{COMPASS}{27}% 
+\contentsline {subsection}{\numberline {5.5.7}Commercial Availability}{28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Ekahau}{27}% 
+\contentsline {subsubsection}{RADAR}{28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Conclusion}{27}% 
+\contentsline {subsubsection}{COMPASS}{28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Cisco CMX}{28}% 
+\contentsline {subsubsection}{Ekahau}{28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Cisco CMX as IPS}{28}% 
+\contentsline {section}{\numberline {5.6}Conclusion}{28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Cisco MSE}{28}% 
+\contentsline {chapter}{\numberline {6}Cisco CMX}{29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}CMX Services}{28}% 
+\contentsline {section}{\numberline {6.1}Cisco CMX as IPS}{29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}CMX Cloud}{28}% 
+\contentsline {subsection}{\numberline {6.1.1}Cisco MSE}{29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}CMX Connect}{29}% 
+\contentsline {section}{\numberline {6.2}CMX Services}{29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.3}CMX Analytics}{29}% 
+\contentsline {subsection}{\numberline {6.2.1}CMX Cloud}{29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.4}CMX Engage}{29}% 
+\contentsline {subsection}{\numberline {6.2.2}CMX Connect}{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Location}{29}% 
+\contentsline {subsection}{\numberline {6.2.3}CMX Analytics}{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.1}Location Techniques}{29}% 
+\contentsline {subsection}{\numberline {6.2.4}CMX Engage}{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Proximity, Presence}{29}% 
+\contentsline {section}{\numberline {6.3}Location}{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{RSSI Triangulation}{30}% 
+\contentsline {subsection}{\numberline {6.3.1}Location Techniques}{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Hyperlocation}{30}% 
+\contentsline {subsubsection}{Proximity, Presence}{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{FastLocate}{30}% 
+\contentsline {subsubsection}{RSSI Triangulation}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.2}CMX Connect}{30}% 
+\contentsline {subsubsection}{Hyperlocation}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.3}CMX Analytics}{30}% 
+\contentsline {subsubsection}{FastLocate}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Performance Metrics}{30}% 
+\contentsline {subsection}{\numberline {6.3.2}CMX Connect}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.1}Accuracy ~\& Precision}{30}% 
+\contentsline {subsection}{\numberline {6.3.3}CMX Analytics}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.2}Coverage Area}{30}% 
+\contentsline {section}{\numberline {6.4}Performance Metrics}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.3}Scalability}{30}% 
+\contentsline {subsection}{\numberline {6.4.1}Accuracy ~\& Precision}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.4}Cost}{30}% 
+\contentsline {subsection}{\numberline {6.4.2}Coverage Area}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.5}Privacy}{30}% 
+\contentsline {subsection}{\numberline {6.4.3}Scalability}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.6}Conclusion}{30}% 
+\contentsline {subsection}{\numberline {6.4.4}Cost}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Conclusion}{30}% 
+\contentsline {subsection}{\numberline {6.4.5}Privacy}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Integration using MapWize and IndoorLocation}{31}% 
+\contentsline {subsection}{\numberline {6.4.6}Conclusion}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Indoor Mapping}{31}% 
+\contentsline {section}{\numberline {6.5}Conclusion}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}MapWize}{31}% 
+\contentsline {chapter}{\numberline {7}Integration using MapWize and IndoorLocation}{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.2}MapWize Competitors}{31}% 
+\contentsline {section}{\numberline {7.1}Indoor Mapping}{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{MazeMap}{31}% 
+\contentsline {subsection}{\numberline {7.1.1}MapWize}{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Case study of Bergen University College}{31}% 
+\contentsline {subsection}{\numberline {7.1.2}MapWize Competitors}{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Competitor Analysis}{33}% 
+\contentsline {subsubsection}{MazeMap}{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.3}MapWize SDK for Android Applications}{33}% 
+\contentsline {subparagraph}{Case study of Bergen University College}{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Application Setup}{33}% 
+\contentsline {subsubsection}{MapsIndoors}{33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Indoor Location tracking}{33}% 
+\contentsline {subsubsection}{Google Indoor Maps}{34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}IndoorLocation Framework}{33}% 
+\contentsline {subsubsection}{Competitor Analysis}{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Application Setup}{33}% 
+\contentsline {subparagraph}{Conclusion}{36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}Applying IndoorLocation Framework to Android Applications}{33}% 
+\contentsline {subsection}{\numberline {7.1.3}MapWize SDK for Android Applications}{36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Conclusion}{33}% 
+\contentsline {subsection}{\numberline {7.1.4}MapWize Editor}{36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Possible fields of exploration}{34}% 
+\contentsline {section}{\numberline {7.2}IndoorLocation Framework in Android}{37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Conclusion}{35}% 
+\contentsline {subsection}{\numberline {7.2.1}Integrating IndoorLocation Framework in Android Applications}{37}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.2}Project Setup}{37}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Adding the MapWize and IndoorLocation Dependencies}{37}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Creating an Application Context}{38}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{MapActivity}{38}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Conclusion}{39}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Possible fields of exploration}{40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Smart Devices}{40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Biometrics}{40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}Safety Cultivation}{40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.4}Optimizing Routes}{40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.5}Applied Radio Signal Artificial Intelligence}{40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.5.1}Convex Optimization}{40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.5.2}Kalmann Filter}{40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.5.3}Denoising Autoencoder}{40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Conclusion}{41}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}Appendices}{42}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.1}Source Code MapWize Activity}{42}% 

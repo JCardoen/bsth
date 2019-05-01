@@ -12,6 +12,19 @@ The field of indoor location has seen an increase of different types of technolo
 \caption{Classfication of indoor positioning technologies~\cite{ComparativeSurvey}}
 \label{fig:ips_classification}
 \end{figure}
+\begin{table}[]
+\begin{tabular}{|l|l|l|}
+\hline
+\rowcolor[HTML]{C0C0C0} 
+\textbf{System}            & \textbf{Used Technology}                                                                                           & \textbf{Accuracy} \\ \hline
+FM Broadcast measuring     & \begin{tabular}[c]{@{}l@{}}RSS, SNR, Multipath, \\ Frequency offset measurements fingerprint database\end{tabular} & around 0.3m       \\ \hline
+Unloc                      & \begin{tabular}[c]{@{}l@{}}WiFi RSSm compass,\\ Accelerometer fingerprint database\end{tabular}                    & 1-2m              \\ \hline
+EZ Localizaition algorithm & WiFi RSS multilateration without known AP coordinates                                                              & 3-10m             \\ \hline
+Geomagnetism sensing       & E-Compass fingerprint database                                                                                     & 4.7m              \\ \hline
+LIFS                       & WiFi RSS frequency offset fingerprint database                                                                     & around 5.88m      \\ \hline
+\end{tabular}
+\caption{Comparison of indoor location systems ~\cite[p.7]{Karnik2016}}
+\end{table}
 \subsection{Location Information for Positioning Systems}
 There are four commonly used types of information for \acrshort{ips}\cite{Liu2007}.
 \begin{enumerate}
