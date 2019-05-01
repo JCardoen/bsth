@@ -1,9 +1,10 @@
-\section{Indoor Mapping}
-The case study used throughout this thesis is the need for indoor geolocalization and routing inside a hospital muiltifloor environment. In this chapter the needed actions to implement the usage of Cisco CMX inside an android application are discussed. Firstly, the mapping component, being MapWize, is discussed, followed by the part of indoor location tracking and an indoor location framework provided by IndoorLocation. Finally the implementation is concluded with the advantages and disadvantages of using the android platform to develop an indoor location application.
-\subsection{MapWize}
+\section{Introduction}
+The case study used throughout this thesis is the need for indoor location and routing inside a hospital muiltifloor environment. In this chapter the needed actions to implement the usage of Cisco CMX inside an android application are discussed. Firstly, the mapping component, being MapWize, is discussed, followed by the part of indoor location tracking and an indoor location framework provided by IndoorLocation. Finally xxxxxxxxxxxxxx.
+\section{MapWize}
 MapWize is a company that allows developers of an indoor location application to translate architectural floor plans into a digital mapping. Not only do they convert the existing plans but also implement routing and specific points of interest. This eliminates the need for a specific developer team of the company or agency that implements this systems as this is part of the service MapWize provides.
-\subsection{MapWize Competitors}
-\subsubsection{MazeMap}
+MORE ON FEATURES
+\section{MapWize Competitors}
+\subsection{MazeMap}
 MazeMap offers a digital platform to create and editor architectural maps. One of their biggest advantages is the fact that they can incorporate changes in their digital maps based on a .DWG or .DXF file, which is the used file format for \acrfull{cad} applications \cite{Coon2015}. Other than that it offers positioning and wayfinding by integrating the Cisco \acrlong{cmx} technology. Moreover, MazeMap provides an \acrshort{api} to integrate legacy software or other applications, such as Outlook Exchange, into the ecosystem of indoor location \cite{MazeMapb} \cite{MazeMapa}. An additional feature is the ability to add \acrfull{iot}-driven devices and sensors to enable asset tracking.
 \subparagraph{Case study of Bergen University College}
 One of the case studies performed by Cisco is the implementation of Cisco CMX inside the Bergen \acrshort{uc}. The goal of implementing Cisco CMX was to provide students with a \acrfull{byod} policy by creating an 802.11ac WLAN that was scalable to provide each student with Internet access. As stated in the case study, the following devices were used \cite{Magrane2016}:
@@ -26,7 +27,7 @@ To enable students to use the wayfinding feature, Cisco partnered with MazeMap t
 \caption{Translating floor plans into an interactive map for MazeMap ~\cite{MazeMap}}
 \label{fig:ips_topologies}
 \end{figure}
-\subsubsection{MapsIndoors}
+\subsection{MapsIndoors}
 Another company providing digital indoor mapping is MapsIndoors. This company focuses on providing an ecosystem of both routing and indoor maps by offering a \acrfull{cms} and a cloud environment that serves the indoor navigation platform. Other than a \acrshort{sdk} they implemented a data \acrshort{api} to allow statistics to be drawn from user data and allowing existing systems, such are booking, \acrfull{erp} and \acrfull{crm} systems, to use this data to analyse and visualize. On their website, there is no indication of price or the specific indoor location techniques used in the service. The unique feature of MapsIndoors, as stated on their website, is the seamless integration of outdoor navigation based on Google Maps and indoor navigation, which is resemblant to Google Maps \cite{MapsIndoors}.
 \begin{figure}[h!]
 \centering
@@ -34,7 +35,7 @@ Another company providing digital indoor mapping is MapsIndoors. This company fo
 \caption{Architecture of the MapsIndoors platform ~\cite{MapsIndoors}}
 \label{fig:ips_topologies}
 \end{figure}
-\subsubsection{Google Indoor Maps}
+\subsection{Google Indoor Maps}
 Google Indoor Maps is a free service to create an interactive map of an environment. It is based on the Google Maps \acrshort{ui} with the corresponding universal icons and allows users to navigate inside a building. There is however no indication of which technology used to accurately display a user's position. As this is a Google product, developers can expect an easy-to-use \acrshort{api} with sufficient code examples and documentation as well as cross-platform integrations: web, Apple and Android applications. A downside to this service is that changes to a digital map are not easily applied, the different offices of Google responsible for applying changes need to be notified of the changes, which can presumably result in some waiting time.
 Other than that disadvantage, this service offers a free alternative to other competitors \cite{Google}.
 \begin{figure}[h!]
